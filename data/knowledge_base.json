@@ -1,0 +1,3684 @@
+[
+  {
+    "id": "RULE_WHT_01",
+    "crop": "wheat",
+    "conditions": [
+      "yellow_pustules_stripes",
+      "chlorotic_leaves",
+      "cool_humid_weather"
+    ],
+    "conclusion": "wheat_yellow_rust",
+    "disease_name": {
+      "en": "Yellow Rust (Stripe Rust)",
+      "hi": "पीला रतुआ (स्ट्राइप रस्ट)"
+    },
+    "cf": 0.88,
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% Cow urine solution or Sour buttermilk (Chhachh) mixed with copper vessel extract (50ml/L); apply Trichoderma harzianum (10g/L).",
+        "hi": "5% गोमूत्र घोल या तांबे के बर्तन में रखी खट्टी छाछ (50 मिली/लीटर) का छिड़काव करें; ट्राइकोडर्मा हरजिएनम (10 ग्राम/लीटर) का प्रयोग करें।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC (Tilt) @ 1 ml/L or Tebuconazole 25.9% EC @ 1 ml/L upon first detection.",
+        "hi": "लक्षण दिखते ही प्रोपिकोनाज़ोल 25% EC (टिल्ट) 1 मिली/लीटर या टेबुकोनाज़ोल 25.9% EC 1 मिली/लीटर पानी में घोलकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow rust-resistant varieties like HD-2967, PBW-550, or DBW-187; avoid late sowing; avoid excess nitrogen fertilizer.",
+      "hi": "प्रतिरोधी किस्में जैसे HD-2967, PBW-550 या DBW-187 लगाएं; समय पर बुवाई करें; अधिक यूरिया (नाइट्रोजन) के प्रयोग से बचें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_02",
+    "crop": "wheat",
+    "conditions": [
+      "yellow_powder_rubbing_off",
+      "linear_stripes_parallel_veins"
+    ],
+    "conclusion": "wheat_yellow_rust",
+    "disease_name": {
+      "en": "Yellow Rust (Stripe Rust)",
+      "hi": "पीला रतुआ (स्ट्राइप रस्ट)"
+    },
+    "cf": 0.82,
+    "treatment": {
+      "organic": {
+        "en": "Dust wood ash mixed with sulphur early morning; spray aqueous garlic-chili extract.",
+        "hi": "सुबह के समय राख और सल्फर पाउडर का बुरकाव करें; लहसुन-मिर्च का काढ़ा छिड़कें।"
+      },
+      "chemical": {
+        "en": "Foliar application of Mancozeb 75% WP @ 2.5 g/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1 ml/L.",
+        "hi": "मैंकोजेब 75% WP 2.5 ग्राम/लीटर या एज़ोक्सीस्ट्रोबिन + डिफेनोकोनाज़ोल 1 मिली/लीटर का पर्णीय छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Inspect borders of fields weekly during foggy winter spells; maintain clean field margins.",
+      "hi": "सर्दियों में कोहरे के समय खेतों की मेड़ों का साप्ताहिक निरीक्षण करें; खेत के किनारे खरपतवार मुक्त रखें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_03",
+    "crop": "wheat",
+    "conditions": [
+      "orange_brown_scattered_pustules",
+      "round_oval_leaf_spots",
+      "warm_moist_weather"
+    ],
+    "conclusion": "wheat_brown_rust",
+    "disease_name": {
+      "en": "Brown Rust (Leaf Rust)",
+      "hi": "भूरा रतुआ (पत्ती का रतुआ)"
+    },
+    "cf": 0.86,
+    "treatment": {
+      "organic": {
+        "en": "Spray Neem seed kernel extract (NSKE 5%) or Jeevamrutha @ 200 L/acre; dust sulphur powder (20-25 kg/ha).",
+        "hi": "नीम बीज अर्क (NSKE 5%) या जीवामृत 200 लीटर/एकड़ का छिड़काव करें; सल्फर डस्ट (20-25 किग्रा/हेक्टेयर) बुरकें।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC @ 1 ml/L or Hexaconazole 5% EC @ 2 ml/L water.",
+        "hi": "प्रोपिकोनाज़ोल 25% EC 1 मिली/लीटर या हेक्साकोनाज़ोल 5% EC 2 मिली/लीटर पानी में मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Use recommended certified seeds; eradicate alternate host weeds around irrigation channels.",
+      "hi": "प्रमाणित बीज ही बोएं; मेड़ों और सिंचाई की नालियों से खरपतवार हटा दें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_04",
+    "crop": "wheat",
+    "conditions": [
+      "brown_pustules_underside_leaf",
+      "premature_leaf_drying"
+    ],
+    "conclusion": "wheat_brown_rust",
+    "disease_name": {
+      "en": "Brown Rust (Leaf Rust)",
+      "hi": "भूरा रतुआ (पत्ती का रतुआ)"
+    },
+    "cf": 0.78,
+    "treatment": {
+      "organic": {
+        "en": "Apply fermented butter milk spray (50 ml/L) mixed with a pinch of turmeric powder.",
+        "hi": "खट्टी छाछ (50 मिली/लीटर) में थोड़ी हल्दी मिलाकर छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Carbendazim 12% + Mancozeb 63% WP (Saaf) @ 2 g/L water.",
+        "hi": "कार्बेंडाजिम 12% + मैंकोजेब 63% WP (साफ) 2 ग्राम/लीटर पानी में घोलकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Balanced NPK application (avoid excessive nitrogen; ensure adequate potassium).",
+      "hi": "संतुलित उर्वरक दें (नाइट्रोजन कम और पोटाश की पर्याप्त मात्रा सुनिश्चित करें)।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_05",
+    "crop": "wheat",
+    "conditions": [
+      "earhead_black_powder",
+      "grain_converted_sooty_mass",
+      "flowering_stage_damage"
+    ],
+    "conclusion": "wheat_loose_smut",
+    "disease_name": {
+      "en": "Loose Smut",
+      "hi": "खुली कंडुआ (लूज स्मट)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Solar seed treatment in May-June (soak seeds in water for 4 hrs, dry under hot sun for 4 hrs); rogue out black heads in polythene bags.",
+        "hi": "मई-जून में बीजों का सौर उपचार करें (4 घंटे पानी में भिगोकर 4 घंटे कड़ी धूप में सुखाएं); काली बालियों को पन्नी में ढककर सावधानी से काटकर जलाएं।"
+      },
+      "chemical": {
+        "en": "Seed treatment with Carboxin 75% WP (Vitavax) @ 2.5 g/kg seed or Tebuconazole 2% DS @ 1.25 g/kg seed before sowing.",
+        "hi": "बुवाई पूर्व बीजोपचार: कार्बोक्सिन 75% WP (विटावैक्स) 2.5 ग्राम/किग्रा बीज या टेबुकोनाज़ोल 2% DS 1.25 ग्राम/किग्रा बीज।"
+      }
+    },
+    "prevention": {
+      "en": "Never harvest seed from infected plots; strictly use certified pathogen-free seeds.",
+      "hi": "रोगग्रस्त खेत से बीज न रखें; केवल प्रमाणित व रोगमुक्त बीज ही खरीदें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_06",
+    "crop": "wheat",
+    "conditions": [
+      "fishy_foul_odor_grains",
+      "partial_blackening_grains",
+      "canoeing_grain_shape"
+    ],
+    "conclusion": "wheat_karnal_bunt",
+    "disease_name": {
+      "en": "Karnal Bunt",
+      "hi": "करनाल बंट"
+    },
+    "cf": 0.92,
+    "treatment": {
+      "organic": {
+        "en": "Seed treatment with Trichoderma viride @ 10 g/kg seed; incorporate neem cake in soil (250 kg/ha).",
+        "hi": "ट्राइकोडर्मा विरिडी (10 ग्राम/किग्रा) से बीजोपचार करें; खेत में नीम की खली (250 किग्रा/हेक्टेयर) मिलाएं।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC @ 1 ml/L at earhead emergence (boot leaf / flowering stage).",
+        "hi": "बालियां निकलते समय (बूट लीफ अवस्था पर) प्रोपिकोनाज़ोल 25% EC 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid excessive irrigation during heading and flowering stage; rotate crops with non-gramineous crops.",
+      "hi": "बालियां और फूल आने के समय अधिक सिंचाई न करें; दलहनी फसलों के साथ फसल चक्र अपनाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_07",
+    "crop": "wheat",
+    "conditions": [
+      "white_cottony_powdery_patches",
+      "leaf_sheath_powder",
+      "cloudy_cool_weather"
+    ],
+    "conclusion": "wheat_powdery_mildew",
+    "disease_name": {
+      "en": "Powdery Mildew",
+      "hi": "चूर्णिल आसिता (पाउडरी मिल्ड्यू)"
+    },
+    "cf": 0.84,
+    "treatment": {
+      "organic": {
+        "en": "Spray wettable sulphur 80% WDG @ 3 g/L or baking soda (sodium bicarbonate 5g/L) with soap solution.",
+        "hi": "घुलनशील गंधक (सल्फर 80% WDG) 3 ग्राम/लीटर या बेकिंग सोडा (5 ग्राम/लीटर) साबुन के घोल के साथ छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Hexaconazole 5% EC @ 2 ml/L or Difenoconazole 25% EC @ 1 ml/L water.",
+        "hi": "हेक्साकोनाज़ोल 5% EC 2 मिली/लीटर या डिफेनोकोनाज़ोल 25% EC 1 मिली/लीटर पानी में छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid high seed rate / dense planting; ensure good sunlight penetration and aeration in field.",
+      "hi": "बीज दर अधिक न रखें; पौधों में पर्याप्त दूरी और धूप व हवा का प्रवाह बना रहने दें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_08",
+    "crop": "wheat",
+    "conditions": [
+      "green_black_tiny_insects_cluster",
+      "sticky_honeydew_leaves",
+      "earhead_sap_sucking"
+    ],
+    "conclusion": "wheat_aphids",
+    "disease_name": {
+      "en": "Wheat Aphids (Mahoo)",
+      "hi": "गेहूं का माहू (एफिड)"
+    },
+    "cf": 0.89,
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% Neem Seed Kernel Extract (NSKE) or Neem oil (3000 ppm) @ 5 ml/L; conserve ladybird beetles.",
+        "hi": "5% नीम अर्क (NSKE) या नीम तेल (3000 ppm) 5 मिली/लीटर छिड़कें; मित्र कीट (लेडीबर्ड बीटल) का संरक्षण करें।"
+      },
+      "chemical": {
+        "en": "Spray Thiamethoxam 25% WG @ 0.4 g/L or Imidacloprid 17.8% SL @ 0.5 ml/L if pest exceeds 10-15 aphids/tiller.",
+        "hi": "यदि माहू 10-15 प्रति कल्ला से अधिक हो तो थायमेथोक्सम 25% WG 0.4 ग्राम/लीटर या इमिडाक्लोप्रिड 0.5 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Install yellow sticky traps @ 10-12 per acre; avoid delayed sowing.",
+      "hi": "खेत में पीले चिपचिपे कार्ड (येलो स्टिकी ट्रैप) 10-12 प्रति एकड़ लगाएं; समय पर बुवाई करें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_09",
+    "crop": "wheat",
+    "conditions": [
+      "chlorotic_leaves",
+      "yellow_powder_rubbing_off",
+      "cool_humid_weather"
+    ],
+    "conclusion": "wheat_yellow_rust",
+    "disease_name": {
+      "en": "Yellow Rust (Stripe Rust)",
+      "hi": "पीला रतुआ (स्ट्राइप रस्ट)"
+    },
+    "cf": 0.79,
+    "treatment": {
+      "organic": {
+        "en": "Spray fermented sour whey (Chhachh) mixed with neem leaf extract (10%).",
+        "hi": "खट्टी छाछ और नीम की पत्तियों के अर्क (10%) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC (Tilt) @ 1 ml/L at canopy level.",
+        "hi": "कैनोपी स्तर पर प्रोपिकोनाज़ोल 25% EC (टिल्ट) 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Monitor northern belt fields continuously from mid-December through February.",
+      "hi": "दिसंबर मध्य से फरवरी तक उत्तरी क्षेत्रों में नियमित निगरानी रखें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_SOY_01",
+    "crop": "soybean",
+    "conditions": [
+      "yellow_green_mottled_leaves",
+      "wrinkled_puckered_leaves",
+      "stunted_plant_growth"
+    ],
+    "conclusion": "soybean_yellow_mosaic",
+    "disease_name": {
+      "en": "Yellow Mosaic Virus (YMV)",
+      "hi": "पीला मोज़ेक वायरस (YMV)"
+    },
+    "cf": 0.9,
+    "treatment": {
+      "organic": {
+        "en": "Rogue out and bury infected plants immediately; spray 5% NSKE or Neem oil (10,000 ppm) @ 3 ml/L to control whitefly vector.",
+        "hi": "शुरुआती संक्रमित पौधों को तुरंत उखाड़कर जमीन में दबा दें; सफेद मक्खी की रोकथाम हेतु 5% NSKE या नीम तेल 3 मिली/लीटर छिड़कें।"
+      },
+      "chemical": {
+        "en": "Control whitefly vector with Thiamethoxam 25% WG @ 0.5 g/L or Acetamiprid 20% SP @ 0.4 g/L.",
+        "hi": "सफेद मक्खी को नियंत्रित करने के लिए थायमेथोक्सम 25% WG 0.5 ग्राम/लीटर या एसिटामिप्रिड 20% SP 0.4 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow YMV tolerant varieties like JS-9752, JS-2034, NRC-86; treat seed with Imidacloprid (3g/kg seed).",
+      "hi": "रोग प्रतिरोधी किस्में (JS-9752, JS-2034, NRC-86) बोएं; इमिडाक्लोप्रिड 3 ग्राम/किग्रा बीज से बीजोपचार करें।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_02",
+    "crop": "soybean",
+    "conditions": [
+      "whitefly_presence_underside_leaf",
+      "yellow_patches_foliage"
+    ],
+    "conclusion": "soybean_yellow_mosaic",
+    "disease_name": {
+      "en": "Yellow Mosaic Virus (YMV)",
+      "hi": "पीला मोज़ेक वायरस (YMV)"
+    },
+    "cf": 0.8,
+    "treatment": {
+      "organic": {
+        "en": "Install yellow sticky traps (15-20/acre); spray Verticillium lecanii bio-pesticide (5g/L).",
+        "hi": "येलो स्टिकी ट्रैप (15-20 प्रति एकड़) लगाएं; वर्टिसिलियम लेकानी जैविक फफूंद (5 ग्राम/लीटर) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Spiromesifen 22.9% SC @ 1.25 ml/L or Diafenthiuron 50% WP @ 1.2 g/L.",
+        "hi": "स्पिरोमेसिफेन 22.9% SC 1.25 मिली/लीटर या डायफेंथियूरॉन 50% WP 1.2 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid planting near alternate host crops like mungbean or urdbean with active virus infection.",
+      "hi": "संक्रमित मूंग या उड़द के खेतों के पास सोयाबीन लगाने से बचें।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_03",
+    "crop": "soybean",
+    "conditions": [
+      "minute_brown_volcano_pustules",
+      "leaves_turn_bronze_fall",
+      "humid_warm_monsoon"
+    ],
+    "conclusion": "soybean_rust",
+    "disease_name": {
+      "en": "Soybean Rust",
+      "hi": "सोयाबीन रतुआ (सोयाबीन रस्ट)"
+    },
+    "cf": 0.88,
+    "treatment": {
+      "organic": {
+        "en": "Spray fermented garlic-onion extract with soap or Trichoderma harzianum @ 10g/L.",
+        "hi": "लहसुन-प्याज का किण्वित अर्क या ट्राइकोडर्मा हरजिएनम 10 ग्राम/लीटर का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Hexaconazole 5% EC @ 1.5 ml/L or Tebuconazole 25.9% EC @ 1 ml/L or Pyraclostrobin 20% WG @ 1 g/L.",
+        "hi": "हेक्साकोनाज़ोल 5% EC 1.5 मिली/लीटर या टेबुकोनाज़ोल 25.9% EC 1 मिली/लीटर या पायराक्लोस्ट्रोबिन 20% WG 1 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant tolerant varieties (e.g. DSb-21); maintain optimum plant population; spray fungicide at first notice.",
+      "hi": "सहनशील किस्में (DSb-21) लगाएं; पौधों की घनी बुवाई न करें; पहला लक्षण दिखते ही फफूंदनाशक छिड़कें।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_04",
+    "crop": "soybean",
+    "conditions": [
+      "premature_defoliation",
+      "rusty_powder_underside_leaf"
+    ],
+    "conclusion": "soybean_rust",
+    "disease_name": {
+      "en": "Soybean Rust",
+      "hi": "सोयाबीन रतुआ (सोयाबीन रस्ट)"
+    },
+    "cf": 0.82,
+    "treatment": {
+      "organic": {
+        "en": "Apply wettable sulphur 80% WP @ 3 g/L early in the day.",
+        "hi": "घुलनशील गंधक 80% WP 3 ग्राम/लीटर सुबह के समय छिड़कें।"
+      },
+      "chemical": {
+        "en": "Foliar spray of Propiconazole 25% EC @ 1 ml/L water.",
+        "hi": "प्रोपिकोनाज़ोल 25% EC 1 मिली/लीटर पानी में मिलाकर पर्णीय छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Scout lower foliage twice weekly during rainy breaks in August-September.",
+      "hi": "अगस्त-सितंबर में बारिश रुकने पर सप्ताह में दो बार निचली पत्तियों की जांच करें।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_05",
+    "crop": "soybean",
+    "conditions": [
+      "ashy_grey_stem_discoloration",
+      "pith_decay_black_specks",
+      "post_flowering_drought"
+    ],
+    "conclusion": "soybean_charcoal_rot",
+    "disease_name": {
+      "en": "Charcoal Rot",
+      "hi": "चारकोल रॉट (अंगमारी)"
+    },
+    "cf": 0.89,
+    "treatment": {
+      "organic": {
+        "en": "Soil drenching with Trichoderma viride enriched Farm Yard Manure (FYM 5kg/acre); conserve soil moisture through mulching.",
+        "hi": "ट्राइकोडर्मा विरिडी मिश्रित गोबर की खाद डालें; खेत में नमी बनाए रखने हेतु पुआल की पलवार (मल्चिंग) करें।"
+      },
+      "chemical": {
+        "en": "Seed treatment with Carbendazim + Mancozeb (2 g/kg seed); drench Carbendazim 50% WP @ 1.5 g/L at stem base.",
+        "hi": "कार्बेंडाजिम + मैंकोजेब (2 ग्राम/किग्रा बीज) से बीजोपचार; पौधे के तने के पास कार्बेंडाजिम 1.5 ग्राम/लीटर घोल डालें।"
+      }
+    },
+    "prevention": {
+      "en": "Provide life-saving irrigation during dry spells at pod development; rotate with sorghum or corn.",
+      "hi": "फली बनते समय सूखे की स्थिति में जीवनरक्षक सिंचाई अवश्य दें; ज्वार या मक्का के साथ फसल चक्र अपनाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_06",
+    "crop": "soybean",
+    "conditions": [
+      "black_sunken_lesions_pods",
+      "twigs_die_back",
+      "poor_seed_filling"
+    ],
+    "conclusion": "soybean_anthracnose_pod_blight",
+    "disease_name": {
+      "en": "Anthracnose & Pod Blight",
+      "hi": "एन्थ्रेक्नोज़ और फली झुलसा"
+    },
+    "cf": 0.87,
+    "treatment": {
+      "organic": {
+        "en": "Spray Panchagavya (30 ml/L) or botanical extract of Lantana camara (10%); remove infected residue.",
+        "hi": "पंचगव्य (30 मिली/लीटर) या लैंटाना पत्ती का अर्क (10%) छिड़कें; रोगग्रस्त अवशेषों को नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Tebuconazole 25.9% EC @ 1.25 ml/L or Carbendazim 12% + Mancozeb 63% WP @ 2.5 g/L at pod filling.",
+        "hi": "फली भरते समय टेबुकोनाज़ोल 25.9% EC 1.25 मिली/लीटर या साफ (Saaf) 2.5 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Ensure proper drainage in monsoon; avoid waterlogging; use certified disease-free seed.",
+      "hi": "बरसात में खेत से जल निकासी की उत्तम व्यवस्था रखें; जलभराव न होने दें; प्रमाणित बीज बोएं।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_07",
+    "crop": "soybean",
+    "conditions": [
+      "ring_cut_stem_girdle",
+      "wilting_upper_trifoliate",
+      "hollow_stem_larva"
+    ],
+    "conclusion": "soybean_girdle_beetle",
+    "disease_name": {
+      "en": "Girdle Beetle / Stem Fly",
+      "hi": "गर्डल बीटल / तना मक्खी"
+    },
+    "cf": 0.91,
+    "treatment": {
+      "organic": {
+        "en": "Pluck and destroy girdled branches bearing eggs/larvae; spray 5% NSKE at initial ring formation.",
+        "hi": "रिंग कटी हुई शाखाओं को तोड़कर नष्ट करें; शुरुआती छल्ला बनते ही 5% नीम अर्क (NSKE) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC @ 0.3 ml/L or Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5% ZC @ 0.5 ml/L.",
+        "hi": "कोराजन (Chlorantraniliprole 18.5% SC) 0.3 मिली/लीटर या अलिका (Alika) 0.5 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Timely sowing in June-July; destroy crop stubble post-harvest to kill diapausing larvae.",
+      "hi": "जून-जुलाई में समय पर बुवाई करें; कटाई के बाद खेत के अवशेष जलाएं या गहरी जुताई करें।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_08",
+    "crop": "soybean",
+    "conditions": [
+      "wrinkled_puckered_leaves",
+      "yellow_patches_foliage"
+    ],
+    "conclusion": "soybean_yellow_mosaic",
+    "disease_name": {
+      "en": "Yellow Mosaic Virus (YMV)",
+      "hi": "पीला मोज़ेक वायरस (YMV)"
+    },
+    "cf": 0.74,
+    "treatment": {
+      "organic": {
+        "en": "Spray neem oil 3000 ppm @ 5ml/L; eradicate weed hosts like Parthenium around the farm.",
+        "hi": "नीम तेल 3000 ppm 5 मिली/लीटर छिड़कें; खेत के आसपास से गाजरघास नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7 ml/L or Thiamethoxam 25% WG @ 0.4 g/L.",
+        "hi": "डाइमेथोएट 30% EC 1.7 मिली/लीटर या थायमेथोक्सम 25% WG 0.4 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow border crop of 2-3 rows of maize or bajra as barrier against whiteflies.",
+      "hi": "खेत के चारों ओर मक्का या बाजरे की 2-3 कतारें सुरक्षा दीवार के रूप में लगाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_SOY_09",
+    "crop": "soybean",
+    "conditions": [
+      "black_sunken_lesions_pods",
+      "leaves_turn_bronze_fall"
+    ],
+    "conclusion": "soybean_anthracnose_pod_blight",
+    "disease_name": {
+      "en": "Anthracnose & Pod Blight",
+      "hi": "एन्थ्रेक्नोज़ और फली झुलसा"
+    },
+    "cf": 0.76,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray with cow-urine + neem leaf decotion (10%).",
+        "hi": "गोमूत्र और नीम पत्ती के काढ़े (10%) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Azoxystrobin 11% + Tebuconazole 18.3% SC @ 1.5 ml/L.",
+        "hi": "कस्टोडिया (Azoxystrobin + Tebuconazole) 1.5 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Maintain row spacing of 45 cm for better sun exposure and ventilation.",
+      "hi": "हवा और धूप के लिए कतार से कतार की दूरी 45 सेमी बनाए रखें।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_TOM_01",
+    "crop": "tomato",
+    "conditions": [
+      "concentric_rings_target_spots",
+      "lower_leaves_affected",
+      "yellowing_around_spots"
+    ],
+    "conclusion": "tomato_early_blight",
+    "disease_name": {
+      "en": "Early Blight (Alternaria)",
+      "hi": "अगेती झुलसा (अर्ली ब्लाइट)"
+    },
+    "cf": 0.9,
+    "treatment": {
+      "organic": {
+        "en": "Prune affected lower leaves; spray Trichoderma viride (10 g/L) or fermented buttermilk with turmeric.",
+        "hi": "निचली संक्रमित पत्तियां काटकर नष्ट करें; ट्राइकोडर्मा विरिडी (10 ग्राम/लीटर) या हल्दी युक्त खट्टी छाछ छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Chlorothalonil 75% WP @ 2 g/L or Azoxystrobin 23% SC @ 1 ml/L.",
+        "hi": "मैंकोजेब 75% WP 2.5 ग्राम/लीटर या क्लोरोथैलोनिल 2 ग्राम/लीटर या एज़ोक्सीस्ट्रोबिन 1 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Stake plants upright; mulch with dry straw to prevent soil splash; practice 3-year solanaceous crop rotation.",
+      "hi": "टमाटर के पौधों को बांस से सहारा (स्टेकिंग) दें; जमीन पर पुआल की पलवार बिछाएं; 3 साल का फसल चक्र अपनाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_02",
+    "crop": "tomato",
+    "conditions": [
+      "brown_circular_spots",
+      "concentric_rings_target_spots"
+    ],
+    "conclusion": "tomato_early_blight",
+    "disease_name": {
+      "en": "Early Blight (Alternaria)",
+      "hi": "अगेती झुलसा (अर्ली ब्लाइट)"
+    },
+    "cf": 0.82,
+    "treatment": {
+      "organic": {
+        "en": "Spray copper oxychloride 50% WP @ 3 g/L or 1% Bordeaux mixture on lower leaves.",
+        "hi": "कॉपर ऑक्सीक्लोराइड 50% WP 3 ग्राम/लीटर या 1% बोर्डो मिश्रण का निचली पत्तियों पर छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Difenoconazole 25% EC (Score) @ 1 ml/L water.",
+        "hi": "डिफेनोकोनाज़ोल 25% EC (स्कोर) 1 मिली/लीटर पानी में मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid overhead watering; use drip irrigation to keep foliage dry.",
+      "hi": "फव्वारे या ऊपर से पानी न दें; टपक (ड्रिप) सिंचाई अपनाकर पत्तियों को सूखा रखें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_03",
+    "crop": "tomato",
+    "conditions": [
+      "water_soaked_dark_lesions",
+      "white_cottony_mold_underside",
+      "rapid_foliage_rot_cold_fog"
+    ],
+    "conclusion": "tomato_late_blight",
+    "disease_name": {
+      "en": "Late Blight (Phytophthora)",
+      "hi": "पछेती झुलसा (लेट ब्लाइट)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Immediate spray of 1% Bordeaux mixture or Copper Hydroxide (2.5 g/L); rogue out heavily blighted vines.",
+        "hi": "तुरंत 1% बोर्डो मिश्रण या कॉपर हाइड्रोक्साइड (2.5 ग्राम/लीटर) का छिड़काव करें; अत्यधिक सड़े पौधों को उखाड़कर गाड़ दें।"
+      },
+      "chemical": {
+        "en": "Spray Metalaxyl 8% + Mancozeb 64% WP (Ridomil Gold) @ 2.5 g/L or Dimethomorph 50% WP @ 1 g/L urgently.",
+        "hi": "तुरंत रिडोमिल गोल्ड (Metalaxyl + Mancozeb) 2.5 ग्राम/लीटर या डाइमेथोमॉर्फ 50% WP 1 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant resistant hybrids; provide wide spacing; avoid winter night irrigations during dense fog periods.",
+      "hi": "रोगरोधी संकर किस्में लगाएं; उचित दूरी रखें; घने कोहरे के दिनों में रात की सिंचाई से बचें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_04",
+    "crop": "tomato",
+    "conditions": [
+      "fruit_brown_leathery_rot",
+      "water_soaked_dark_lesions"
+    ],
+    "conclusion": "tomato_late_blight",
+    "disease_name": {
+      "en": "Late Blight (Phytophthora)",
+      "hi": "पछेती झुलसा (लेट ब्लाइट)"
+    },
+    "cf": 0.88,
+    "treatment": {
+      "organic": {
+        "en": "Destroy affected fruits in a deep pit; spray copper oxychloride (3 g/L).",
+        "hi": "प्रभावित सड़े फलों को गहरे गड्ढे में दबाएं; कॉपर ऑक्सीक्लोराइड (3 ग्राम/लीटर) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Cymoxanil 8% + Mancozeb 64% WP (Curzate) @ 2 g/L.",
+        "hi": "साइमोक्सानिल 8% + मैंकोजेब 64% WP (कर्जेट) 2 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Apply protective fungicide barrier spray before forecasted winter rains or persistent fog.",
+      "hi": "सर्दियों की बारिश या लगातार कोहरे के पूर्वानुमान से पहले सुरक्षात्मक फफूंदनाशक छिड़कें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_05",
+    "crop": "tomato",
+    "conditions": [
+      "upward_curling_leaves",
+      "thick_leathery_stunted_leaves",
+      "bushy_stunted_growth"
+    ],
+    "conclusion": "tomato_leaf_curl_virus",
+    "disease_name": {
+      "en": "Tomato Leaf Curl Virus (ToLCV)",
+      "hi": "टमाटर पर्ण कुंचन (लीफ कर्ल वायरस)"
+    },
+    "cf": 0.92,
+    "treatment": {
+      "organic": {
+        "en": "Uproot severely stunted plants and burn; install 20 yellow sticky traps/acre; spray 5% NSKE + Neem oil 10,000 ppm (3 ml/L).",
+        "hi": "गंभीर रूप से बौने पौधों को उखाड़कर नष्ट करें; 20 पीले स्टिकी ट्रैप लगाएं; 5% NSKE + नीम तेल (3 मिली/लीटर) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Cyantraniliprole 10.26% OD (Benevia) @ 1.8 ml/L or Diafenthiuron 50% WP @ 1.2 g/L to suppress vector whitefly.",
+        "hi": "सफेद मक्खी को मारने के लिए बेनेविया (Cyantraniliprole) 1.8 मिली/लीटर या पेगासस (Diafenthiuron) 1.2 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Raise nursery seedlings under 40-mesh insect net; use tolerant hybrids (e.g. US-440, NS-501, Abhinav).",
+      "hi": "नर्सरी में पौध 40-मेश मच्छरदानी/नेट के अंदर तैयार करें; सहनशील किस्में (जैसे अभिनव, US-440) लगाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_06",
+    "crop": "tomato",
+    "conditions": [
+      "whitefly_presence_underside_leaf",
+      "upward_curling_leaves"
+    ],
+    "conclusion": "tomato_leaf_curl_virus",
+    "disease_name": {
+      "en": "Tomato Leaf Curl Virus (ToLCV)",
+      "hi": "टमाटर पर्ण कुंचन (लीफ कर्ल वायरस)"
+    },
+    "cf": 0.8,
+    "treatment": {
+      "organic": {
+        "en": "Spray entomopathogenic fungus Beauveria bassiana (5 g/L) on leaf undersides.",
+        "hi": "पत्तियों के निचले हिस्से पर बवेरिया बासियाना (5 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Thiamethoxam 25% WG @ 0.5 g/L or Acetamiprid 20% SP @ 0.4 g/L.",
+        "hi": "थायमेथोक्सम 25% WG 0.5 ग्राम/लीटर या एसिटामिप्रिड 20% SP 0.4 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Eradicate solanaceous weed hosts (datura, black nightshade) around farm boundaries.",
+      "hi": "खेत के आसपास के धतूरा और मकोय जैसे जंगली खरपतवार उखाड़ फेंकें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_07",
+    "crop": "tomato",
+    "conditions": [
+      "sudden_green_wilting",
+      "white_bacterial_ooze_stem",
+      "vascular_browning_stem"
+    ],
+    "conclusion": "tomato_bacterial_wilt",
+    "disease_name": {
+      "en": "Bacterial Wilt (Ralstonia)",
+      "hi": "जीवाणु उकठा / झुलसा (बैक्टीरियल विल्ट)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Soil drenching with Pseudomonas fluorescens (10 g/L) or Bacillus subtilis; drench with fresh lime water (10 g/L) to raise pH.",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) से जड़ों को तर करें; चूने का पानी (10 ग्राम/लीटर) डालकर मिट्टी का शोधन करें।"
+      },
+      "chemical": {
+        "en": "Drench plant base with Streptocycline @ 1 g / 10 L water + Copper Oxychloride 50% WP @ 2.5 g/L.",
+        "hi": "स्ट्रेप्टोसाइक्लिन (1 ग्राम प्रति 10 लीटर पानी) + कॉपर ऑक्सीक्लोराइड (2.5 ग्राम/लीटर) से पौधों की जड़ों का शोधन करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid waterlogging; graft on resistant wild brinjal rootstock; rotate with paddy or maize (not potato/brinjal/chili).",
+      "hi": "जलभराव रोकें; जंगली बैंगन के रूटस्टॉक पर ग्राफ्टिंग करें; धान या मक्का के साथ फसल चक्र रखें (आलू/मिर्च के बाद न लगाएं)।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_08",
+    "crop": "tomato",
+    "conditions": [
+      "circular_boreholes_fruit",
+      "caterpillar_feeding_fruits",
+      "premature_fruit_drop"
+    ],
+    "conclusion": "tomato_fruit_borer",
+    "disease_name": {
+      "en": "Tomato Fruit Borer (Helicoverpa)",
+      "hi": "टमाटर फल छेदक (हेलिकोवर्पा इल्ली)"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Install 5-8 pheromone traps (Helilure)/acre; spray Bacillus thuringiensis (Bt) @ 2 g/L or HaNPV 250 LE/ha.",
+        "hi": "5-8 फेरोमोन ट्रैप (हेलील्योर) प्रति एकड़ लगाएं; बीटी (Bt) 2 ग्राम/लीटर या HaNPV 250 LE प्रति हेक्टेयर छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC (Coragen) @ 0.3 ml/L or Flubendiamide 39.35% SC (Fame) @ 0.3 ml/L.",
+        "hi": "कोराजन (Chlorantraniliprole) 0.3 मिली/लीटर या फेम (Flubendiamide) 0.3 मिली/लीटर पानी में घोलकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant African Marigold as trap crop (1 row marigold for every 16 rows of tomato); handpick early larvae.",
+      "hi": "ट्रैप फसल के रूप में अफ्रीकन गेंदा लगाएं (प्रत्येक 16 कतार टमाटर के बाद 1 कतार गेंदा); शुरुआती इल्लियां हाथ से बीनें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_09",
+    "crop": "tomato",
+    "conditions": [
+      "lower_leaves_affected",
+      "yellowing_around_spots"
+    ],
+    "conclusion": "tomato_early_blight",
+    "disease_name": {
+      "en": "Early Blight (Alternaria)",
+      "hi": "अगेती झुलसा (अर्ली ब्लाइट)"
+    },
+    "cf": 0.72,
+    "treatment": {
+      "organic": {
+        "en": "Spray botanical ginger-garlic extract (5%) mixed with neem oil (3 ml/L).",
+        "hi": "अदरक-लहसुन अर्क (5%) नीम तेल (3 मिली/लीटर) के साथ छिड़कें।"
+      },
+      "chemical": {
+        "en": "Preventative spray of Mancozeb 75% WP @ 2.5 g/L.",
+        "hi": "सुरक्षात्मक रूप से मैंकोजेब 75% WP 2.5 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Regularly inspect bottom leaves for yellowing margins after rain.",
+      "hi": "बारिश के बाद निचली पत्तियों के किनारों के पीलेपन की नियमित जांच करें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_TOM_10",
+    "crop": "tomato",
+    "conditions": [
+      "circular_boreholes_fruit",
+      "flower_bud_shedding"
+    ],
+    "conclusion": "tomato_fruit_borer",
+    "disease_name": {
+      "en": "Tomato Fruit Borer (Helicoverpa)",
+      "hi": "टमाटर फल छेदक (हेलिकोवर्पा इल्ली)"
+    },
+    "cf": 0.81,
+    "treatment": {
+      "organic": {
+        "en": "Release egg parasitoid Trichogramma pretiosum @ 50,000/ha; spray 5% NSKE at flower bud stage.",
+        "hi": "ट्राइकोग्रामा परजीवी ततैया 50,000/हेक्टेयर छोड़ें; कलियों की अवस्था में 5% NSKE छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Emamectin Benzoate 5% SG (Proclaim) @ 0.4 g/L water.",
+        "hi": "इमामेक्टिन बेंजोएट 5% SG (प्रोक्लेम) 0.4 ग्राम/लीटर पानी में मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Deep summer plowing to expose pupae to predatory birds and solar heat.",
+      "hi": "गर्मी में गहरी जुताई करें ताकि जमीन में छुपे प्यूपा धूप और पक्षियों द्वारा नष्ट हो सकें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_COT_01",
+    "crop": "cotton",
+    "conditions": [
+      "rosetted_flowers",
+      "entry_hole_boll_interlocking_fibers",
+      "pinkish_caterpillar_inside"
+    ],
+    "conclusion": "cotton_pink_bollworm",
+    "disease_name": {
+      "en": "Pink Bollworm (PBW)",
+      "hi": "गुलाबी सुंडी (पिंक बॉलवर्म)"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Install 8-10 Gossyplure pheromone traps/acre; release Trichogramma bactrae @ 60,000/acre; spray 5% NSKE.",
+        "hi": "8-10 गोसीप्ल्योर फेरोमोन ट्रैप प्रति एकड़ लगाएं; ट्राइकोग्रामा बैक्रे 60,000/एकड़ छोड़ें; 5% NSKE छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorpyrifos 20% EC @ 2.5 ml/L or Emamectin Benzoate 5% SG @ 0.5 g/L or Profenofos 50% EC @ 2 ml/L.",
+        "hi": "क्लोरपायरीफॉस 20% EC 2.5 मिली/लीटर या इमामेक्टिन बेंजोएट 0.5 ग्राम/लीटर या प्रोफेनोफॉस 2 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid extending cotton season into ratoon; destroy ginning waste; follow window of sowing strictly.",
+      "hi": "कपास की फसल को लंबी अवधि तक (रेटून) न रखें; जीनिंग वेस्ट नष्ट करें; समय पर एक साथ बुवाई करें।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_02",
+    "crop": "cotton",
+    "conditions": [
+      "stunted_boll_drop",
+      "rosetted_flowers"
+    ],
+    "conclusion": "cotton_pink_bollworm",
+    "disease_name": {
+      "en": "Pink Bollworm (PBW)",
+      "hi": "गुलाबी सुंडी (पिंक बॉलवर्म)"
+    },
+    "cf": 0.84,
+    "treatment": {
+      "organic": {
+        "en": "Manual destruction of rosetted (closed rosette) flowers every morning.",
+        "hi": "गुलाब जैसे बंद फूलों (रोसेट) को प्रतिदिन सुबह तोड़कर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Spinetoram 11.7% SC @ 1 ml/L or Indoxacarb 14.5% SC @ 1 ml/L.",
+        "hi": "स्पिनिटोरम 11.7% SC 1 मिली/लीटर या इंडोक्साकार्ब 14.5% SC 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Install light traps at night to monitor and kill adult moths.",
+      "hi": "वयस्क कीटों की निगरानी व खात्मे के लिए रात में प्रकाश प्रपंच (लाइट ट्रैप) लगाएं।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_03",
+    "crop": "cotton",
+    "conditions": [
+      "upward_curling_cotton_leaves",
+      "enation_leaf_like_outgrowths",
+      "thickened_dark_green_veins"
+    ],
+    "conclusion": "cotton_leaf_curl_virus",
+    "disease_name": {
+      "en": "Cotton Leaf Curl Virus (CLCuV)",
+      "hi": "कपास लीफ कर्ल वायरस (मरोड़िया रोग)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Uproot initial infected plants; spray Neem oil 10,000 ppm (3 ml/L) mixed with Pongamia (Karanja) oil (2 ml/L).",
+        "hi": "शुरुआती संक्रमित पौधे तुरंत उखाड़ें; नीम तेल 10,000 ppm (3 मिली/लीटर) और करंज तेल (2 मिली/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Control whitefly vector: spray Afidopyropen 50 g/L (Sefina) @ 2 ml/L or Flonicamid 50% WG (Ulala) @ 0.4 g/L.",
+        "hi": "सफेद मक्खी नियंत्रण: सेफीना (Afidopyropen) 2 मिली/लीटर या उलाला (Flonicamid 50% WG) 0.4 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow resistant BG-II hybrids (e.g. resistant northern zone varieties); weed out Sida spinosa and Abutilon weeds.",
+      "hi": "क्षेत्रीय प्रतिरोधी BG-II हाइब्रिड किस्में लगाएं; खेत व मेड़ों से कंघी व खरपतवार नष्ट करें।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_04",
+    "crop": "cotton",
+    "conditions": [
+      "whitefly_presence_underside_leaf",
+      "thickened_dark_green_veins"
+    ],
+    "conclusion": "cotton_leaf_curl_virus",
+    "disease_name": {
+      "en": "Cotton Leaf Curl Virus (CLCuV)",
+      "hi": "कपास लीफ कर्ल वायरस (मरोड़िया रोग)"
+    },
+    "cf": 0.81,
+    "treatment": {
+      "organic": {
+        "en": "Install 25 yellow sticky sheets per acre at canopy level; spray 5% NSKE.",
+        "hi": "फसल के स्तर पर 25 पीले चिपचिपे कार्ड प्रति एकड़ लगाएं; 5% NSKE का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Diafenthiuron 50% WP @ 1.25 g/L or Pyriproxyfen 10% EC @ 2 ml/L.",
+        "hi": "डायफेंथियूरॉन 50% WP 1.25 ग्राम/लीटर या पायरीप्रॉक्सीफेन 10% EC 2 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid excess nitrogen fertilizer which causes succulent leafy growth attractive to whitefly.",
+      "hi": "अधिक यूरिया न दें, जिससे पत्तियां ज्यादा मुलायम होकर सफेद मक्खी को आकर्षित करती हैं।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_05",
+    "crop": "cotton",
+    "conditions": [
+      "angular_water_soaked_leaf_spots",
+      "black_arm_stem_cankers",
+      "vein_browning_leaves"
+    ],
+    "conclusion": "cotton_bacterial_blight",
+    "disease_name": {
+      "en": "Bacterial Blight (Black Arm)",
+      "hi": "जीवाणु अंगमारी (ब्लैक आर्म रोग)"
+    },
+    "cf": 0.92,
+    "treatment": {
+      "organic": {
+        "en": "Spray copper hydroxide 2 g/L or 1% Bordeaux mixture; spray cow-dung filtrate (20%).",
+        "hi": "कॉपर हाइड्रोक्साइड 2 ग्राम/लीटर या 1% बोर्डो मिश्रण छिड़कें; छाना हुआ गाय के गोबर का घोल (20%) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Copper Oxychloride 50% WP @ 2.5 g/L + Streptocycline @ 1 g per 10 L water.",
+        "hi": "कॉपर ऑक्सीक्लोराइड 50% WP 2.5 ग्राम/लीटर + स्ट्रेप्टोसाइक्लिन 1 ग्राम प्रति 10 लीटर पानी में मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Acid delinting of cotton seed with commercial sulfuric acid (100 ml/kg seed) followed by fungicide dressing.",
+      "hi": "सल्फ्यूरिक एसिड (100 मिली/किग्रा बीज) से बीज का बिनौला रेशारहित (डीलिंटिंग) और बीजोपचार करें।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_06",
+    "crop": "cotton",
+    "conditions": [
+      "tiger_stripe_leaf_chlorosis",
+      "vascular_browning_stem",
+      "gradual_wilting_leaf_drop"
+    ],
+    "conclusion": "cotton_verticillium_wilt",
+    "disease_name": {
+      "en": "Verticillium Wilt",
+      "hi": "वर्टिसिलियम उकठा (विल्ट)"
+    },
+    "cf": 0.89,
+    "treatment": {
+      "organic": {
+        "en": "Soil application of Trichoderma viride enriched FYM (500 kg/ha); drench neem cake extract.",
+        "hi": "ट्राइकोडर्मा विरिडी मिश्रित गोबर की खाद (500 किग्रा/हेक्टेयर) डालें; नीम की खली का पानी जड़ों में दें।"
+      },
+      "chemical": {
+        "en": "Drench collar region with Carbendazim 50% WP @ 1 g/L or Benomyl @ 1 g/L.",
+        "hi": "पौधे के तने और जड़ों के पास कार्बेंडाजिम 50% WP 1 ग्राम/लीटर का घोल डालें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid field flooding; cultivate on raised ridges; rotate with cereals (sorghum, pearl millet).",
+      "hi": "खेत में पानी भरने से रोकें; ऊंची मेड़ों (रिज) पर बुवाई करें; बाजरा या ज्वार के साथ फसल चक्र अपनाएं।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_07",
+    "crop": "cotton",
+    "conditions": [
+      "whitefly_presence_underside_leaf",
+      "sticky_honeydew_leaves",
+      "black_sooty_mold_leaves"
+    ],
+    "conclusion": "cotton_whitefly_infestation",
+    "disease_name": {
+      "en": "Whitefly Infestation & Sooty Mold",
+      "hi": "सफेद मक्खी प्रकोप और काली फफूंद"
+    },
+    "cf": 0.88,
+    "treatment": {
+      "organic": {
+        "en": "Spray fish oil rosin soap @ 20 g/L or Neem oil 10,000 ppm (4 ml/L); wash off sooty mold with dilute starch water.",
+        "hi": "फिश ऑयल रोजिन सोप 20 ग्राम/लीटर या नीम तेल (4 मिली/लीटर) छिड़कें; काली फफूंद धोने हेतु हल्का मांड का पानी छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Spiromesifen 22.9% SC @ 1.2 ml/L or Pyriproxyfen 10% EC @ 2 ml/L.",
+        "hi": "स्पिरोमेसिफेन 22.9% SC 1.2 मिली/लीटर या पायरीप्रॉक्सीफेन 10% EC 2 मिली/लीटर पानी में मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Install yellow sticky traps (15-20/acre); avoid broad-spectrum pyrethroid sprays that kill beneficial predators.",
+      "hi": "15-20 पीले स्टिकी ट्रैप लगाएं; सिंथेटिक पायरेथ्रोइड के अंधाधुंध छिड़काव से बचें जो मित्र कीटों को मार देते हैं।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_08",
+    "crop": "cotton",
+    "conditions": [
+      "angular_water_soaked_leaf_spots",
+      "black_arm_stem_cankers"
+    ],
+    "conclusion": "cotton_bacterial_blight",
+    "disease_name": {
+      "en": "Bacterial Blight (Black Arm)",
+      "hi": "जीवाणु अंगमारी (ब्लैक आर्म रोग)"
+    },
+    "cf": 0.8,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of 1% Bordeaux mixture before monsoon storms.",
+        "hi": "मानसून की तूफानी बारिश से पहले 1% बोर्डो मिश्रण का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Foliar spray of Copper Oxychloride @ 2.5 g/L with Agrimycin @ 0.5 g/10L.",
+        "hi": "कॉपर ऑक्सीक्लोराइड 2.5 ग्राम/लीटर + एग्रीमाइसिन 0.5 ग्राम/10 लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Destroy cotton crop residues and stalks after harvest by burning or deep burial.",
+      "hi": "कटाई के बाद कपास की पुरानी पराली व डंठलों को नष्ट करें।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_COT_09",
+    "crop": "cotton",
+    "conditions": [
+      "entry_hole_boll_interlocking_fibers",
+      "stunted_boll_drop"
+    ],
+    "conclusion": "cotton_pink_bollworm",
+    "disease_name": {
+      "en": "Pink Bollworm (PBW)",
+      "hi": "गुलाबी सुंडी (पिंक बॉलवर्म)"
+    },
+    "cf": 0.77,
+    "treatment": {
+      "organic": {
+        "en": "Mass trapping with pheromone lures @ 15-20 traps per hectare.",
+        "hi": "फेरोमोन ट्रैप 15-20 प्रति हेक्टेयर लगाकर नर पतंगों को बड़े पैमाने पर पकड़ें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC @ 0.3 ml/L.",
+        "hi": "कोराजन (Chlorantraniliprole) 0.3 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Terminate crop irrigation by December to induce early PBW diapause starvation.",
+      "hi": "दिसंबर तक सिंचाई बंद कर दें ताकि गुलाबी सुंडी को जीवित रहने का भोजन न मिले।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_RIC_01",
+    "crop": "rice",
+    "conditions": [
+      "wavy_translucent_leaf_margins",
+      "milky_bacterial_dew_droplets",
+      "straw_bleached_leaf_drying"
+    ],
+    "conclusion": "rice_bacterial_leaf_blight",
+    "disease_name": {
+      "en": "Bacterial Leaf Blight (BLB)",
+      "hi": "जीवाणु पत्ती झुलसा (बैक्टीरियल ब्लाइट)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray fresh cow-dung supernatant liquid (20%) or neem cake extract (5%); drain excess standing water from field immediately.",
+        "hi": "गाय के गोबर का निथरा हुआ पानी (20%) या 5% नीम खली अर्क छिड़कें; खेत से तुरंत अतिरिक्त पानी निकाल दें।"
+      },
+      "chemical": {
+        "en": "Spray Streptocycline 1 g / 10 L water + Copper Oxychloride 50% WP @ 2.5 g/L; stop nitrogen top dressing.",
+        "hi": "स्ट्रेप्टोसाइक्लिन 1 ग्राम/10 लीटर + कॉपर ऑक्सीक्लोराइड 2.5 ग्राम/लीटर छिड़कें; यूरिया डालना तुरंत बंद करें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow resistant varieties like Improved Samba Mahsuri, IR-64, or Pusa Basmati 1718; split nitrogen application into 3-4 doses.",
+      "hi": "रोगरोधी किस्में (जैसे इम्प्रूव्ड साम्बा महसूरी, IR-64, पूसा बासमती 1718) बोएं; यूरिया को 3-4 बार में बांटकर दें।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_02",
+    "crop": "rice",
+    "conditions": [
+      "straw_bleached_leaf_drying",
+      "wavy_translucent_leaf_margins"
+    ],
+    "conclusion": "rice_bacterial_leaf_blight",
+    "disease_name": {
+      "en": "Bacterial Leaf Blight (BLB)",
+      "hi": "जीवाणु पत्ती झुलसा (बैक्टीरियल ब्लाइट)"
+    },
+    "cf": 0.81,
+    "treatment": {
+      "organic": {
+        "en": "Dust dry wood ash mixed with copper sulfate (10:1 ratio) on dew-moist canopy.",
+        "hi": "ओस भीगी फसल पर लकड़ी की राख और नीला थोथा (10:1 अनुपात) का बुरकाव करें।"
+      },
+      "chemical": {
+        "en": "Spray Plantomycin @ 1 g/L with Copper Hydroxide @ 2 g/L.",
+        "hi": "प्लेंटोमाइसिन 1 ग्राम/लीटर और कॉपर हाइड्रोक्साइड 2 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid clipping seedling tips at transplanting, which opens entry wounds for bacteria.",
+      "hi": "रोपाई के समय पौध की ऊपरी पत्तियों को न काटें, इससे जीवाणु के प्रवेश का घाव बन जाता है।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_03",
+    "crop": "rice",
+    "conditions": [
+      "spindle_diamond_shaped_spots",
+      "grey_center_brown_margin_spots",
+      "black_broken_neck_node"
+    ],
+    "conclusion": "rice_blast",
+    "disease_name": {
+      "en": "Rice Blast (Magnaporthe)",
+      "hi": "धान का झोंका रोग (ब्लास्ट)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Spray Pseudomonas fluorescens (10 g/L) or fermented sour buttermilk (50 ml/L) with cow urine; treat seed with Trichoderma (10g/kg).",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) या खट्टी छाछ (50 मिली/लीटर) गोमूत्र के साथ छिड़कें; ट्राइकोडर्मा से बीजोपचार करें।"
+      },
+      "chemical": {
+        "en": "Spray Tricyclazole 75% WP (Baan) @ 0.6 g/L or Isoprothiolane 40% EC (Fuji-one) @ 1.5 ml/L or Kasugamycin 3% SL @ 2 ml/L.",
+        "hi": "ट्राइसाइक्लाज़ोल 75% WP (बान) 0.6 ग्राम/लीटर या इसोप्रोथियोलेन 1.5 मिली/लीटर या कासुगामाइसिन 2 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Use resistant cultivars; do not apply excessive urea; maintain shallow water layer in paddy field.",
+      "hi": "प्रतिरोधी किस्में लगाएं; अधिक यूरिया के इस्तेमाल से बचें; खेत में पानी की पतली परत बनाए रखें।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_04",
+    "crop": "rice",
+    "conditions": [
+      "spindle_diamond_shaped_spots",
+      "grey_center_brown_margin_spots"
+    ],
+    "conclusion": "rice_blast",
+    "disease_name": {
+      "en": "Rice Blast (Magnaporthe)",
+      "hi": "धान का झोंका रोग (ब्लास्ट)"
+    },
+    "cf": 0.83,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of 5% NSKE mixed with fermented garlic extract.",
+        "hi": "5% NSKE और लहसुन के काढ़े का पर्णीय छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Azoxystrobin 18.2% + Difenoconazole 11.4% SC (Amistar Top) @ 1 ml/L.",
+        "hi": "एमिस्टार टॉप (Azoxystrobin + Difenoconazole) 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid water deficit stress during tillering and panicle initiation phases.",
+      "hi": "कल्ले फूटने और बाली बनते समय खेत में नमी की कमी न होने दें।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_05",
+    "crop": "rice",
+    "conditions": [
+      "oval_greenish_grey_waterline_lesions",
+      "serpentine_snake_skin_patterns",
+      "sclerotia_mustard_seed_bodies"
+    ],
+    "conclusion": "rice_sheath_blight",
+    "disease_name": {
+      "en": "Sheath Blight (Rhizoctonia)",
+      "hi": "शीथ ब्लाइट (पर्णच्छद अंगमारी)"
+    },
+    "cf": 0.91,
+    "treatment": {
+      "organic": {
+        "en": "Spray Pseudomonas fluorescens (10 g/L) directed at stem base; apply neem cake in soil (150 kg/ha).",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) का पौधों की जड़ों और तने के पास छिड़काव करें; खेत में नीम खली डालें।"
+      },
+      "chemical": {
+        "en": "Spray Hexaconazole 5% SC (Contaf) @ 2 ml/L or Validamycin 3% L (Sheathmar) @ 2.5 ml/L or Thifluzamide 24% SC @ 0.75 ml/L.",
+        "hi": "हेक्साकोनाज़ोल (कॉन्टाफ) 2 मिली/लीटर या वैलिडामाइसिन 2.5 मिली/लीटर या थिफ्लूज़ामाइड 0.75 मिली/लीटर तने पर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Ensure optimal plant spacing (20x15 cm); skim off floating sclerotial bodies during puddle preparation.",
+      "hi": "उचित दूरी (20x15 सेमी) पर पौध लगाएं; लेह (कद्दू) करते समय पानी पर तैरते कचरे व फफूंद अवशेषों को छानकर निकालें।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_06",
+    "crop": "rice",
+    "conditions": [
+      "hopper_burn_circular_drying_patches",
+      "brown_insects_base_of_tillers",
+      "plant_lodging_circular_patches"
+    ],
+    "conclusion": "rice_brown_planthopper",
+    "disease_name": {
+      "en": "Brown Plant Hopper (BPH)",
+      "hi": "भूरा फुदका / भूरा माहू (BPH)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Drain standing water immediately for 3-4 days (alternate wetting and drying); spray 5% neem seed oil with detergent at hill base.",
+        "hi": "खेत से पानी तुरंत 3-4 दिन के लिए निकाल दें (वैकल्पिक गीला-सूखा रखें); पौधों के आधार पर 5% नीम तेल साबुन के साथ छिड़कें।"
+      },
+      "chemical": {
+        "en": "Direct spray at stem base: Pymetrozine 50% WDG (Chess) @ 0.6 g/L or Triflumezopyrim 10% SC (Pexalon) @ 0.5 ml/L or Dinotefuran 20% SG @ 0.4 g/L.",
+        "hi": "तने के आधार पर सीधे स्प्रे करें: चेस (Pymetrozine) 0.6 ग्राम/लीटर या पेक्सलोन (Triflumezopyrim) 0.5 मिली/लीटर या डाइनोटेफ्यूरॉन 0.4 ग्राम/लीटर।"
+      }
+    },
+    "prevention": {
+      "en": "Create alleyways (skip 1 row every 2-3 meters) for light and air; avoid synthetic pyrethroids which cause BPH resurgence.",
+      "hi": "खेत में हवा-धूप के लिए हर 2-3 मीटर पर एक कतार खाली छोड़ें (गली बनाएं); पायरेथ्रोइड के छिड़काव से बचें जिससे फुदके तेजी से बढ़ते हैं।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_07",
+    "crop": "rice",
+    "conditions": [
+      "dead_heart_central_shoot_drying",
+      "white_ear_chaffy_panicles",
+      "boreholes_frass_stem_base"
+    ],
+    "conclusion": "rice_stem_borer",
+    "disease_name": {
+      "en": "Yellow Stem Borer",
+      "hi": "पीला तना छेदक (स्टेम बोरर)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Install 5-8 pheromone traps (Scirpo-lure)/acre; release Trichogramma japonicum @ 40,000/acre at weekly intervals.",
+        "hi": "5-8 फेरोमोन ट्रैप प्रति एकड़ लगाएं; ट्राइकोग्रामा जापोनिकम परजीवी 40,000/एकड़ प्रति सप्ताह छोड़ें।"
+      },
+      "chemical": {
+        "en": "Apply Cartap Hydrochloride 4% G @ 8 kg/acre or Chlorantraniliprole 0.4% G (Ferterra) @ 4 kg/acre with sand in standing water.",
+        "hi": "खेत में पानी होने पर कार्टाप हाइड्रोक्लोराइड 4G (8 किग्रा/एकड़) या फरटेरा (4 किग्रा/एकड़) बालू में मिलाकर बुरकें।"
+      }
+    },
+    "prevention": {
+      "en": "Clip seedling leaf tips before transplanting to destroy egg masses; harvest crop close to ground level.",
+      "hi": "रोपाई से पहले पौध के ऊपरी सिरे काटें ताकि अंडों के गुच्छे नष्ट हों; फसल की कटाई जमीन की सतह के पास से करें।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_08",
+    "crop": "rice",
+    "conditions": [
+      "hopper_burn_circular_drying_patches",
+      "brown_insects_base_of_tillers"
+    ],
+    "conclusion": "rice_brown_planthopper",
+    "disease_name": {
+      "en": "Brown Plant Hopper (BPH)",
+      "hi": "भूरा फुदका / भूरा माहू (BPH)"
+    },
+    "cf": 0.85,
+    "treatment": {
+      "organic": {
+        "en": "Install light traps 1 hour after sunset to catch attracted hoppers; allow spiders and mirid bugs to proliferate.",
+        "hi": "सूर्यास्त के 1 घंटे बाद लाइट ट्रैप लगाएं; खेत में मकड़ियों और मित्र कीटों को पनपने दें।"
+      },
+      "chemical": {
+        "en": "Spray Buprofezin 25% SC @ 1.5 ml/L targeting the plant base.",
+        "hi": "तने के आधार को लक्ष्य करके ब्यूप्रोफेज़िन 25% SC 1.5 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Follow intermittent irrigation instead of continuous deep submergence.",
+      "hi": "लगातार गहरा पानी भरने के बजाय खेत में रुक-रुक कर सिंचाई करें।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_09",
+    "crop": "rice",
+    "conditions": [
+      "dead_heart_central_shoot_drying",
+      "boreholes_frass_stem_base"
+    ],
+    "conclusion": "rice_stem_borer",
+    "disease_name": {
+      "en": "Yellow Stem Borer",
+      "hi": "पीला तना छेदक (स्टेम बोरर)"
+    },
+    "cf": 0.82,
+    "treatment": {
+      "organic": {
+        "en": "Apply Neem cake @ 200 kg/ha at root zone; spray Azadirachtin 10,000 ppm @ 3 ml/L.",
+        "hi": "जड़ों में नीम खली 200 किग्रा/हेक्टेयर डालें; अज़ाडिराक्टिन (नीम तेल) 3 मिली/लीटर छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC @ 0.3 ml/L or Fipronil 5% SC @ 2 ml/L.",
+        "hi": "कोराजन (Chlorantraniliprole) 0.3 मिली/लीटर या फिप्रोनिल 5% SC 2 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Plough stubbles immediately after harvest and submerge with water to kill overwintering larvae.",
+      "hi": "कटाई के तुरंत बाद खेत की जुताई करके पानी भर दें ताकि तने में छिपी इल्लियां मर जाएं।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_POT_01",
+    "crop": "potato",
+    "conditions": [
+      "water_soaked_dark_leaf_blotch",
+      "white_mildew_underside_leaf",
+      "tubers_purplish_brown_rot"
+    ],
+    "conclusion": "potato_late_blight",
+    "disease_name": {
+      "en": "Late Blight of Potato",
+      "hi": "आलू का पछेती झुलसा (लेट ब्लाइट)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray 1% Bordeaux mixture or Copper Hydroxide (2.5 g/L); rogue out blighted plants immediately.",
+        "hi": "1% बोर्डो मिश्रण या कॉपर हाइड्रोक्साइड (2.5 ग्राम/लीटर) का छिड़काव करें; रोगग्रस्त पौधों को उखाड़कर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Cymoxanil 8% + Mancozeb 64% WP @ 2.5 g/L or Dimethomorph 50% WP @ 1 g/L urgently upon appearance.",
+        "hi": "तुरंत साइमोक्सानिल + मैंकोजेब 2.5 ग्राम/लीटर या डाइमेथोमॉर्फ 50% WP 1 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant certified disease-free seed tubers; practice ridge earthing-up to cover tubers from sporangia wash.",
+      "hi": "प्रमाणित रोगमुक्त आलू बीज बोएं; कंदों को ढकने के लिए मिट्टी चढ़ाने (अर्धिंग-अप) का कार्य सही समय पर करें।"
+    },
+    "reference": "ICAR-Central Potato Research Institute (CPRI) Shimla"
+  },
+  {
+    "id": "RULE_POT_02",
+    "crop": "potato",
+    "conditions": [
+      "concentric_target_rings_potato",
+      "chlorotic_leaf_borders"
+    ],
+    "conclusion": "potato_early_blight",
+    "disease_name": {
+      "en": "Early Blight of Potato",
+      "hi": "आलू का अगेती झुलसा (अर्ली ब्लाइट)"
+    },
+    "cf": 0.88,
+    "treatment": {
+      "organic": {
+        "en": "Spray fermented buttermilk (50ml/L) with a pinch of turmeric powder; apply Trichoderma viride (10g/L).",
+        "hi": "हल्दी युक्त खट्टी छाछ (50 मिली/लीटर) या ट्राइकोडर्मा विरिडी (10 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Difenoconazole 25% EC @ 1 ml/L water.",
+        "hi": "मैंकोजेब 75% WP 2.5 ग्राम/लीटर या डिफेनोकोनाज़ोल 25% EC 1 मिली/लीटर पानी में मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Ensure balanced nutrition (avoid potassium deficiency); practice 3-year solanaceous crop rotation.",
+      "hi": "संतुलित पोटाश दें; सोलेनेसी कुल की फसलों (टमाटर, बैंगन) के साथ 3 साल का फसल चक्र रखें।"
+    },
+    "reference": "ICAR-Central Potato Research Institute (CPRI) Shimla"
+  },
+  {
+    "id": "RULE_POT_03",
+    "crop": "potato",
+    "conditions": [
+      "black_crusty_specks_tuber_skin",
+      "aerial_tubers_stems"
+    ],
+    "conclusion": "potato_black_scurf",
+    "disease_name": {
+      "en": "Black Scurf (Rhizoctonia)",
+      "hi": "आलू का काली पपड़ी रोग (ब्लैक स्कर्फ)"
+    },
+    "cf": 0.91,
+    "treatment": {
+      "organic": {
+        "en": "Treat seed tubers with Trichoderma harzianum @ 10 g/kg; incorporate neem cake in soil.",
+        "hi": "ट्राइकोडर्मा हरजिएनम (10 ग्राम/किग्रा) से बीजोपचार करें; खेत में नीम की खली मिलाएं।"
+      },
+      "chemical": {
+        "en": "Tuber dip in Pencycuron 250 SC @ 2 ml/L or Carboxin 37.5% + Thiram 37.5% WS @ 2 g/L before planting.",
+        "hi": "बुवाई पूर्व पेंसीक्यूरॉन 250 SC (2 मिली/लीटर) के घोल में 10-15 मिनट आलू बीज को डुबोकर उपचारित करें।"
+      }
+    },
+    "prevention": {
+      "en": "Use green manuring before potato planting; avoid planting tubers too deep in cold damp soil.",
+      "hi": "आलू से पहले हरी खाद (ढैंचा/सनई) लगाएं; ठंड में बीज को बहुत अधिक गहराई में न दबाएं।"
+    },
+    "reference": "ICAR-Central Potato Research Institute (CPRI) Shimla"
+  },
+  {
+    "id": "RULE_MAI_01",
+    "crop": "maize",
+    "conditions": [
+      "whorl_ragged_leaf_feeding",
+      "sawdust_frass_whorl",
+      "caterpillar_inverted_y_head"
+    ],
+    "conclusion": "maize_fall_armyworm",
+    "disease_name": {
+      "en": "Fall Armyworm (Spodoptera frugiperda)",
+      "hi": "मक्का का फॉल आर्मीवर्म (सैनिक कीट)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Apply dry soil/ash mixed with lime (9:1) directly into leaf whorls; spray Bacillus thuringiensis (Bt) @ 2 g/L or Metarhizium rileyi @ 5 g/L.",
+        "hi": "गोभ (भोंपू) में सूखी मिट्टी/राख और चूने का मिश्रण डालें; बीटी (Bt) 2 ग्राम/लीटर या मेटाराइजियम 5 ग्राम/लीटर छिड़कें।"
+      },
+      "chemical": {
+        "en": "Apply Chlorantraniliprole 18.5% SC @ 0.4 ml/L or Emamectin Benzoate 5% SG @ 0.4 g/L targeting central whorl.",
+        "hi": "कोराजन (Chlorantraniliprole) 0.4 मिली/लीटर या इमामेक्टिन बेंजोएट 0.4 ग्राम/लीटर का सीधे गोभ में छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Install FAW pheromone lures (5/acre); plant border crop of 3-4 rows of cowpea; avoid staggered sowing.",
+      "hi": "5 फेरोमोन ट्रैप प्रति एकड़ लगाएं; खेत के चारों ओर लोबिया की 3-4 कतारें सुरक्षा हेतु लगाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Maize Research (IIMR) Ludhiana"
+  },
+  {
+    "id": "RULE_MAI_02",
+    "crop": "maize",
+    "conditions": [
+      "rectangular_tan_leaf_lesions",
+      "parallel_vein_blight_zones"
+    ],
+    "conclusion": "maize_maydis_blight",
+    "disease_name": {
+      "en": "Maydis Leaf Blight",
+      "hi": "मैडिस पत्ती झुलसा"
+    },
+    "cf": 0.87,
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% Neem Seed Kernel Extract (NSKE) or fermented cow-urine solution (10%).",
+        "hi": "5% नीम अर्क (NSKE) या 10% गोमूत्र के घोल का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1 ml/L.",
+        "hi": "मैंकोजेब 75% WP 2.5 ग्राम/लीटर या एमिस्टार टॉप 1 मिली/लीटर पानी में मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow tolerant hybrids (e.g. DHM-117, HQPM-1); destroy infected maize residue after harvest.",
+      "hi": "सहनशील संकर किस्में लगाएं; कटाई के बाद पुरानी फसल के अवशेष नष्ट करें।"
+    },
+    "reference": "ICAR-Indian Institute of Maize Research (IIMR) Ludhiana"
+  },
+  {
+    "id": "RULE_MAI_03",
+    "crop": "maize",
+    "conditions": [
+      "cinnamon_brown_pustules_upper_lower",
+      "powdery_spores_scattered"
+    ],
+    "conclusion": "maize_common_rust",
+    "disease_name": {
+      "en": "Common Rust (Puccinia)",
+      "hi": "मक्का का सामान्य रतुआ (रस्ट)"
+    },
+    "cf": 0.86,
+    "treatment": {
+      "organic": {
+        "en": "Spray wettable sulphur 80% WP @ 3 g/L early morning; apply sour buttermilk spray.",
+        "hi": "सुबह के समय घुलनशील गंधक (सल्फर 80% WP) 3 ग्राम/लीटर या खट्टी छाछ का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC @ 1 ml/L or Mancozeb 75% WP @ 2.5 g/L at early rust notice.",
+        "hi": "प्रोपिकोनाज़ोल 25% EC 1 मिली/लीटर या मैंकोजेब 2.5 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Ensure proper field drainage; maintain balanced potassium fertilization.",
+      "hi": "खेत में जल निकास का प्रबंध रखें और पोटाश की संतुलित मात्रा दें।"
+    },
+    "reference": "ICAR-Indian Institute of Maize Research (IIMR) Ludhiana"
+  },
+  {
+    "id": "RULE_CHI_01",
+    "crop": "chilli",
+    "conditions": [
+      "upward_cupping_chilli_leaves",
+      "shortened_internodes_bushy",
+      "whitefly_presence_underside_leaf"
+    ],
+    "conclusion": "chilli_leaf_curl_virus",
+    "disease_name": {
+      "en": "Chilli Leaf Curl Virus (Murda Rog)",
+      "hi": "मिर्च का पर्ण कुंचन (मुरड़ा रोग / चुरड़ा-मुरड़ा)"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Install 20 yellow sticky traps/acre; spray Neem oil 10,000 ppm (3 ml/L) mixed with Pongamia oil (2 ml/L); uproot severely stunted plants.",
+        "hi": "20 पीले स्टिकी कार्ड प्रति एकड़ लगाएं; नीम तेल (3 मिली/लीटर) व करंज तेल छिड़कें; अत्यधिक बौने पौधे उखाड़कर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Diafenthiuron 50% WP @ 1.2 g/L or Cyantraniliprole 10.26% OD (Benevia) @ 1.5 ml/L to control vector whitefly.",
+        "hi": "सफेद मक्खी नियंत्रण हेतु पेगासस (Diafenthiuron) 1.2 ग्राम/लीटर या बेनेविया 1.5 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow nursery under 40-mesh insect net; plant 2 rows of maize or jowar around chilli border as barrier.",
+      "hi": "नर्सरी 40-मेश मच्छरदानी में तैयार करें; खेत के चारों तरफ मक्का या ज्वार की 2 कतारें रक्षात्मक घेरे के रूप में लगाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_CHI_02",
+    "crop": "chilli",
+    "conditions": [
+      "sunken_circular_spots_ripe_chilli",
+      "acervuli_black_concentric_dots",
+      "dieback_twigs_from_top"
+    ],
+    "conclusion": "chilli_anthracnose_dieback",
+    "disease_name": {
+      "en": "Anthracnose Fruit Rot & Dieback",
+      "hi": "मिर्च का फल सड़न एवं डाइबैक रोग"
+    },
+    "cf": 0.92,
+    "treatment": {
+      "organic": {
+        "en": "Spray 1% Bordeaux mixture or Trichoderma viride @ 10 g/L; prune and destroy blighted twigs.",
+        "hi": "1% बोर्डो मिश्रण या ट्राइकोडर्मा विरिडी 10 ग्राम/लीटर का छिड़काव करें; सूखी टहनियां काटकर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1 ml/L or Tebuconazole 25.9% EC @ 1 ml/L at flowering & fruiting.",
+        "hi": "फूल व फल बनते समय एमिस्टार टॉप (1 मिली/लीटर) या टेबुकोनाज़ोल (1 मिली/लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Seed treatment with Thiram or Captan @ 3 g/kg seed; avoid sprinkler irrigation that wets ripe fruit.",
+      "hi": "कैप्टन या थीरम (3 ग्राम/किग्रा) से बीजोपचार करें; पकते फलों पर फव्वारे से पानी न दें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_CHI_03",
+    "crop": "chilli",
+    "conditions": [
+      "downward_boat_curling_leaves",
+      "bronzing_underside_leaves",
+      "elongated_shoots"
+    ],
+    "conclusion": "chilli_thrips_mites",
+    "disease_name": {
+      "en": "Yellow Mites & Thrips Infestation",
+      "hi": "मिर्च के माइट (मकड़ी) व थ्रिप्स कीट"
+    },
+    "cf": 0.89,
+    "treatment": {
+      "organic": {
+        "en": "Spray wettable sulphur 80% WDG @ 3 g/L or Neem oil (10,000 ppm) @ 3 ml/L; install blue sticky traps for thrips.",
+        "hi": "घुलनशील गंधक (3 ग्राम/लीटर) या नीम तेल 3 मिली/लीटर छिड़कें; थ्रिप्स हेतु नीले स्टिकी ट्रैप (15/एकड़) लगाएं।"
+      },
+      "chemical": {
+        "en": "Spray Spiromesifen 22.9% SC @ 1 ml/L for mites or Fipronil 5% SC @ 2 ml/L for thrips.",
+        "hi": "माइट्स हेतु ओबरॉन (Spiromesifen) 1 मिली/लीटर या थ्रिप्स हेतु फिप्रोनिल 5% SC 2 मिली/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Maintain adequate soil moisture (drought promotes mite multiplication); avoid excessive nitrogen.",
+      "hi": "खेत में नमी बनाए रखें क्योंकि सूखे में माइट्स तेजी से बढ़ते हैं; अधिक यूरिया न दें।"
+    },
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru"
+  },
+  {
+    "id": "RULE_MUS_01",
+    "crop": "mustard",
+    "conditions": [
+      "white_creamy_blister_pustules_underside",
+      "staghead_malformed_floral_axis"
+    ],
+    "conclusion": "mustard_white_rust",
+    "disease_name": {
+      "en": "White Rust (Staghead Disease)",
+      "hi": "सरसों का सफेद रतुआ / छाछिया (स्टैगहेड)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray fermented garlic-turmeric extract (5%) or sour buttermilk (50ml/L); cut and destroy malformed stagheads.",
+        "hi": "लहसुन-हल्दी का काढ़ा या खट्टी छाछ (50 मिली/लीटर) छिड़कें; विकृत फूलों के गुच्छों (स्टैगहेड) को काटकर जला दें।"
+      },
+      "chemical": {
+        "en": "Spray Metalaxyl 8% + Mancozeb 64% WP (Ridomil Gold) @ 2.5 g/L or Mancozeb 75% WP @ 2.5 g/L at early infection.",
+        "hi": "शुरुआती लक्षण दिखते ही रिडोमिल गोल्ड 2.5 ग्राम/लीटर या मैंकोजेब 2.5 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow resistant cultivars like Pusa Mustard 25, RH-0749; timely sowing before 20th October avoids disease peak.",
+      "hi": "प्रतिरोधी किस्में (पूसा 25, RH-0749) लगाएं; 20 अक्टूबर से पहले अगेती बुवाई करने से रोग का प्रकोप कम होता है।"
+    },
+    "reference": "ICAR-Directorate of Rapeseed-Mustard Research (DRMR) Bharatpur"
+  },
+  {
+    "id": "RULE_MUS_02",
+    "crop": "mustard",
+    "conditions": [
+      "brown_black_circular_target_spots_siliquae",
+      "stem_streaks_pod_shattering"
+    ],
+    "conclusion": "mustard_alternaria_blight",
+    "disease_name": {
+      "en": "Alternaria Leaf & Pod Blight",
+      "hi": "सरसों का अल्टरनेरिया पत्ती व फली झुलसा"
+    },
+    "cf": 0.88,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of 5% NSKE mixed with copper sulfate extract; rogue out blighted plants.",
+        "hi": "5% नीम बीज अर्क (NSKE) का छिड़काव करें; संक्रमित पौधों को खेत से बाहर निकालें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Iprodione 50% WP @ 2 g/L at 45 and 60 days after sowing.",
+        "hi": "बुवाई के 45 और 60 दिन बाद मैंकोजेब 75% WP 2.5 ग्राम/लीटर का पर्णीय छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Seed treatment with Apron 35 SD @ 6 g/kg seed; destroy crop residue post-harvest.",
+      "hi": "बीज का शोधन करें; कटाई के बाद खेत में बची सरसों की पुरानी सूखी डंडियों को जलाकर नष्ट करें।"
+    },
+    "reference": "ICAR-Directorate of Rapeseed-Mustard Research (DRMR) Bharatpur"
+  },
+  {
+    "id": "RULE_MUS_03",
+    "crop": "mustard",
+    "conditions": [
+      "dense_colonies_greenish_aphids_inflorescence",
+      "honeydew_sooty_coating_pods",
+      "plant_wilting_drying"
+    ],
+    "conclusion": "mustard_aphids",
+    "disease_name": {
+      "en": "Mustard Aphid (Lipaphis erysimi)",
+      "hi": "सरसों का चेपा / माहू कीट"
+    },
+    "cf": 0.92,
+    "treatment": {
+      "organic": {
+        "en": "Install 12 yellow sticky traps per acre; spray 5% NSKE or Neem oil (3000 ppm) @ 5 ml/L; protect ladybird beetle predators.",
+        "hi": "12 पीले चिपचिपे ट्रैप प्रति एकड़ लगाएं; 5% नीम अर्क या नीम तेल (5 मिली/लीटर) छिड़कें; मित्र कीट (लेडीबर्ड) का संरक्षण करें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7 ml/L or Thiamethoxam 25% WG @ 0.4 g/L when ETL crosses 1.5 cm aphid colony on central shoot.",
+        "hi": "जब तने पर माहू की 1.5 सेमी लंबी कालोनी दिखे तो रोगोर (डाइमेथोएट) 1.7 मिली/लीटर या थायमेथोक्सम 0.4 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Timely early sowing (first fortnight of October) enables crop to escape peak aphid infestation in January.",
+      "hi": "अक्टूबर के पहले पखवाड़े में समय पर बुवाई करें ताकि जनवरी में माहू के peak प्रकोप से फसल बच सके।"
+    },
+    "reference": "ICAR-Directorate of Rapeseed-Mustard Research (DRMR) Bharatpur"
+  },
+  {
+    "id": "RULE_SUG_01",
+    "crop": "sugarcane",
+    "conditions": [
+      "sugarcane_leaf_midrib_red_lesions",
+      "sugarcane_internal_stalk_reddening_white_patches",
+      "sugarcane_alcoholic_sour_smell"
+    ],
+    "conclusion": "sugarcane_red_rot",
+    "disease_name": {
+      "en": "Red Rot Disease",
+      "hi": "लाल सड़न रोग"
+    },
+    "cf": 0.94,
+    "reference": "ICAR-SBI Coimbatore & IISR Lucknow Cane Pathology Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Dip seed setts in Trichoderma viride (10g/L); apply neem cake in furrow (250 kg/ha). Rogue out and burn affected clumps.",
+        "hi": "बीज टुकड़ों (सेट्स) को ट्राइकोडर्मा विरिडी (10 ग्राम/ली) के घोल में डुबोएं; खेत में 250 किग्रा/हेक्टेयर नीम की खली डालें। ग्रसित पौधों को उखाड़कर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Dip setts in Carbendazim 50% WP (1g/L) for 15 minutes before planting; drench affected clumps with Thiophanate-methyl 70% WP @ 1.5g/L.",
+        "hi": "बुवाई पूर्व सेट्स को कार्बेन्डाजिम 50% WP (1 ग्राम/लीटर) के घोल में 15 मिनट डुबोएं; ग्रसित थानों पर थायोफैनेट-मिथाइल 70% WP (1.5 ग्राम/ली) का ड्रेन्चिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow certified resistant varieties like Co-0238, Co-86032, or CoJ-64; practice hot water sett treatment at 52°C for 30 minutes; do not take ratoon from diseased crop.",
+      "hi": "प्रमाणित रोगरोधी किस्में जैसे Co-0238, Co-86032 या CoJ-64 लगाएं; 52°C पर 30 मिनट तक गर्म जल से सेट्स उपचार करें; रोगी फसल से पेड़ी (रेटून) न लें।"
+    }
+  },
+  {
+    "id": "RULE_SUG_02",
+    "crop": "sugarcane",
+    "conditions": [
+      "sugarcane_whip_like_black_sooty_structure",
+      "sugarcane_narrow_stunted_leaves"
+    ],
+    "conclusion": "sugarcane_smut",
+    "disease_name": {
+      "en": "Sugarcane Smut (Whip Smut)",
+      "hi": "कंडुआ / चाबुक रोग"
+    },
+    "cf": 0.92,
+    "reference": "ICAR-IISR Lucknow Technical Bulletin",
+    "treatment": {
+      "organic": {
+        "en": "Enclose whip structure in polythene bag before cutting to prevent spore dispersal; apply Trichoderma harzianum (2.5 kg/acre) with FYM.",
+        "hi": "काटने से पहले चाबुकनुमा काले डंडे को पॉलीथिन बैग से ढकें ताकि बीजाणु न फैलें; गोबर की खाद के साथ ट्राइकोडर्मा (2.5 किग्रा/एकड़) डालें।"
+      },
+      "chemical": {
+        "en": "Treat seed setts with Triadimefon 25% WP (1g/L) or Carbendazim (1g/L); spray Hexaconazole 5% SC @ 2ml/L.",
+        "hi": "सेट्स को ट्रायडिमेफोन 25% WP (1 ग्राम/ली) या कार्बेन्डाजिम से उपचारित करें; हेक्साकोनाज़ोल 5% SC (2 मिली/लीटर) का पर्णीय छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Rogue out smutted stools completely upon first appearance; avoid ratooning in infected plots; use disease-free seed nurseries.",
+      "hi": "कंडुआ दिखे पौधे को जड़ सहित निकालकर जला दें; प्रभावित खेत में पेड़ी न रखें; रोगमुक्त प्राथमिक नर्सरी से ही बीज लें।"
+    }
+  },
+  {
+    "id": "RULE_SUG_03",
+    "crop": "sugarcane",
+    "conditions": [
+      "sugarcane_stalk_hollow_pith_drying",
+      "sugarcane_foliage_yellowing_crown_wilting"
+    ],
+    "conclusion": "sugarcane_wilt",
+    "disease_name": {
+      "en": "Sugarcane Wilt",
+      "hi": "उकठा / विल्ट रोग"
+    },
+    "cf": 0.88,
+    "reference": "PAU Ludhiana & TNAU Cane Protection Guide",
+    "treatment": {
+      "organic": {
+        "en": "Soil application of Pseudomonas fluorescens (2.5 kg/ha) with well-rotted compost; ensure field drainage.",
+        "hi": "सड़ी गोबर की खाद के साथ स्यूडोमोनास फ्लोरीसेन्स (2.5 किग्रा/हेक्टेयर) का मृदा उपचार करें; खेत से जल निकासी दुरुस्त रखें।"
+      },
+      "chemical": {
+        "en": "Drench root zone of affected plants with Carbendazim 50% WP @ 2g/L or Thiophanate-methyl @ 1.5g/L.",
+        "hi": "कार्बेन्डाजिम 50% WP (2 ग्राम/लीटर) या थायोफैनेट-मिथाइल (1.5 ग्राम/ली) से पौधों की जड़ों में ड्रेन्चिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid waterlogging; maintain balanced nutrition; rotate cane with rice or green manure sunn hemp.",
+      "hi": "खेत में जलभराव न होने दें; संतुलित खाद डालें; गन्ने के बाद धान या सनई की हरी खाद की फसल चक्र अपनाएं।"
+    }
+  },
+  {
+    "id": "RULE_GND_01",
+    "crop": "groundnut",
+    "conditions": [
+      "groundnut_circular_dark_brown_spots_yellow_halo",
+      "groundnut_premature_leaf_shedding"
+    ],
+    "conclusion": "groundnut_tikka_leaf_spot",
+    "disease_name": {
+      "en": "Tikka Leaf Spot (Cercospora)",
+      "hi": "टिक्का पर्ण चित्ती रोग"
+    },
+    "cf": 0.93,
+    "reference": "ICAR-Directorate of Groundnut Research (DGR) Junagadh Guidelines",
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% Neem Seed Kernel Extract (NSKE) or Pseudomonas fluorescens (5g/L) upon first spot appearance.",
+        "hi": "पत्तियों पर पहले धब्बे दिखते ही 5% नीम गिरी काढ़ा (NSKE) या स्यूडोमोनास (5 ग्राम/ली) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2g/L or Tebuconazole 25.9% EC @ 1ml/L or Carbendazim 50% WP @ 1g/L.",
+        "hi": "मैंकोजेब 75% WP (2 ग्राम/ली) या टेबुकोनाज़ोल 25.9% EC (1 मिली/ली) या कार्बेन्डाजिम (1 ग्राम/ली) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Intercrop with pearl millet or pigeon pea (3:1); remove crop residue; rotate with cereals.",
+      "hi": "बाजरा या अरहर के साथ अंतर्वर्ती खेती (3:1) करें; फसल अवशेष नष्ट करें; दलहन-अनाज फसल चक्र अपनाएं।"
+    }
+  },
+  {
+    "id": "RULE_GND_02",
+    "crop": "groundnut",
+    "conditions": [
+      "groundnut_collar_region_rotting_black_spores",
+      "groundnut_seedling_wilting_collapse"
+    ],
+    "conclusion": "groundnut_collar_rot",
+    "disease_name": {
+      "en": "Collar Rot / Crown Rot",
+      "hi": "कॉलर रॉट / तना गलन"
+    },
+    "cf": 0.9,
+    "reference": "ICAR-DGR Junagadh & ANGRAU Groundnut Pathology Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Seed biopriming with Trichoderma viride @ 10g/kg seed; apply neem cake in soil.",
+        "hi": "ट्राइकोडर्मा विरिडी (10 ग्राम/किग्रा बीज) से बीजोपचार करें; खेत में नीम की खली मिलाएं।"
+      },
+      "chemical": {
+        "en": "Seed treatment with Thiram 37.5% + Carboxin 37.5% DS @ 2.5g/kg seed or Carbendazim @ 2g/kg.",
+        "hi": "थिरम + कार्बोक्सिन (2.5 ग्राम/किग्रा बीज) या कार्बेन्डाजिम (2 ग्राम/किग्रा) से बीज शोधन करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid deep sowing (sow at 5 cm depth); avoid seed mechanical damage; ensure good drainage.",
+      "hi": "बीज को अधिक गहरा न बोएं (5 सेमी गहराई); बीज को छिलने से बचाएं; खेत में जल निकास उत्तम रखें।"
+    }
+  },
+  {
+    "id": "RULE_GND_03",
+    "crop": "groundnut",
+    "conditions": [
+      "groundnut_orange_brown_pustules_lower_leaf_surface",
+      "groundnut_leaves_curl_necrosis_dry"
+    ],
+    "conclusion": "groundnut_rust",
+    "disease_name": {
+      "en": "Groundnut Rust",
+      "hi": "मूंगफली का गेरुई / रस्ट"
+    },
+    "cf": 0.89,
+    "reference": "ICAR-DGR Junagadh Pulse & Oilseed Protection Bulletin",
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of fermented buttermilk (50ml/L) or aqueous garlic-chili extract; dust sulphur powder.",
+        "hi": "खट्टी छाछ (50 मिली/लीटर) या लहसुन-मिर्च अर्क का छिड़काव करें; गंधक चूर्ण का बुरकाव करें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorothalonil 75% WP @ 2g/L or Hexaconazole 5% EC @ 1.5ml/L at initiation of pustules.",
+        "hi": "क्लोरोथैलोनिल 75% WP (2 ग्राम/लीटर) या हेक्साकोनाज़ोल 5% EC (1.5 मिली/लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow rust-tolerant cultivars like Kadiri-6, TAG-24, or GPBD-4; avoid late sowing in Kharif.",
+      "hi": "सहनशील किस्में जैसे कादिरी-6, TAG-24 या GPBD-4 लगाएं; खरीफ में देरी से बुवाई करने से बचें।"
+    }
+  },
+  {
+    "id": "RULE_CHK_01",
+    "crop": "chickpea",
+    "conditions": [
+      "chickpea_drooping_petioles_leaves_flaccid",
+      "chickpea_internal_vascular_browning_xylem",
+      "chickpea_premature_field_patch_death"
+    ],
+    "conclusion": "chickpea_fusarium_wilt",
+    "disease_name": {
+      "en": "Fusarium Wilt",
+      "hi": "चना उकठा रोग"
+    },
+    "cf": 0.95,
+    "reference": "ICAR-Indian Institute of Pulses Research (IIPR) Kanpur Guidelines",
+    "treatment": {
+      "organic": {
+        "en": "Seed biopriming with Trichoderma asperellum (10g/kg); furrow application of Trichoderma enriched FYM (5 kg/ha).",
+        "hi": "ट्राइकोडर्मा एस्परेलियम (10 ग्राम/किग्रा बीज) से बीजोपचार करें; कतारों में ट्राइकोडर्मा युक्त गोबर खाद डालें।"
+      },
+      "chemical": {
+        "en": "Seed treatment with Carbendazim 50% WP + Thiram 75% WP (1:1) @ 2g/kg seed; drench furrow with Carbendazim @ 1g/L.",
+        "hi": "कार्बेन्डाजिम + थिरम (1:1 अनुपात, 2 ग्राम/किग्रा बीज) से बीज शोधन करें; क्यारियों में कार्बेन्डाजिम (1 ग्राम/ली) डालें।"
+      }
+    },
+    "prevention": {
+      "en": "Deep summer ploughing; plant wilt-resistant varieties like JG-315, JG-11, or JAKI-9218; 3-year crop rotation with sorghum or wheat.",
+      "hi": "गर्मी की गहरी जुताई करें; उकठा रोधी किस्में JG-315, JG-11 या जाकी-9218 बोएं; ज्वार या गेहूं के साथ 3 वर्षीय फसल चक्र अपनाएं।"
+    }
+  },
+  {
+    "id": "RULE_CHK_02",
+    "crop": "chickpea",
+    "conditions": [
+      "chickpea_circular_lesions_concentric_black_dots_pycnidia",
+      "chickpea_stem_girdling_breakage"
+    ],
+    "conclusion": "chickpea_ascochyta_blight",
+    "disease_name": {
+      "en": "Ascochyta Blight",
+      "hi": "एस्कोकाइटा झुलसा"
+    },
+    "cf": 0.91,
+    "reference": "ICAR-IIPR Kanpur Pulse Pathology Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of cow urine (10%) mixed with Pseudomonas fluorescens (5g/L).",
+        "hi": "10% गोमूत्र अर्क और स्यूडोमोनास फ्लोरीसेन्स (5 ग्राम/ली) का पर्णीय छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorothalonil 75% WP @ 2g/L or Azoxystrobin 23% SC @ 1ml/L at first disease detection.",
+        "hi": "रोग दिखते ही क्लोरोथैलोनिल 75% WP (2 ग्राम/लीटर) या एज़ोक्सीस्ट्रोबिन 23% SC (1 मिली/लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Use certified disease-free seed; destroy crop debris; avoid high planting density.",
+      "hi": "प्रमाणित रोगमुक्त बीज प्रयोग करें; पुरानी फसल के ठूंठ नष्ट करें; पौधों की अत्यधिक घनी बुवाई न करें।"
+    }
+  },
+  {
+    "id": "RULE_CHK_03",
+    "crop": "chickpea",
+    "conditions": [
+      "chickpea_greyish_fungal_growth_on_flowers",
+      "chickpea_flower_drop_no_pod_formation"
+    ],
+    "conclusion": "chickpea_grey_mould",
+    "disease_name": {
+      "en": "Botrytis Grey Mould",
+      "hi": "धूसर फफूंद (ग्रे मोल्ड)"
+    },
+    "cf": 0.89,
+    "reference": "ICAR-IIPR Kanpur Field Handbook",
+    "treatment": {
+      "organic": {
+        "en": "Spray Trichoderma harzianum formulation (10g/L) during flowering stage.",
+        "hi": "फूल आने की अवस्था में ट्राइकोडर्मा हरजिएनम (10 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Carbendazim 12% + Mancozeb 63% WP (SAAF) @ 2g/L or Iprodione 50% WP @ 2g/L.",
+        "hi": "कार्बेन्डाजिम + मैंकोजेब (साफ, 2 ग्राम/लीटर) या इप्रोडिओन 50% WP (2 ग्राम/लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Adopt wider row spacing (45 cm) for canopy aeration; avoid irrigation during peak flowering.",
+      "hi": "हवा के संचार हेतु कतार से कतार 45 सेमी दूरी रखें; फूल खिलने के समय खेत में पानी लगाने से बचें।"
+    }
+  },
+  {
+    "id": "RULE_PGP_01",
+    "crop": "pigeonpea",
+    "conditions": [
+      "pigeonpea_foliar_yellowing_interveinal_clearing",
+      "pigeonpea_dark_purple_stem_band_vertical_strip",
+      "pigeonpea_black_vascular_discoloration"
+    ],
+    "conclusion": "pigeonpea_fusarium_wilt",
+    "disease_name": {
+      "en": "Pigeonpea Fusarium Wilt",
+      "hi": "अरहर उकठा रोग"
+    },
+    "cf": 0.94,
+    "reference": "ICAR-IIPR Kanpur & ICRISAT Pulse Pathology Guide",
+    "treatment": {
+      "organic": {
+        "en": "Seed treatment with Trichoderma viride (10g/kg seed); apply neem cake in rhizosphere.",
+        "hi": "ट्राइकोडर्मा विरिडी (10 ग्राम/किग्रा बीज) से बीजोपचार; पौधों के पास नीम की खली डालें।"
+      },
+      "chemical": {
+        "en": "Seed dressing with Carboxin + Thiram @ 2.5g/kg seed; spot drenching with Carbendazim @ 1.5g/L.",
+        "hi": "कार्बोक्सिन + थिरम (2.5 ग्राम/किग्रा बीज) से बीज उपचार; रोगी थानों में कार्बेन्डाजिम (1.5 ग्राम/ली) डालें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow wilt-resistant varieties (Asha / ICPL-87119, Maruti / ICP-8863); intercrop with sorghum or maize.",
+      "hi": "उकठा रोधी किस्में जैसे आशा (ICPL-87119) या मारुति लगाएं; ज्वार या मक्का के साथ अंतर्वर्ती खेती करें।"
+    }
+  },
+  {
+    "id": "RULE_PGP_02",
+    "crop": "pigeonpea",
+    "conditions": [
+      "pigeonpea_bushy_stunted_pale_green_appearance",
+      "pigeonpea_severe_mosaic_mottling_leaves",
+      "pigeonpea_complete_cessation_of_flowering_sterile"
+    ],
+    "conclusion": "pigeonpea_sterility_mosaic",
+    "disease_name": {
+      "en": "Sterility Mosaic Disease (SMD)",
+      "hi": "बांझपन मोज़ेक रोग"
+    },
+    "cf": 0.95,
+    "reference": "ICRISAT & ICAR-IIPR SMD Technical Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Spray neem oil 1500 ppm @ 3ml/L to deter eriophyid mite vectors.",
+        "hi": "वाहक माइट (मकड़ी) की रोकथाम हेतु नीम का तेल 1500 ppm (3 मिली/लीटर) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Fenazaquin 10% EC @ 1.5ml/L or Propargite 57% EC @ 2ml/L to eliminate vector mites.",
+        "hi": "माइट्स की रोकथाम हेतु फेनाज़ाक्विन 10% EC (1.5 मिली/ली) या प्रोपारगाइट 57% EC (2 मिली/ली) छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow SMD-resistant varieties (BSMR-736, ICPL-87119); rogue out infected plants within first 45 days.",
+      "hi": "रोगरोधी किस्में (BSMR-736, ICPL-87119) लगाएं; पहले 45 दिनों में रोगी पौधों को उखाड़कर नष्ट करें।"
+    }
+  },
+  {
+    "id": "RULE_PGP_03",
+    "crop": "pigeonpea",
+    "conditions": [
+      "pigeonpea_water_soaked_brown_stem_cankers",
+      "pigeonpea_sudden_wilting_dead_leaves_remain_attached"
+    ],
+    "conclusion": "pigeonpea_phytophthora_blight",
+    "disease_name": {
+      "en": "Phytophthora Stem Blight",
+      "hi": "तना झुलसा रोग"
+    },
+    "cf": 0.88,
+    "reference": "ICAR-IIPR Kanpur Technical Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Seed biopriming and soil drenching with Trichoderma harzianum; ensure field drainage.",
+        "hi": "ट्राइकोडर्मा हरजिएनम से बीजोपचार व ड्रेन्चिंग करें; खेत से वर्षा जल तुरंत निकालें।"
+      },
+      "chemical": {
+        "en": "Spray Metalaxyl-M 4% + Mancozeb 64% WP (Ridomil Gold) @ 2.5g/L or Fosetyl-Al @ 2g/L.",
+        "hi": "मेटालेक्सिल + मैंकोजेब (रिडोमिल गोल्ड, 2.5 ग्राम/लीटर) या फोसेटाइल-अल (2 ग्राम/लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant on raised ridge-and-furrow systems; ensure rapid water runoff during heavy monsoon showers.",
+      "hi": "मेड़ों (रिज व फरो) पर बुवाई करें; भारी मानसूनी बारिश में खेत में पानी जमा न होने दें।"
+    }
+  },
+  {
+    "id": "RULE_ONN_01",
+    "crop": "onion",
+    "conditions": [
+      "onion_small_sunken_whitish_spots_turning_purple",
+      "onion_concentric_rings_on_leaves_flower_stalks",
+      "onion_leaves_girdled_collapse"
+    ],
+    "conclusion": "onion_purple_blotch",
+    "disease_name": {
+      "en": "Purple Blotch",
+      "hi": "बैंगनी धब्बा रोग"
+    },
+    "cf": 0.93,
+    "reference": "ICAR-Directorate of Onion and Garlic Research (DOGR) Rajgurunagar Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% Neem Seed Kernel Extract (NSKE) or Pseudomonas fluorescens (5g/L) with soap-nut sticker.",
+        "hi": "5% नीम गिरी काढ़ा (NSKE) या स्यूडोमोनास (5 ग्राम/ली) में रीठा/साबुन घोल मिलाकर छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Difenoconazole 25% EC @ 1ml/L or Mancozeb 75% WP @ 2.5g/L or Tebuconazole @ 1ml/L with sticking agent.",
+        "hi": "डिफेनोकोनाज़ोल 25% EC (1 मिली/ली) या मैंकोजेब 75% WP (2.5 ग्राम/ली) किसी चिपचिपे पदार्थ के साथ छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Crop rotation with non-allium crops (maize, pulses); avoid overhead sprinkler irrigation in late afternoon.",
+      "hi": "मक्का या दलहन के साथ फसल चक्र अपनाएं; शाम के समय फव्वारा सिंचाई से बचें ताकि पत्तियां गीली न रहें।"
+    }
+  },
+  {
+    "id": "RULE_ONN_02",
+    "crop": "onion",
+    "conditions": [
+      "onion_small_yellow_to_orange_flecks_elongating",
+      "onion_black_spore_mat_on_foliage_drying"
+    ],
+    "conclusion": "onion_stemphylium_blight",
+    "disease_name": {
+      "en": "Stemphylium Leaf Blight",
+      "hi": "स्टेमफीलियम पर्ण झुलसा"
+    },
+    "cf": 0.9,
+    "reference": "ICAR-DOGR Rajgurunagar Technical Bulletin",
+    "treatment": {
+      "organic": {
+        "en": "Spray Trichoderma harzianum (10g/L) or copper oxychloride bio-suspension.",
+        "hi": "ट्राइकोडर्मा हरजिएनम (10 ग्राम/लीटर) या कॉपर आधारित जैविक घोल का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1ml/L or Chlorothalonil 75% WP @ 2g/L.",
+        "hi": "एज़ोक्सीस्ट्रोबिन + डिफेनोकोनाज़ोल (1 मिली/लीटर) या क्लोरोथैलोनिल 75% WP (2 ग्राम/लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Maintain 15x10 cm optimum spacing; avoid excessive nitrogen fertilizer; field sanitation.",
+      "hi": "उचित दूरी (15x10 सेमी) रखें; अधिक यूरिया के उपयोग से बचें; खेत से पुराने पत्तों को हटा दें।"
+    }
+  },
+  {
+    "id": "RULE_ONN_03",
+    "crop": "onion",
+    "conditions": [
+      "onion_yellowing_and_curling_of_leaf_blades_from_tip",
+      "onion_roots_turn_pink_to_dark_brown_and_rot",
+      "onion_bulb_base_soft_decay"
+    ],
+    "conclusion": "onion_basal_rot",
+    "disease_name": {
+      "en": "Basal Rot (Fusarium)",
+      "hi": "कंद सड़न / मूल गलन"
+    },
+    "cf": 0.91,
+    "reference": "ICAR-DOGR & NHRDF Onion Protection Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Seedling root dip in Trichoderma viride suspension (10g/L) for 30 mins before transplanting.",
+        "hi": "रोपाई से पहले पौध की जड़ों को ट्राइकोडर्मा विरिडी (10 ग्राम/ली) के घोल में 30 मिनट डुबोएं।"
+      },
+      "chemical": {
+        "en": "Seedling dip in Carbendazim 50% WP (1g/L); soil drenching with Copper Oxychloride 50% WP @ 3g/L.",
+        "hi": "कार्बेन्डाजिम (1 ग्राम/ली) में पौध जड़ डुबोएं; कॉपर ऑक्सीक्लोराइड 50% WP (3 ग्राम/ली) से ड्रेन्चिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid physical damage to bulbs during intercultural operations; store in well-ventilated dry rooms.",
+      "hi": "निराई-गुड़ाई के समय कंदों को छिलने से बचाएं; प्याज को हवादार व सूखे कमरों में भंडारित करें।"
+    }
+  },
+  {
+    "id": "RULE_BRN_01",
+    "crop": "brinjal",
+    "conditions": [
+      "brinjal_extreme_reduction_in_leaf_size_tiny",
+      "brinjal_bushy_phylloid_appearance_no_fruit",
+      "brinjal_excessive_short_inter-nodes"
+    ],
+    "conclusion": "brinjal_little_leaf",
+    "disease_name": {
+      "en": "Little Leaf Disease",
+      "hi": "छोटी पत्ती रोग"
+    },
+    "cf": 0.95,
+    "reference": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru Guidelines",
+    "treatment": {
+      "organic": {
+        "en": "Rogue out and destroy infected plants; spray neem oil (3ml/L) or pongamia oil to repel leafhopper vector.",
+        "hi": "रोगी पौधों को तुरंत उखाड़कर जलाएं; वाहक कीट (फुदका) को भगाने हेतु नीम तेल (3 मिली/ली) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7ml/L or Imidacloprid 17.8% SL @ 0.5ml/L to control leafhopper vector.",
+        "hi": "पत्ती फुदका की रोकथाम हेतु डाइमेथोएट 30% EC (1.7 मिली/ली) या इमिडाक्लोप्रिड 17.8% SL (0.5 मिली/ली) छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Eradicate solanaceous weeds around nursery; cover nursery with 40-mesh insect net.",
+      "hi": "नर्सरी के आसपास मकोय व धतूरा जैसे खरपतवार नष्ट करें; नर्सरी को 40-मेश कीट जाली से ढकें।"
+    }
+  },
+  {
+    "id": "RULE_BRN_02",
+    "crop": "brinjal",
+    "conditions": [
+      "brinjal_circular_brown_spots_pycnidia_on_leaves",
+      "brinjal_soft_sunken_pale_rot_patches_on_fruit"
+    ],
+    "conclusion": "brinjal_phomopsis_blight",
+    "disease_name": {
+      "en": "Phomopsis Blight & Fruit Rot",
+      "hi": "फोमोप्सिस झुलसा व फल सड़न"
+    },
+    "cf": 0.9,
+    "reference": "ICAR-IIHR Bengaluru & TNAU Vegetable Protection Guide",
+    "treatment": {
+      "organic": {
+        "en": "Seed treatment with Trichoderma viride (4g/kg seed); foliar spray of Pseudomonas fluorescens (5g/L).",
+        "hi": "ट्राइकोडर्मा (4 ग्राम/किग्रा) से बीजोपचार; स्यूडोमोनास फ्लोरीसेन्स (5 ग्राम/ली) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2g/L or Carbendazim 50% WP @ 1g/L at flowering and fruit formation.",
+        "hi": "फूल और फल बनते समय मैंकोजेब 75% WP (2 ग्राम/ली) या कार्बेन्डाजिम (1 ग्राम/ली) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Collect and deeply bury infected fruits; sow disease-tolerant varieties like Pant Samrat.",
+      "hi": "सड़े फलों को इकट्ठा कर जमीन में गहरा गाड़ें; सहनशील किस्में जैसे पंत सम्राट लगाएं।"
+    }
+  },
+  {
+    "id": "RULE_BRN_03",
+    "crop": "brinjal",
+    "conditions": [
+      "brinjal_sudden_wilting_without_yellowing_green_wilt",
+      "brinjal_white_bacterial_slime_stream_in_water_vessel"
+    ],
+    "conclusion": "brinjal_bacterial_wilt",
+    "disease_name": {
+      "en": "Bacterial Wilt",
+      "hi": "जीवाणु उकठा रोग"
+    },
+    "cf": 0.94,
+    "reference": "ICAR-IIHR Bengaluru Technical Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Soil application of bleaching powder @ 15 kg/ha before planting; drench with Pseudomonas fluorescens (10g/L).",
+        "hi": "रोपाई से पूर्व 15 किग्रा/हेक्टेयर ब्लीचिंग पाउडर मिलाएं; स्यूडोमोनास (10 ग्राम/ली) से जड़ ड्रेन्चिंग करें।"
+      },
+      "chemical": {
+        "en": "Drench root zone with Streptocycline (200 ppm, 0.2g/L) mixed with Copper Oxychloride 50% WP @ 2g/L.",
+        "hi": "स्ट्रेप्टोसाइक्लिन (0.2 ग्राम/ली) + कॉपर ऑक्सीक्लोराइड 50% WP (2 ग्राम/ली) के घोल से जड़ों में ड्रेन्चिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant resistant cultivars (Swarna Pratibha, Arka Nidhi, Pant Rituraj); rotate with maize or marigold.",
+      "hi": "रोगरोधी किस्में (स्वर्ण प्रतिभा, अर्का निधि, पंत ऋतुराज) लगाएं; मक्का या गेंदे के साथ फसल चक्र अपनाएं।"
+    }
+  },
+  {
+    "id": "RULE_OKR_01",
+    "crop": "okra",
+    "conditions": [
+      "okra_network_of_thickened_yellow_veins",
+      "okra_leaves_completely_chlorotic_yellow",
+      "okra_fruits_stunted_yellow_white_fibrous"
+    ],
+    "conclusion": "okra_yellow_vein_mosaic",
+    "disease_name": {
+      "en": "Yellow Vein Mosaic Virus (YVMV)",
+      "hi": "पीली शिरा मोज़ेक वायरस"
+    },
+    "cf": 0.96,
+    "reference": "ICAR-Indian Institute of Vegetable Research (IIVR) Varanasi Guidelines",
+    "treatment": {
+      "organic": {
+        "en": "Install yellow sticky traps (10-15 per acre); spray 5% neem seed kernel extract (NSKE) or neem oil 1500 ppm @ 3ml/L.",
+        "hi": "खेत में पीले चिपचिपे ट्रैप (10-15 प्रति एकड़) लगाएं; 5% नीम गिरी अर्क या नीम का तेल (3 मिली/ली) छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Acetamiprid 20% SP @ 0.3g/L or Diafenthiuron 50% WP @ 1g/L to control whitefly vector.",
+        "hi": "सफेद मक्खी की रोकथाम हेतु एसीटामिप्रिड 20% SP (0.3 ग्राम/ली) या डायाफेन्थियुरॉन 50% WP (1 ग्राम/ली) छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow YVMV-resistant varieties like Arka Anamika, Parbhani Kranti, or Kashi Kranti; remove weed hosts.",
+      "hi": "रोगरोधी किस्में जैसे अर्का अनामिका, परभणी क्रांति या काशी क्रांति बोएं; जंगली खरपतवार नष्ट करें।"
+    }
+  },
+  {
+    "id": "RULE_OKR_02",
+    "crop": "okra",
+    "conditions": [
+      "okra_white_powdery_patches_on_leaf_surface",
+      "okra_leaves_turn_yellow_brown_and_dry"
+    ],
+    "conclusion": "okra_powdery_mildew",
+    "disease_name": {
+      "en": "Powdery Mildew",
+      "hi": "चूर्णिल आसिता रोग"
+    },
+    "cf": 0.9,
+    "reference": "ICAR-IIVR Varanasi & TNAU Agritech Portal",
+    "treatment": {
+      "organic": {
+        "en": "Spray wettable sulfur 80% WP @ 2.5g/L or fermented sour buttermilk (50ml/L).",
+        "hi": "घुलनशील गंधक 80% WP (2.5 ग्राम/लीटर) या खट्टी छाछ (50 मिली/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Hexaconazole 5% EC @ 1.5ml/L or Difenoconazole 25% EC @ 1ml/L.",
+        "hi": "हेक्साकोनाज़ोल 5% EC (1.5 मिली/लीटर) या डिफेनोकोनाज़ोल 25% EC (1 मिली/लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid dense sowing; allow good sunlight and ventilation; destroy old harvested residues.",
+      "hi": "उचित दूरी पर बोएं; खेत में धूप और हवा का संचार बना रहने दें; पुरानी फसल के ठूंठ जला दें।"
+    }
+  },
+  {
+    "id": "RULE_OKR_03",
+    "crop": "okra",
+    "conditions": [
+      "okra_terminal_shoots_wilted_and_drooping",
+      "okra_circular_holes_bored_in_fruits_with_frass",
+      "okra_fruits_deformed_unmarketable"
+    ],
+    "conclusion": "okra_fruit_borer",
+    "disease_name": {
+      "en": "Shoot & Fruit Borer",
+      "hi": "तना व फल छेदक कीट"
+    },
+    "cf": 0.93,
+    "reference": "ICAR-NCIPM New Delhi Integrated Pest Management Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Install pheromone traps (5/acre); release Trichogramma chilonis egg parasitoids (50,000/ha); spray Bacillus thuringiensis (Bt) @ 2g/L.",
+        "hi": "फेरोमोन ट्रैप (5 प्रति एकड़) लगाएं; ट्राइकोग्रामा परजीवी छोड़ें; बीटी (Bt, 2 ग्राम/ली) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Emamectin Benzoate 5% SG @ 0.4g/L or Chlorantraniliprole 18.5% SC (Coragen) @ 0.3ml/L.",
+        "hi": "इमामेक्टिन बेंजोएट 5% SG (0.4 ग्राम/ली) या कोराजन (0.3 मिली/ली) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Clip and destroy attacked shoot tips with larvae; follow safe Pre-Harvest Interval (PHI) of 3 days.",
+      "hi": "ग्रसित शाखाओं के अग्रभाग को तोड़कर नष्ट करें; छिड़काव के बाद 3 दिन तक फल की तुड़ाई न करें।"
+    }
+  },
+  {
+    "id": "RULE_BAN_01",
+    "crop": "banana",
+    "conditions": [
+      "banana_lower_leaves_yellowing_from_margins_buckling",
+      "banana_skirt_of_dead_leaves_around_pseudostem",
+      "banana_vascular_bundles_reddish_brown_discoloration"
+    ],
+    "conclusion": "banana_panama_wilt",
+    "disease_name": {
+      "en": "Panama Wilt (Fusarium)",
+      "hi": "पनामा विल्ट / उकठा"
+    },
+    "cf": 0.95,
+    "reference": "ICAR-National Research Centre for Banana (NRCB) Tiruchirappalli Technical Bulletin",
+    "treatment": {
+      "organic": {
+        "en": "Dip suckers in Pseudomonas fluorescens (10g/L) and Trichoderma viride; apply neem cake (1 kg/plant).",
+        "hi": "रोपाई से पूर्व पुत्ती (सकर्स) को स्यूडोमोनास व ट्राइकोडर्मा के घोल में डुबोएं; प्रति पौधा 1 किग्रा नीम खली डालें।"
+      },
+      "chemical": {
+        "en": "Corm injection of Carbendazim 2% solution (2-3 ml) into pseudostem; drench root zone with Carbendazim 50% WP @ 2g/L.",
+        "hi": "तने के प्रकंद में कार्बेन्डाजिम 2% घोल का इंजेक्शन लगाएं; जड़ों में कार्बेन्डाजिम (2 ग्राम/लीटर) से ड्रेन्चिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Use certified disease-free tissue culture plantlets; plant resistant Cavendish cultivars; field quarantine.",
+      "hi": "प्रमाणित रोगमुक्त टिशू कल्चर पौधे ही लगाएं; प्रतिरोधी कैवेंडिश समूह की किस्में चुनें; खेत में स्वच्छता रखें।"
+    }
+  },
+  {
+    "id": "RULE_BAN_02",
+    "crop": "banana",
+    "conditions": [
+      "banana_spindle_shaped_spots_with_grey_centers_dark_margins",
+      "banana_extensive_premature_foliar_drying_scorched"
+    ],
+    "conclusion": "banana_sigatoka_leaf_spot",
+    "disease_name": {
+      "en": "Sigatoka Leaf Spot",
+      "hi": "सिगाटोका पत्ती धब्बा"
+    },
+    "cf": 0.92,
+    "reference": "ICAR-NRCB Tiruchirappalli Foliar Advisory",
+    "treatment": {
+      "organic": {
+        "en": "Spray agricultural mineral oil (10ml/L) emulsified in water; spray Bacillus subtilis formulation.",
+        "hi": "पानी में मिनरल स्प्रे ऑयल (10 मिली/लीटर) मिलाकर छिड़कें; बैसिलस सबटिलिस का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC @ 1ml/L or Azoxystrobin 23% SC @ 1ml/L combined with 1% mineral oil.",
+        "hi": "प्रोपिकोनाज़ोल 25% EC (1 मिली/लीटर) या एज़ोक्सीस्ट्रोबिन (1 मिली/लीटर) में 1% स्प्रे तेल मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Ensure rapid drainage; de-trash (remove and burn severely infected dry leaves); maintain 1.8x1.8m spacing.",
+      "hi": "जल निकास दुरुस्त रखें; अत्यधिक सूखी रोगी पत्तियों को काटकर जलाएं; पौधों के बीच 1.8x1.8 मीटर दूरी रखें।"
+    }
+  },
+  {
+    "id": "RULE_BAN_03",
+    "crop": "banana",
+    "conditions": [
+      "banana_leaves_short_narrow_bunched_at_apex_rosette",
+      "banana_dark_green_dots_and_dashes_along_leaf_veins",
+      "banana_plant_severely_stunted_no_bunch"
+    ],
+    "conclusion": "banana_bunchy_top",
+    "disease_name": {
+      "en": "Banana Bunchy Top Virus (BBTV)",
+      "hi": "बंची टॉप (गुच्छा शीर्ष)"
+    },
+    "cf": 0.97,
+    "reference": "ICAR-NRCB Tiruchirappalli & DPPQS Quarantine Guidelines",
+    "treatment": {
+      "organic": {
+        "en": "Inject kerosene (4ml) or 2,4-D into infected pseudostem to destroy stool in-situ; spray neem oil to deter aphids.",
+        "hi": "संक्रमित तने में 4 मिली मिट्टी का तेल या 2,4-D का इंजेक्शन देकर पौधे को नष्ट करें; माहू भगाने हेतु नीम तेल छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7ml/L or Imidacloprid 17.8% SL @ 0.5ml/L to eliminate aphid vector (Pentalonia).",
+        "hi": "माहू कीट की रोकथाम हेतु डाइमेथोएट 30% EC (1.7 मिली/ली) या इमिडाक्लोप्रिड (0.5 मिली/ली) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Use only virus-indexed tissue-cultured plants; destroy infected mats immediately; never take suckers from diseased fields.",
+      "hi": "केवल प्रमाणित वायरस-मुक्त टिशू कल्चर पौधे लगाएं; रोगी गुच्छे तुरंत नष्ट करें; संक्रमित खेत से सकर्स न लें।"
+    }
+  },
+  {
+    "id": "RULE_WHT_10",
+    "crop": "wheat",
+    "conditions": [
+      "dark_brown_black_elongated_pustules_stem",
+      "pustules_rupture_epidermis_ragged_edges",
+      "warm_temperature_with_high_humidity"
+    ],
+    "conclusion": "wheat_stem_black_rust",
+    "disease_name": {
+      "en": "Black Rust / Stem Rust",
+      "hi": "काला रतुआ / तना रतुआ"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% Cow urine solution or Sour buttermilk (Chhachh) mixed with copper vessel extract (50ml/L); apply Trichoderma harzianum (10g/L).",
+        "hi": "5% गोमूत्र घोल या तांबे के बर्तन में रखी खट्टी छाछ (50 मिली/लीटर) का छिड़काव करें; ट्राइकोडर्मा हरजिएनम (10 ग्राम/लीटर) का प्रयोग करें।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC (Tilt) @ 1 ml/L or Tebuconazole 25.9% EC @ 1 ml/L immediately upon first detection.",
+        "hi": "रोग का पहला लक्षण दिखते ही प्रोपिकोनाज़ोल 25% EC (टिल्ट) 1 मिली/लीटर या टेबुकोनाज़ोल 25.9% EC 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow stem rust resistant varieties like HD-3086, DBW-187 (Karan Vandana), or GW-322; timely sowing before mid-November.",
+      "hi": "तना रतुआ प्रतिरोधी किस्में जैसे HD-3086, DBW-187 (करन वंदना) या GW-322 लगाएं; 15 नवंबर से पहले समय पर बुवाई करें।"
+    },
+    "reference": "ICAR-Indian Institute of Wheat & Barley Research (IIWBR) Karnal"
+  },
+  {
+    "id": "RULE_WHT_11",
+    "crop": "wheat",
+    "conditions": [
+      "bleached_straw_colored_spikelets_earhead",
+      "salmon_pink_orange_spores_glumes",
+      "prolonged_rain_fog_during_flowering"
+    ],
+    "conclusion": "wheat_head_blight_scab",
+    "disease_name": {
+      "en": "Fusarium Head Blight (Scab)",
+      "hi": "गेहूं का हेड ब्लाइट / स्कैब"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Spray Pseudomonas fluorescens (10g/L) at early anthesis; avoid overhead sprinkler irrigation during flowering.",
+        "hi": "फूल आने की प्रारंभिक अवस्था में स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) का छिड़काव करें; फूल आते समय स्प्रिंकलर से बचें।"
+      },
+      "chemical": {
+        "en": "Foliar spray of Tebuconazole 25.9% EC @ 1 ml/L or Metconazole 50 g/L @ 1.5 ml/L during early to mid-flowering stage.",
+        "hi": "फूल आने के समय टेबुकोनाज़ोल 25.9% EC 1 मिली/लीटर या मेटकोनाज़ोल 1.5 मिली/लीटर का सुरक्षात्मक छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Crop rotation with non-hosts (avoid maize-wheat rotation where scab is endemic); deep ploughing to bury crop residues.",
+      "hi": "गैर-पोषक फसलों के साथ फसल चक्र अपनाएं (मक्का-गेहूं चक्र से बचें); फसल अवशेषों को मिट्टी में दबाने के लिए गहरी जुताई करें।"
+    },
+    "reference": "ICAR-IIWBR Karnal & PAU Ludhiana"
+  },
+  {
+    "id": "RULE_RIC_10",
+    "crop": "rice",
+    "conditions": [
+      "individual_grains_transform_yellowish_green_velvet_balls",
+      "spore_balls_burst_releasing_greenish_black_powder",
+      "high_relative_humidity_cloudy_rain_flowering"
+    ],
+    "conclusion": "rice_false_smut",
+    "disease_name": {
+      "en": "False Smut (Green Smut)",
+      "hi": "धान का कूट कंडुआ (झूठा कंड / हल्दी रोग)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% Neem Seed Kernel Extract (NSKE) or Copper Hydroxide (2g/L) at booting stage.",
+        "hi": "बालियां निकलने से पहले 5% नीम बीज अर्क (NSKE) या कॉपर हाइड्रॉक्साइड (2 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Propiconazole 25% EC @ 1 ml/L or Trifloxystrobin 25% + Tebuconazole 50% WG @ 0.4 g/L at 50% panicle emergence.",
+        "hi": "बालियां 50% निकलने की अवस्था में प्रोपिकोनाज़ोल 25% EC 1 मिली/लीटर या ट्राइफ्लोक्सीस्ट्रोबिन + टेबुकोनाज़ोल 0.4 ग्राम/लीटर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid excessive nitrogen application; treat seeds with Thiram (2g/kg); use certified tolerant seeds like PR-121 or Pusa-44.",
+      "hi": "यूरिया (नाइट्रोजन) की अत्यधिक मात्रा से बचें; थीरम (2 ग्राम/किग्रा) से बीजोपचार करें; सहनशील किस्में लगाएं।"
+    },
+    "reference": "ICAR-National Rice Research Institute (NRRI) Cuttack"
+  },
+  {
+    "id": "RULE_RIC_11",
+    "crop": "rice",
+    "conditions": [
+      "dark_brown_oval_sesame_seed_spots_leaves",
+      "spots_have_greyish_white_centers_yellow_halo",
+      "soil_nutritional_deficiency_potash"
+    ],
+    "conclusion": "rice_brown_spot",
+    "disease_name": {
+      "en": "Brown Spot of Rice",
+      "hi": "धान का भूरा धब्बा रोग"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of 10% Cow urine solution or Pseudomonas fluorescens (10g/L); apply balanced potash fertilizer.",
+        "hi": "10% गोमूत्र घोल या स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) का छिड़काव करें; संतुलित पोटाश खाद दें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1 ml/L.",
+        "hi": "मैनकोज़ेब 75% WP 2.5 ग्राम/लीटर या एज़ोक्सीस्ट्रोबिन + डाइफेनोकोनाज़ोल 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Correct soil potassium and zinc deficiency; hot water seed treatment at 52-54°C for 10 minutes; apply green manuring.",
+      "hi": "मिट्टी में पोटाश और जिंक की कमी दूर करें; 52-54°C गर्म पानी में 10 मिनट बीजोपचार करें; हरी खाद का प्रयोग करें।"
+    },
+    "reference": "ICAR-Indian Institute of Rice Research (IIRR) Hyderabad"
+  },
+  {
+    "id": "RULE_SOY_10",
+    "crop": "soybean",
+    "conditions": [
+      "minute_light_green_spots_raised_central_pustule",
+      "pustules_develop_without_bacterial_ooze_droplet",
+      "warm_rainy_weather_with_frequent_splashes"
+    ],
+    "conclusion": "soybean_bacterial_pustule",
+    "disease_name": {
+      "en": "Bacterial Pustule",
+      "hi": "सोयाबीन का जीवाणु फुंसी रोग"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Spray copper oxychloride (2g/L) mixed with Streptocycline or fermented sour buttermilk (50ml/L).",
+        "hi": "कॉपर ऑक्सीक्लोराइड (2 ग्राम/लीटर) के साथ स्ट्रेप्टोसाइक्लिन या खट्टी छाछ (50 मिली/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Copper Oxychloride 50% WP (2.5 g/L) + Streptocycline (1 g per 10 L water) at disease onset.",
+        "hi": "कॉपर ऑक्सीक्लोराइड 50% WP (2.5 ग्राम/लीटर) + स्ट्रेप्टोसाइक्लिन (1 ग्राम प्रति 10 लीटर पानी) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow resistant cultivars like JS-93-05, NRC-37, or JS-97-52; avoid overhead irrigation; sanitize tools.",
+      "hi": "प्रतिरोधी किस्में जैसे JS-93-05, NRC-37 या JS-97-52 लगाएं; स्प्रिंकलर सिंचाई से बचें।"
+    },
+    "reference": "ICAR-Indian Institute of Soybean Research (IISR) Indore"
+  },
+  {
+    "id": "RULE_COT_10",
+    "crop": "cotton",
+    "conditions": [
+      "flared_squares_unopened_drying_flower_buds",
+      "tender_terminal_shoots_bored_and_drooping",
+      "caterpillar_spindle_body_orange_black_warts"
+    ],
+    "conclusion": "cotton_spotted_bollworm",
+    "disease_name": {
+      "en": "Spotted Bollworm",
+      "hi": "कपास की चित्तीदार सुंडी (चितकबरी इल्ली)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Install 5 pheromone traps/ha; release Trichogramma chilonis @ 1,50,000/ha; spray 5% NSKE (Neem Seed Extract).",
+        "hi": "5 फेरोमोन ट्रैप/हेक्टेयर लगाएं; ट्राइकोग्रामा चिलोनीस 1.5 लाख/हेक्टेयर छोड़ें; 5% नीम अर्क का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC @ 0.3 ml/L or Emamectin Benzoate 5% SG @ 0.4 g/L or Spinosad 45% SC @ 0.3 ml/L.",
+        "hi": "क्लोरांट्रानिलीप्रोल 18.5% SC 0.3 मिली/लीटर या एमामेक्टिन बेंजोएट 0.4 ग्राम/लीटर पानी में घोलकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Destroy alternative weed hosts (Abutilon, Malva); remove and bury dropped flared squares weekly; clean picking.",
+      "hi": "खेत से खरपतवार हटाएं; गिरी हुई कलियों को इकट्ठा कर नष्ट करें; समय पर कपास की चुनाई करें।"
+    },
+    "reference": "ICAR-Central Institute for Cotton Research (CICR) Nagpur"
+  },
+  {
+    "id": "RULE_POT_04",
+    "crop": "potato",
+    "conditions": [
+      "potato_sudden_midday_wilting",
+      "potato_vascular_brown_ring_tuber",
+      "potato_bacterial_ooze_tuber_eyes"
+    ],
+    "conclusion": "potato_bacterial_wilt",
+    "disease_name": {
+      "en": "Bacterial Wilt / Brown Rot",
+      "hi": "आलू का जीवाणु मुरझान / भूरा विगलन"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Soil application of Pseudomonas fluorescens (5 kg/ha) or Trichoderma viride with FYM; rogue out wilted plants immediately.",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (5 किग्रा/हेक्टेयर) या ट्राइकोडर्मा को गोबर की खाद में मिलाकर डालें; रोगी पौधों को उखाड़कर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Treat seed tubers with Streptocycline (100 ppm) + Copper Oxychloride (2 g/L) for 15 minutes before planting; avoid waterlogging.",
+        "hi": "बुवाई से पहले बीज कंदों को स्ट्रेप्टोसाइक्लिन (100 ppm) + कॉपर ऑक्सीक्लोराइड (2 ग्राम/लीटर) घोल में 15 मिनट डुबोएं।"
+      }
+    },
+    "prevention": {
+      "en": "Use certified disease-free seed tubers (Kufri Jyoti); follow 3-year crop rotation with maize or paddy; never rotate with tomato/brinjal.",
+      "hi": "प्रमाणित रोगमुक्त बीज कंद लगाएं; मक्का या धान के साथ 3 वर्षीय फसल चक्र अपनाएं; टमाटर या बैंगन के बाद आलू न लगाएं।"
+    },
+    "reference": "ICAR-Central Potato Research Institute (CPRI) Shimla"
+  },
+  {
+    "id": "RULE_POT_05",
+    "crop": "potato",
+    "conditions": [
+      "potato_corky_rough_raised_scab_tuber",
+      "potato_shallow_pitted_depressions",
+      "alkaline_dry_soil_conditions"
+    ],
+    "conclusion": "potato_common_scab",
+    "disease_name": {
+      "en": "Common Scab of Potato",
+      "hi": "आलू का सामान्य खुरंड (स्कैब) रोग"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Green manuring with Sesbania (Dhaincha) to reduce soil pH; apply Trichoderma enriched farmyard manure; maintain constant soil moisture.",
+        "hi": "मिट्टी का pH कम करने के लिए ढैंचा की हरी खाद दें; ट्राइकोडर्मा युक्त गोबर की खाद डालें; कंद बनते समय खेत में नमी बनाए रखें।"
+      },
+      "chemical": {
+        "en": "Dip seed tubers in 3% Boric acid solution for 30 minutes before cold storage or before planting.",
+        "hi": "कोल्ड स्टोर में रखने से पहले या बुवाई से पूर्व बीज कंदों को 3% बोरिक एसिड घोल में 30 मिनट तक उपचारित करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid applying unslaked lime or fresh wood ash; ensure frequent light irrigation during tuber initiation (4-6 weeks after planting).",
+      "hi": "खेत में चूना या लकड़ी की राख डालने से बचें; कंद बनने की अवस्था (बुवाई के 4-6 सप्ताह बाद) में खेत को कभी सूखने न दें।"
+    },
+    "reference": "ICAR-CPRI Shimla"
+  },
+  {
+    "id": "RULE_POT_06",
+    "crop": "potato",
+    "conditions": [
+      "potato_upward_rolling_stiff_lower_leaves",
+      "potato_leathery_brittle_leaves_rattling",
+      "potato_apical_chlorosis_stunting"
+    ],
+    "conclusion": "potato_leaf_roll_virus",
+    "disease_name": {
+      "en": "Potato Leaf Roll Virus (PLRV)",
+      "hi": "आलू का पत्ती मोड़क विषाणु (लीफ रोल)"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Spray Neem oil (5 ml/L) or 5% NSKE to control aphid vectors; rogue out and bury virus-infected plants with tubers.",
+        "hi": "माहू (एफिड) नियंत्रण हेतु नीम का तेल (5 मिली/लीटर) छिड़कें; विषाणु ग्रसित पौधों को कंद सहित उखाड़कर गहरा गाड़ दें।"
+      },
+      "chemical": {
+        "en": "Spray Imidacloprid 17.8% SL @ 0.3 ml/L or Thiamethoxam 25% WG @ 0.4 g/L when aphid threshold exceeds 20 aphids/100 leaves.",
+        "hi": "एफिड दिखने पर इमिडाक्लोप्रिड 17.8% SL 0.3 मिली/लीटर या थायमेथॉक्सम 25% WG 0.4 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Produce seed potatoes using the 'Seed Plot Technique' during aphid-free window; install yellow sticky traps (15-20/ha).",
+      "hi": "एफिड-मुक्त अवधि में 'सीड प्लॉट तकनीक' द्वारा बीज तैयार करें; खेत में पीले चिपचिपे ट्रैप (15-20 प्रति हेक्टेयर) लगाएं।"
+    },
+    "reference": "ICAR-CPRI Shimla"
+  },
+  {
+    "id": "RULE_MAZ_04",
+    "crop": "maize",
+    "conditions": [
+      "maize_large_cigar_boat_shaped_lesions",
+      "maize_olive_grey_spores_on_lesions",
+      "maize_extensive_canopy_blighting"
+    ],
+    "conclusion": "maize_turcicum_blight",
+    "disease_name": {
+      "en": "Turcicum Leaf Blight (Northern Corn Leaf Blight)",
+      "hi": "मक्के का टर्सिकम झुलसा रोग"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray Pseudomonas fluorescens (10g/L) or sour buttermilk (50ml/L); remove infected lower senescent leaves.",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) या खट्टी छाछ (50 मिली/लीटर) का छिड़काव करें; निचली रोगी पत्तियां तोड़ दें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1 ml/L at first sign of lesions.",
+        "hi": "लक्षण दिखते ही मैनकोज़ेब 75% WP 2.5 ग्राम/लीटर या एज़ोक्सीस्ट्रोबिन + डाइफेनोकोनाज़ोल 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant resistant hybrids like HQPM-1, DHM-117, or Bio-9681; balanced NPK fertilization with adequate potash.",
+      "hi": "प्रतिरोधी संकर किस्में जैसे HQPM-1, DHM-117 या Bio-9681 लगाएं; पोटाश की संतुलित मात्रा दें।"
+    },
+    "reference": "ICAR-Indian Institute of Maize Research (IIMR) Ludhiana"
+  },
+  {
+    "id": "RULE_MAZ_05",
+    "crop": "maize",
+    "conditions": [
+      "maize_concentric_bleached_bands_sheath",
+      "maize_blight_ascending_to_ears",
+      "maize_brown_globose_sclerotia_sheath"
+    ],
+    "conclusion": "maize_banded_sheath_blight",
+    "disease_name": {
+      "en": "Banded Leaf & Sheath Blight (BLSB)",
+      "hi": "मक्के का बैंडेड पत्ती व शीथ झुलसा"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Strip lower 2-3 leaves touching the soil; spray Trichoderma harzianum (10g/L) directed onto lower leaf sheaths.",
+        "hi": "जमीन से छूने वाली नीचे की 2-3 पत्तियां हटा दें; निचली शीथ पर ट्राइकोडर्मा हरजिएनम (10 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Validamycin 3% L @ 2 ml/L or Trifloxystrobin 25% + Tebuconazole 50% WG @ 0.7 g/L targeting lower plant base.",
+        "hi": "निचले तने पर वेलीडामाईसीन 3% L 2 मिली/लीटर या ट्राइफ्लोक्सीस्ट्रोबिन + टेबुकोनाज़ोल 0.7 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid water stagnation and excessive planting density; ensure wide row spacing (60 x 20 cm); destroy stubbles.",
+      "hi": "खेत में जलभराव न होने दें; पौधों के बीच उचित दूरी (60 x 20 सेमी) रखें; फसल अवशेषों को नष्ट करें।"
+    },
+    "reference": "ICAR-IIMR Ludhiana"
+  },
+  {
+    "id": "RULE_MAZ_06",
+    "crop": "maize",
+    "conditions": [
+      "maize_pinhole_parallel_slits_whorl",
+      "maize_deadheart_offensive_odor",
+      "maize_caterpillar_tunneling_stem_base"
+    ],
+    "conclusion": "maize_stem_borer",
+    "disease_name": {
+      "en": "Maize Stem Borer (Spotted Borer)",
+      "hi": "मक्के का तना छेदक (तना भेदक)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Release egg parasitoid Trichogramma chilonis @ 1,00,000/ha; apply fine neem cake powder mixed with dry sand in leaf whorls.",
+        "hi": "ट्राइकोग्रामा चिलोनीस 1 लाख/हेक्टेयर छोड़ें; पत्ती की भोंपू (गोभ) में नीम की खली का चूर्ण और सूखी रेत डालें।"
+      },
+      "chemical": {
+        "en": "Whorl application of Carbofuran 3% CG @ 7 kg/ha or spray Chlorantraniliprole 18.5% SC @ 0.4 ml/L.",
+        "hi": "गोभ में कार्बोफ्यूरान 3% CG 7 किग्रा/हेक्टेयर डालें या क्लोरांट्रानिलीप्रोल 18.5% SC 0.4 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Pull out and destroy dead heart plants; install light traps to catch adult moths; intercrop with cowpea or soybean.",
+      "hi": "सूखे डेड हार्ट वाले पौधों को उखाड़कर नष्ट करें; प्रकाश प्रपंच (लाइट ट्रैप) लगाएं; लोबिया या सोयाबीन के साथ अंतःफसल लें।"
+    },
+    "reference": "ICAR-IIMR Ludhiana"
+  },
+  {
+    "id": "RULE_CHL_04",
+    "crop": "chilli",
+    "conditions": [
+      "chilli_white_powdery_fuzz_underside",
+      "chilli_bright_yellow_chlorotic_patches_upper",
+      "chilli_severe_premature_leaf_fall"
+    ],
+    "conclusion": "chilli_powdery_mildew",
+    "disease_name": {
+      "en": "Powdery Mildew of Chilli",
+      "hi": "मिर्च का छाछ्या (चूर्णिल आसिता) रोग"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray Wettable Sulfur 80% WDG (3 g/L) or 5% Sour buttermilk (Chhachh); ensure thorough coverage under leaves.",
+        "hi": "घुलनशील गंधक (सल्फर 80% WDG) 3 ग्राम/लीटर या 5% खट्टी छाछ का पत्तियों के नीचे अच्छी तरह छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Azoxystrobin 11% + Tebuconazole 18.3% SC @ 1.5 ml/L or Dinocap 48% EC @ 1 ml/L at first disease detection.",
+        "hi": "रोग दिखते ही एज़ोक्सीस्ट्रोबिन + टेबुकोनाज़ोल 1.5 मिली/लीटर या डाइनोकैप 48% EC 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid overcrowded plantations; ensure good aeration between rows; destroy infected crop debris after harvest.",
+      "hi": "पौधों को अधिक पास-पास न लगाएं; खेत में हवा का आवागमन बनाए रखें; कटाई के बाद अवशेषों को जला दें।"
+    },
+    "reference": "ICAR-Indian Institute of Vegetable Research (IIVR) Varanasi"
+  },
+  {
+    "id": "RULE_CHL_05",
+    "crop": "chilli",
+    "conditions": [
+      "chilli_small_circular_dark_water_soaked_spots",
+      "chilli_corky_rough_scab_spots_fruit",
+      "chilli_chlorotic_halo_leaf_shedding"
+    ],
+    "conclusion": "chilli_bacterial_spot",
+    "disease_name": {
+      "en": "Bacterial Leaf Spot & Scab",
+      "hi": "मिर्च का जीवाणु पत्ती धब्बा व खुरंड"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray Pseudomonas fluorescens (10 g/L) or copper vessel extract; avoid overhead sprinkler irrigation.",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) का छिड़काव करें; ऊपर से फव्वारा सिंचाई से बचें।"
+      },
+      "chemical": {
+        "en": "Spray Copper Oxychloride 50% WP (2.5 g/L) + Streptocycline (1 g in 10 L water) at 12-day intervals.",
+        "hi": "कॉपर ऑक्सीक्लोराइड 50% WP (2.5 ग्राम/लीटर) + स्ट्रेप्टोसाइक्लिन (1 ग्राम प्रति 10 लीटर) का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Hot water seed treatment at 50°C for 25 minutes; use certified disease-free nursery seedlings; crop rotation.",
+      "hi": "50°C गर्म पानी में 25 मिनट बीजोपचार करें; प्रमाणित रोगमुक्त पौध लगाएं; गैर-सोलेनेसी फसलों से फसल चक्र अपनाएं।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_CHL_06",
+    "crop": "chilli",
+    "conditions": [
+      "chilli_progressive_yellowing_wilting_foliage",
+      "chilli_collar_brown_lesion_root_decay",
+      "chilli_vascular_browning_split_stem"
+    ],
+    "conclusion": "chilli_fusarium_wilt",
+    "disease_name": {
+      "en": "Fusarium Wilt / Collar Rot",
+      "hi": "मिर्च का उकठा (उखटा) व विगलन रोग"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Drench root collar with Trichoderma viride (10 g/L) enriched in FYM; apply neem cake (250 kg/ha) at planting.",
+        "hi": "गोबर की खाद में संवर्धित ट्राइकोडर्मा विरिडी (10 ग्राम/लीटर) से तने की जड़ में ड्रेंचिंग करें; नीम की खली डालें।"
+      },
+      "chemical": {
+        "en": "Soil drenching around collar with Carbendazim 50% WP @ 1 g/L or Metalaxyl 8% + Mancozeb 64% WP @ 2 g/L.",
+        "hi": "पौधे के तने के पास कार्बेंडाजिम 50% WP 1 ग्राम/लीटर या मेटालेक्सिल + मैनकोज़ेब 2 ग्राम/लीटर घोल डालकर तर करें।"
+      }
+    },
+    "prevention": {
+      "en": "Solarize nursery beds; prepare raised planting beds to prevent water stagnation; 3-year rotation with non-hosts.",
+      "hi": "नर्सरी की मिट्टी का सौरीकरण करें; जलभराव रोकने हेतु उठी हुई क्यारियों (रेज्ड बेड) पर रोपाई करें।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_MST_04",
+    "crop": "mustard",
+    "conditions": [
+      "mustard_angular_pale_yellow_chlorotic_patches",
+      "mustard_greyish_white_downy_growth_underside",
+      "mustard_hypertrophy_inflorescence_stems"
+    ],
+    "conclusion": "mustard_downy_mildew",
+    "disease_name": {
+      "en": "Downy Mildew of Mustard",
+      "hi": "सरसों का मृदुरोमिल आसिता (डाउनी मिल्ड्यू)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of 5% Cow urine solution with garlic extract or copper hydroxide (2 g/L).",
+        "hi": "लहसुन अर्क युक्त 5% गोमूत्र घोल या कॉपर हाइड्रॉक्साइड (2 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Metalaxyl-M 4% + Mancozeb 64% WP @ 2.5 g/L or Cymoxanil 8% + Mancozeb 64% WP @ 2 g/L.",
+        "hi": "मेटालेक्सिल + मैनकोज़ेब 2.5 ग्राम/लीटर या साइमोक्सानिल + मैनकोज़ेब 2 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Sow in early October to escape disease peak; avoid high seed rate; destroy crop debris after harvest.",
+      "hi": "अक्टूबर के प्रथम पखवाड़े में बुवाई करें; अधिक बीज दर से बचें; कटाई के बाद फसल अवशेष नष्ट करें।"
+    },
+    "reference": "ICAR-Directorate of Rapeseed-Mustard Research (DRMR) Bharatpur"
+  },
+  {
+    "id": "RULE_MST_05",
+    "crop": "mustard",
+    "conditions": [
+      "mustard_water_soaked_elongated_bleached_stem_lesions",
+      "mustard_white_cottony_mycelium_on_stem",
+      "mustard_black_elongated_sclerotia_inside_pith"
+    ],
+    "conclusion": "mustard_sclerotinia_stem_rot",
+    "disease_name": {
+      "en": "Sclerotinia Stem Rot",
+      "hi": "सरसों का तना गलन (स्क्लेरोटिनिया रॉट)"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Soil application of Trichoderma harzianum (5 kg/ha) with FYM; deep summer ploughing to bury sclerotia.",
+        "hi": "गोबर की खाद में ट्राइकोडर्मा हरजिएनम (5 किग्रा/हेक्टेयर) मिलाकर मिट्टी में डालें; गहरी ग्रीष्मकालीन जुताई करें।"
+      },
+      "chemical": {
+        "en": "Spray Carbendazim 50% WP @ 1 g/L or Thiophanate Methyl 70% WP @ 1 g/L at first flowering (45-50 DAS).",
+        "hi": "फूल आने की शुरुआत (45-50 दिन) पर कार्बेंडाजिम 1 ग्राम/लीटर या थायोफिनेट मिथाइल 1 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Crop rotation with non-hosts like wheat or barley; avoid excessive irrigation in December-January; clean seed.",
+      "hi": "गेहूं या जौ के साथ फसल चक्र अपनाएं; फूल आते समय अधिक सिंचाई से बचें; प्रमाणित साफ बीज बोएं।"
+    },
+    "reference": "ICAR-DRMR Bharatpur"
+  },
+  {
+    "id": "RULE_MST_06",
+    "crop": "mustard",
+    "conditions": [
+      "mustard_white_floury_talcum_patches_leaves",
+      "mustard_entire_canopy_white_powder_coating",
+      "mustard_shriveled_undersized_seeds"
+    ],
+    "conclusion": "mustard_powdery_mildew",
+    "disease_name": {
+      "en": "Powdery Mildew of Mustard",
+      "hi": "सरसों का चूर्णिल आसिता (सफेद फफूंद)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Dust fine sulfur powder @ 20 kg/ha in morning or spray Wettable Sulfur 80% WDG @ 3 g/L.",
+        "hi": "सुबह के समय बारीक गंधक चूर्ण (20 किग्रा/हेक्टेयर) बुरकें या घुलनशील गंधक 3 ग्राम/लीटर पानी में घोलकर छिड़कें।"
+      },
+      "chemical": {
+        "en": "Spray Dinocap 48% EC @ 1 ml/L or Propiconazole 25% EC @ 1 ml/L upon appearance of white floury spots.",
+        "hi": "डाइनोकैप 48% EC 1 मिली/लीटर या प्रोपिकोनाज़ोल 25% EC 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow tolerant varieties like DRMRIJ-31 (Giriraj) or RH-0749; timely sowing; avoid post-flowering drought stress.",
+      "hi": "सहनशील किस्में जैसे DRMRIJ-31 (गिरिराज) या RH-0749 लगाएं; समय पर बुवाई करें।"
+    },
+    "reference": "ICAR-DRMR Bharatpur"
+  },
+  {
+    "id": "RULE_SUG_04",
+    "crop": "sugarcane",
+    "conditions": [
+      "sugarcane_profuse_bushy_thin_chlorotic_tillers",
+      "sugarcane_narrow_papery_leaves_no_stalk",
+      "sugarcane_spongy_stunted_stool"
+    ],
+    "conclusion": "sugarcane_grassy_shoot",
+    "disease_name": {
+      "en": "Grassy Shoot Disease (GSD)",
+      "hi": "गन्ने का घसियाला प्ररोह (घास जैसी बढ़वार)"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Rogue out and destroy infected grassy stools completely; drench root zone with Pseudomonas fluorescens.",
+        "hi": "घास जैसे रोगग्रस्त थानों को जड़ सहित उखाड़कर तुरंत नष्ट करें; स्यूडोमोनास फ्लोरेसेंस से ड्रेंचिंग करें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7 ml/L or Thiamethoxam 25% WG @ 0.3 g/L to suppress leafhopper vector insects.",
+        "hi": "वाहक कीट (लीफहॉपर) नियंत्रण हेतु डाइमेथोएट 30% EC 1.7 मिली/लीटर या थायमेथॉक्सम 0.3 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Treat seed cane setts with Moist Hot Air Treatment (MHAT at 54°C for 2.5 hours); use certified tissue-cultured setts.",
+      "hi": "बीज गन्ने को नम गर्म हवा उपचार (MHAT 54°C पर 2.5 घंटे) दें; टिशू कल्चर से तैयार प्रमाणित बीज लगाएं।"
+    },
+    "reference": "ICAR-Sugarcane Breeding Institute (SBI) Coimbatore & IISR Lucknow"
+  },
+  {
+    "id": "RULE_SUG_05",
+    "crop": "sugarcane",
+    "conditions": [
+      "sugarcane_deadheart_offensive_foul_odor",
+      "sugarcane_entrance_hole_at_soil_surface",
+      "sugarcane_caterpillar_five_violet_stripes"
+    ],
+    "conclusion": "sugarcane_early_shoot_borer",
+    "disease_name": {
+      "en": "Early Shoot Borer",
+      "hi": "गन्ने का अगेती तना भेदक (कंसुआ)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Release Trichogramma chilonis egg parasitoids @ 50,000/ha; spread thick trash mulching (10 cm) between cane rows.",
+        "hi": "ट्राइकोग्रामा चिलोनीस 50,000/हेक्टेयर छोड़ें; कतारों के बीच गन्ने की सूखी पत्तियों की पलवार (मल्चिंग) बिछाएं।"
+      },
+      "chemical": {
+        "en": "Apply Chlorantraniliprole 0.4% G @ 18.75 kg/ha or spray Chlorantraniliprole 18.5% SC @ 0.4 ml/L along the furrow line.",
+        "hi": "क्लोरांट्रानिलीप्रोल 0.4% G 18.75 किग्रा/हेक्टेयर कूड़ों में डालें या 18.5% SC 0.4 मिली/लीटर का तनों पर छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Earthing up at 35-45 days after planting; ensure light and frequent irrigation during hot summer months.",
+      "hi": "बुवाई के 35-45 दिन बाद पौधों पर मिट्टी चढ़ाएं; गर्मियों में हल्की और नियमित सिंचाई करें।"
+    },
+    "reference": "ICAR-SBI Coimbatore"
+  },
+  {
+    "id": "RULE_SUG_06",
+    "crop": "sugarcane",
+    "conditions": [
+      "sugarcane_small_yellow_elongated_flecks",
+      "sugarcane_reddish_brown_linear_erumpent_pustules",
+      "sugarcane_extensive_apical_scorching"
+    ],
+    "conclusion": "sugarcane_rust",
+    "disease_name": {
+      "en": "Sugarcane Rust",
+      "hi": "गन्ने का गेरुई (रतुआ) रोग"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray sour buttermilk (50 ml/L) or neem oil (5 ml/L); avoid excessive nitrogen top-dressing.",
+        "hi": "खट्टी छाछ (50 मिली/लीटर) या नीम तेल (5 मिली/लीटर) का छिड़काव करें; अधिक यूरिया देने से बचें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Propiconazole 25% EC @ 1 ml/L at first notice of rust pustules.",
+        "hi": "रतुआ के फफोले दिखते ही मैनकोज़ेब 2.5 ग्राम/लीटर या प्रोपिकोनाज़ोल 25% EC 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant rust-resistant cultivars like Co 0238, Co 86032, or CoM 0265; avoid late season planting.",
+      "hi": "प्रतिरोधी किस्में जैसे Co 0238, Co 86032 या CoM 0265 लगाएं; देर से बुवाई न करें।"
+    },
+    "reference": "ICAR-IISR Lucknow"
+  },
+  {
+    "id": "RULE_GRN_04",
+    "crop": "groundnut",
+    "conditions": [
+      "groundnut_brown_lesion_soil_line_wilting",
+      "groundnut_fan_like_white_mycelial_web_soil",
+      "groundnut_mustard_seed_brown_sclerotia_collar"
+    ],
+    "conclusion": "groundnut_stem_rot",
+    "disease_name": {
+      "en": "Stem Rot / Sclerotium Wilt",
+      "hi": "मूंगफली का तना विगलन (सफेद फफूंद)"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Soil application of Trichoderma harzianum (4 kg/ha) mixed with 500 kg FYM and neem cake at sowing and pegging.",
+        "hi": "बुवाई और खूंटी बनते समय ट्राइकोडर्मा हरजिएनम (4 किग्रा/हेक्टेयर) को 500 किग्रा गोबर खाद और नीम खली में मिलाकर डालें।"
+      },
+      "chemical": {
+        "en": "Drench stem bases with Tebuconazole 25.9% EC @ 1.5 ml/L or Hexaconazole 5% SC @ 2 ml/L.",
+        "hi": "तने के आधार पर टेबुकोनाज़ोल 25.9% EC 1.5 मिली/लीटर या हेक्साकोनाज़ोल 5% SC 2 मिली/लीटर से ड्रेंचिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Deep summer ploughing to bury sclerotia; avoid throwing soil onto plant crowns during intercultivation.",
+      "hi": "गहरी गर्मी की जुताई करें; निराई-गुड़ाई करते समय पौधे के तने पर गीली मिट्टी न चढ़ाएं।"
+    },
+    "reference": "ICAR-Directorate of Groundnut Research (DGR) Junagadh"
+  },
+  {
+    "id": "RULE_GRN_05",
+    "crop": "groundnut",
+    "conditions": [
+      "groundnut_chlorotic_concentric_ring_spots_young_leaves",
+      "groundnut_terminal_growing_bud_necrosis",
+      "groundnut_severe_stunting_auxiliary_shoots"
+    ],
+    "conclusion": "groundnut_bud_necrosis",
+    "disease_name": {
+      "en": "Bud Necrosis Disease (GBNV)",
+      "hi": "मूंगफली का कली सड़न (बड नेक्रोसिस)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of 5% Neem Seed Kernel Extract (NSKE) or Neem oil (5 ml/L); rogue out infected plants within 45 days.",
+        "hi": "थ्रिप्स नियंत्रण हेतु 5% नीम अर्क (NSKE) या नीम तेल (5 मिली/लीटर) छिड़कें; रोगी पौधों को उखाड़ दें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7 ml/L or Imidacloprid 17.8% SL @ 0.3 ml/L to control the vector thrips.",
+        "hi": "वाहक थ्रिप्स कीट रोकने हेतु डाइमेथोएट 1.7 मिली/लीटर या इमिडाक्लोप्रिड 0.3 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Adopt optimum plant spacing (30 x 10 cm); sow early with monsoon onset; intercrop with pearl millet or sorghum (4:1) as barrier.",
+      "hi": "उचित दूरी (30 x 10 सेमी) पर सघन बुवाई करें; बाजरा या ज्वार के साथ 4:1 अनुपात में रोधक अंतःफसल लें।"
+    },
+    "reference": "ICAR-DGR Junagadh"
+  },
+  {
+    "id": "RULE_GRN_06",
+    "crop": "groundnut",
+    "conditions": [
+      "groundnut_subterranean_pods_discolored_black_spongy",
+      "groundnut_shell_decay_shriveled_kernels",
+      "groundnut_foliar_yellowing_stunted_pods"
+    ],
+    "conclusion": "groundnut_pod_rot",
+    "disease_name": {
+      "en": "Pod Rot Complex",
+      "hi": "मूंगफली का फली विगलन (काली फली)"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Soil application of Trichoderma viride (5 kg/ha) with castor or neem cake at sowing and pegging stages.",
+        "hi": "बुवाई और पेग बनते समय ट्राइकोडर्मा विरिडी (5 किग्रा/हेक्टेयर) को अरंडी या नीम की खली के साथ मिट्टी में मिलाएं।"
+      },
+      "chemical": {
+        "en": "Seed treatment with Carboxin 37.5% + Thiram 37.5% WS @ 2.5 g/kg seed; drench root zone with Mancozeb (2.5 g/L).",
+        "hi": "कार्बोक्सिन + थीरम 2.5 ग्राम/किग्रा बीज से बीजोपचार करें; जड़ क्षेत्र में मैनकोज़ेब (2.5 ग्राम/लीटर) डालें।"
+      }
+    },
+    "prevention": {
+      "en": "Apply Gypsum @ 500 kg/ha at pegging (40-45 DAS) to supply calcium; prevent water stagnation in heavy soils.",
+      "hi": "खूंटी बनते समय (40-45 दिन) 500 किग्रा/हेक्टेयर जिप्सम डालें ताकि फलियों को कैल्शियम मिले; जलभराव से बचें।"
+    },
+    "reference": "ICAR-DGR Junagadh"
+  },
+  {
+    "id": "RULE_CHK_04",
+    "crop": "chickpea",
+    "conditions": [
+      "chickpea_straw_colored_drying_without_drooping",
+      "chickpea_taproot_dark_dry_brittle_shredded",
+      "chickpea_absence_fine_lateral_roots"
+    ],
+    "conclusion": "chickpea_dry_root_rot",
+    "disease_name": {
+      "en": "Dry Root Rot of Chickpea",
+      "hi": "चने का सूखा जड़ विगलन (ड्राई रूट रॉट)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Seed treatment with Trichoderma viride (10 g/kg seed) + Pseudomonas fluorescens (10 g/kg); apply neem cake in soil.",
+        "hi": "ट्राइकोडर्मा विरिडी (10 ग्राम) + स्यूडोमोनास (10 ग्राम प्रति किग्रा बीज) से बीजोपचार करें; मिट्टी में नीम खली डालें।"
+      },
+      "chemical": {
+        "en": "Seed dressing with Carboxin 37.5% + Thiram 37.5% DS @ 2 g/kg seed before sowing.",
+        "hi": "बुवाई से पहले कार्बोक्सिन + थीरम 2 ग्राम/किग्रा बीज की दर से सूखा बीजोपचार करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid moisture stress during pod filling; sow tolerant varieties like JG-11, JAKI-9218, or RVG-202; deep summer ploughing.",
+      "hi": "दाना बनते समय खेत में नमी की कमी न होने दें; सहनशील किस्में जैसे JG-11 या JAKI-9218 लगाएं।"
+    },
+    "reference": "ICAR-Indian Institute of Pulses Research (IIPR) Kanpur"
+  },
+  {
+    "id": "RULE_CHK_05",
+    "crop": "chickpea",
+    "conditions": [
+      "chickpea_circular_boreholes_green_pods",
+      "chickpea_caterpillar_body_outside_pod",
+      "chickpea_defoliation_chewed_leaflets"
+    ],
+    "conclusion": "chickpea_pod_borer",
+    "disease_name": {
+      "en": "Gram Pod Borer (Helicoverpa)",
+      "hi": "चने की फली छेदक (इल्ली / सुंडी)"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Spray HaNPV (Helicoverpa virus) @ 250 LE/ha or Bacillus thuringiensis (Bt) @ 1.5 kg/ha; install 5 pheromone traps/ha.",
+        "hi": "HaNPV 250 LE/हेक्टेयर या बीटी (Bt) 1.5 किग्रा/हेक्टेयर छिड़कें; 5 फेरोमोन ट्रैप/हेक्टेयर लगाएं।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC @ 0.3 ml/L or Emamectin Benzoate 5% SG @ 0.4 g/L at early larval appearance.",
+        "hi": "छोटी इल्लियां दिखने पर क्लोरांट्रानिलीप्रोल 0.3 मिली/लीटर या एमामेक्टिन बेंजोएट 0.4 ग्राम/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Erect T-shaped bird perches (40-50/ha); intercrop with coriander or mustard (4:1 ratio); avoid late sowing.",
+      "hi": "खेत में 'T' आकार के पक्षी बसेरे (40-50 प्रति हेक्टेयर) लगाएं; धनिया या सरसों के साथ 4:1 में अंतःफसल लें।"
+    },
+    "reference": "ICAR-IIPR Kanpur"
+  },
+  {
+    "id": "RULE_CHK_06",
+    "crop": "chickpea",
+    "conditions": [
+      "chickpea_seedling_collar_constriction_collapse",
+      "chickpea_white_fan_mycelium_collar_seedling",
+      "chickpea_spherical_brown_mustard_sclerotia"
+    ],
+    "conclusion": "chickpea_collar_rot",
+    "disease_name": {
+      "en": "Collar Rot of Chickpea",
+      "hi": "चने का कॉलर रॉट (तना आधार विगलन)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Seed biopriming with Trichoderma harzianum (10 g/kg seed); drench nursery/field soil with Trichoderma enriched FYM.",
+        "hi": "ट्राइकोडर्मा हरजिएनम (10 ग्राम/किग्रा बीज) से बीजोपचार करें; ट्राइकोडर्मा युक्त गोबर की खाद मिट्टी में दें।"
+      },
+      "chemical": {
+        "en": "Seed treatment with Captan 50% WP @ 3 g/kg seed or Carbendazim 50% WP @ 2 g/kg seed.",
+        "hi": "कैप्टान 50% WP 3 ग्राम/किग्रा या कार्बेंडाजिम 2 ग्राम/किग्रा बीज की दर से उपचारित करें।"
+      }
+    },
+    "prevention": {
+      "en": "Remove undecomposed organic matter from field; sow on well-drained raised beds; avoid excessive pre-sowing irrigation.",
+      "hi": "खेत से बिना सड़े अवशेष हटाएं; जल निकासी वाली उठी हुई क्यारियों में बोएं; अधिक पलेवा पानी से बचें।"
+    },
+    "reference": "ICAR-IIPR Kanpur"
+  },
+  {
+    "id": "RULE_PGP_04",
+    "crop": "pigeonpea",
+    "conditions": [
+      "pigeonpea_large_circular_holes_pods",
+      "pigeonpea_caterpillar_excreta_frass_pods",
+      "pigeonpea_flower_buds_perforated_shed"
+    ],
+    "conclusion": "pigeonpea_pod_borer",
+    "disease_name": {
+      "en": "Gram Pod Borer in Arhar",
+      "hi": "अरहर का फली छेदक (इल्ली)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Spray Neem oil (5 ml/L) or HaNPV @ 250 LE/ha; install 5 pheromone traps/ha; spray Bt @ 1.5 kg/ha.",
+        "hi": "नीम तेल (5 मिली/लीटर) या HaNPV 250 LE/हेक्टेयर छिड़कें; 5 फेरोमोन ट्रैप लगाएं; पक्षी बसेरे लगाएं।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC @ 0.3 ml/L or Flubendiamide 39.35% SC @ 0.2 ml/L at 50% flowering stage.",
+        "hi": "50% फूल आने की अवस्था में क्लोरांट्रानिलीप्रोल 0.3 मिली/लीटर या फ्लूबेन्डियामाइड 0.2 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Intercrop with sorghum or pearl millet; shake plants over polythene sheets in early morning to dislodge caterpillars.",
+      "hi": "ज्वार या बाजरा के साथ अंतःफसल लें; सुबह के समय पौधों को हिलाकर पॉलीथिन पर इल्लियां गिराकर नष्ट करें।"
+    },
+    "reference": "ICAR-IIPR Kanpur"
+  },
+  {
+    "id": "RULE_PGP_05",
+    "crop": "pigeonpea",
+    "conditions": [
+      "pigeonpea_small_pinhead_exit_hole_dry_pod",
+      "pigeonpea_white_maggots_feeding_inside_seed",
+      "pigeonpea_shriveled_hollow_seeds"
+    ],
+    "conclusion": "pigeonpea_pod_fly",
+    "disease_name": {
+      "en": "Pod Fly Infestation",
+      "hi": "अरहर की फली मक्खी (पॉड फ्लाई)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray 5% NSKE (Neem Seed Extract) at petal fall stage to deter adult flies from egg laying on young pods.",
+        "hi": "फूलों की पंखुड़ियां गिरते समय 5% नीम अर्क का छिड़काव करें ताकि मक्खियां फलियों पर अंडे न दे सकें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7 ml/L or Quinalphos 25% EC @ 2 ml/L during pod formation.",
+        "hi": "फली बनने की अवस्था में डाइमेथोएट 30% EC 1.7 मिली/लीटर या क्विनालफॉस 25% EC 2 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow early-maturing cultivars like UPAS-120 or Pusa-992; harvest mature pods promptly to avoid post-maturity infestation.",
+      "hi": "अगेती किस्में जैसे UPAS-120 या पूसा-992 लगाएं; फलियां पकते ही तुरंत कटाई करें।"
+    },
+    "reference": "ICAR-IIPR Kanpur"
+  },
+  {
+    "id": "RULE_PGP_06",
+    "crop": "pigeonpea",
+    "conditions": [
+      "pigeonpea_concentric_brown_spots_leaves",
+      "pigeonpea_sunken_cankers_pod_margins",
+      "pigeonpea_premature_pod_blighting"
+    ],
+    "conclusion": "pigeonpea_anthracnose",
+    "disease_name": {
+      "en": "Anthracnose & Pod Canker",
+      "hi": "अरहर का एन्थ्रेक्नोज़ व फली कैंकर"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of Trichoderma viride (10 g/L) or Copper Hydroxide (2 g/L) at disease initiation.",
+        "hi": "ट्राइकोडर्मा विरिडी (10 ग्राम/लीटर) या कॉपर हाइड्रॉक्साइड (2 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Mancozeb 75% WP @ 2.5 g/L or Azoxystrobin 23% SC @ 1 ml/L upon appearance of leaf lesions.",
+        "hi": "मैनकोज़ेब 75% WP 2.5 ग्राम/लीटर या एज़ोक्सीस्ट्रोबिन 23% SC 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Seed treatment with Carbendazim (2 g/kg seed); clean cultivation; 2-year crop rotation.",
+      "hi": "कार्बेंडाजिम 2 ग्राम/किग्रा बीज से बीजोपचार करें; 2 वर्षीय फसल चक्र अपनाएं।"
+    },
+    "reference": "ICAR-IIPR Kanpur"
+  },
+  {
+    "id": "RULE_ONI_04",
+    "crop": "onion",
+    "conditions": [
+      "onion_pale_oval_patches_violet_downy_fuzz",
+      "onion_leaves_fold_over_snap_downward",
+      "onion_rapid_defoliation_cold_fog"
+    ],
+    "conclusion": "onion_downy_mildew",
+    "disease_name": {
+      "en": "Downy Mildew of Onion",
+      "hi": "प्याज का डाउनी मिल्ड्यू (मृदुरोमिल आसिता)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of Copper Oxychloride (2.5 g/L) or fermented sour buttermilk (50 ml/L); improve field ventilation.",
+        "hi": "कॉपर ऑक्सीक्लोराइड (2.5 ग्राम/लीटर) या खट्टी छाछ (50 मिली/लीटर) का छिड़काव करें; खेत में वायु संचार रखें।"
+      },
+      "chemical": {
+        "en": "Spray Metalaxyl-M 4% + Mancozeb 64% WP @ 2.5 g/L or Dimethomorph 50% WP @ 1 g/L with agricultural sticker.",
+        "hi": "मेटालेक्सिल + मैनकोज़ेब 2.5 ग्राम/लीटर या डाइमेथोमॉर्फ 1 ग्राम/लीटर के साथ चिपकने वाला पदार्थ (स्टिकर) मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid dense plantings and excessive nitrogen; grow on well-drained raised beds; 3-year rotation.",
+      "hi": "सघन रोपाई और अधिक यूरिया से बचें; उठी हुई क्यारियों पर रोपाई करें; 3 वर्षीय फसल चक्र अपनाएं।"
+    },
+    "reference": "ICAR-Directorate of Onion and Garlic Research (DOGR) Rajgurunagar Pune"
+  },
+  {
+    "id": "RULE_ONI_05",
+    "crop": "onion",
+    "conditions": [
+      "onion_black_powdery_spore_masses_dry_scales",
+      "onion_soft_watery_breakdown_inner_scales",
+      "onion_black_dusting_around_bulb_neck"
+    ],
+    "conclusion": "onion_black_mold",
+    "disease_name": {
+      "en": "Black Mold of Onion",
+      "hi": "प्याज का काला फफूंद (ब्लैक मोल्ड) रोग"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Thorough field curing in shade for 10-15 days before storage; apply Trichoderma to storage room floors.",
+        "hi": "भंडारण से पहले प्याज को छायादार स्थान पर 10-15 दिन अच्छी तरह सुखाएं; भंडार कक्ष में ट्राइकोडर्मा का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Pre-harvest spray of Carbendazim 50% WP (1 g/L) 15 days before harvest; dip bulbs in 0.1% Carbendazim.",
+        "hi": "खुदाई से 15 दिन पहले खेत में कार्बेंडाजिम 1 ग्राम/लीटर का छिड़काव करें; कंदों को 0.1% कार्बेंडाजिम घोल में डुबोएं।"
+      }
+    },
+    "prevention": {
+      "en": "Ensure complete drying of neck tops before clipping; avoid bruising during harvest; well-ventilated dry storage.",
+      "hi": "गर्दन पूरी तरह सूखने के बाद ही डंठल काटें; कंदों को चोट लगने से बचाएं; हवादार और सूखे गोदाम में रखें।"
+    },
+    "reference": "ICAR-DOGR Pune"
+  },
+  {
+    "id": "RULE_ONI_06",
+    "crop": "onion",
+    "conditions": [
+      "onion_silvery_white_blotches_feeding_scrapes",
+      "onion_black_tar_like_fecal_specks_leaves",
+      "onion_twisted_curled_leaf_tips_drying"
+    ],
+    "conclusion": "onion_thrips",
+    "disease_name": {
+      "en": "Onion Thrips Infestation",
+      "hi": "प्याज का थ्रिप्स (चंपा / मरोड़िया कीट)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Spray Neem oil (5 ml/L) or 5% NSKE; install blue sticky traps (30/ha); overhead sprinkler irrigation dislodges thrips.",
+        "hi": "नीम तेल (5 मिली/लीटर) या 5% नीम अर्क छिड़कें; नीले चिपचिपे ट्रैप (30 प्रति हेक्टेयर) लगाएं; स्प्रिंकलर से पानी दें।"
+      },
+      "chemical": {
+        "en": "Spray Fipronil 5% SC @ 1.5 ml/L or Spinosad 45% SC @ 0.3 ml/L or Profenofos 50% EC @ 1 ml/L with sticker.",
+        "hi": "फिप्रोनिल 5% SC 1.5 मिली/लीटर या स्पिनोसाड 0.3 मिली/लीटर या प्रोफेनोफॉस 1 मिली/लीटर स्टिकर मिलाकर छिड़कें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow thrips-tolerant cultivars like Bhima Kiran or Bhima Shakti; avoid planting near garlic or brassica fields.",
+      "hi": "सहनशील किस्में जैसे भीमा किरण या भीमा शक्ति लगाएं; लहसुन या गोभी के खेतों के पास प्याज न लगाएं।"
+    },
+    "reference": "ICAR-DOGR Pune"
+  },
+  {
+    "id": "RULE_BRN_04",
+    "crop": "brinjal",
+    "conditions": [
+      "brinjal_tender_shoots_drooping_withered",
+      "brinjal_circular_boreholes_fruit_frass",
+      "brinjal_caterpillar_pinkish_white_feeding_flesh"
+    ],
+    "conclusion": "brinjal_shoot_fruit_borer",
+    "disease_name": {
+      "en": "Shoot & Fruit Borer (BSFB)",
+      "hi": "बैंगन का तना व फल छेदक कीट"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Clip and bury wilted shoots weekly; install Lucinlure pheromone traps @ 12/ha; release Trichogramma @ 50,000/ha.",
+        "hi": "मुरझाई शाखाओं को सप्ताह में एक बार काटकर गाड़ दें; ल्यूसिनल्यूर फेरोमोन ट्रैप (12/हेक्टेयर) लगाएं।"
+      },
+      "chemical": {
+        "en": "Spray Chlorantraniliprole 18.5% SC @ 0.4 ml/L or Emamectin Benzoate 5% SG @ 0.4 g/L or Flubendiamide 39.35% SC @ 0.3 ml/L.",
+        "hi": "क्लोरांट्रानिलीप्रोल 18.5% SC 0.4 मिली/लीटर या एमामेक्टिन बेंजोएट 0.4 ग्राम/लीटर का फल बनते समय छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Avoid continuous solanaceous cultivation; plant tolerant varieties like Pusa Purple Cluster; destroy stubbles.",
+      "hi": "लगातार बैंगन की खेती न करें; सहनशील किस्में जैसे पूसा पर्पल क्लस्टर लगाएं; पुरानी फसल अवशेष नष्ट करें।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_BRN_05",
+    "crop": "brinjal",
+    "conditions": [
+      "brinjal_circular_chlorotic_spots_concentric_rings",
+      "brinjal_prominent_yellow_halo_around_spots",
+      "brinjal_premature_leaf_drying_defoliation"
+    ],
+    "conclusion": "brinjal_cercospora_leaf_spot",
+    "disease_name": {
+      "en": "Cercospora Leaf Spot",
+      "hi": "बैंगन का सर्कोस्पोरा पत्ती धब्बा"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Spray Copper Oxychloride (2.5 g/L) or sour buttermilk (50 ml/L) mixed with garlic extract.",
+        "hi": "कॉपर ऑक्सीक्लोराइड (2.5 ग्राम/लीटर) या लहसुन अर्क युक्त खट्टी छाछ (50 मिली/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Carbendazim 50% WP @ 1 g/L or Mancozeb 75% WP @ 2.5 g/L or Difenoconazole 25% EC @ 0.5 ml/L.",
+        "hi": "कार्बेंडाजिम 1 ग्राम/लीटर या मैनकोज़ेब 2.5 ग्राम/लीटर या डाइफेनोकोनाज़ोल 0.5 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Collect and burn fallen diseased leaves; avoid overhead watering; provide balanced potash fertilization.",
+      "hi": "नीचे गिरी रोगी पत्तियां जला दें; ऊपर से पानी देने से बचें; पोटाश की संतुलित मात्रा दें।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_BRN_06",
+    "crop": "brinjal",
+    "conditions": [
+      "brinjal_seedling_collar_water_soaked_soft_rot",
+      "brinjal_seedlings_fall_flat_collapse_nursery",
+      "brinjal_high_soil_moisture_nursery_crowding"
+    ],
+    "conclusion": "brinjal_damping_off",
+    "disease_name": {
+      "en": "Damping-Off & Collar Rot",
+      "hi": "बैंगन का आर्द्र विगलन (डैम्पिंग-ऑफ)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Seed biopriming with Trichoderma viride (10 g/kg seed); drench nursery beds with Trichoderma enriched FYM.",
+        "hi": "ट्राइकोडर्मा विरिडी (10 ग्राम/किग्रा बीज) से बीजोपचार करें; ट्राइकोडर्मा युक्त गोबर की खाद क्यारियों में डालें।"
+      },
+      "chemical": {
+        "en": "Drench nursery bed with Copper Oxychloride 50% WP @ 2.5 g/L or Metalaxyl 8% + Mancozeb 64% WP @ 2 g/L.",
+        "hi": "नर्सरी की क्यारी में कॉपर ऑक्सीक्लोराइड 2.5 ग्राम/लीटर या मेटालेक्सिल + मैनकोज़ेब 2 ग्राम/लीटर घोल से ड्रेंचिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Raise nursery on raised beds (15 cm high); solarize nursery beds with clear polythene sheets for 30 days; thin sowing.",
+      "hi": "नर्सरी 15 सेमी उठी हुई क्यारियों पर लगाएं; गर्मियों में 30 दिन पॉलीथिन से सौरीकरण करें; बीजों को विरल (दूर-दूर) बोएं।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_OKR_04",
+    "crop": "okra",
+    "conditions": [
+      "okra_upward_curling_thick_leathery_leaves",
+      "okra_enation_ridge_like_outgrowths_veins",
+      "okra_severe_stunting_twisted_canopy"
+    ],
+    "conclusion": "okra_enation_leaf_curl",
+    "disease_name": {
+      "en": "Enation Leaf Curl Virus (OELCV)",
+      "hi": "भिंडी का इनेशन पत्ती मरोड़ विषाणु"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Spray Neem oil (5 ml/L) or 5% NSKE; install yellow sticky traps (25/ha); rogue out infected plants immediately.",
+        "hi": "नीम तेल (5 मिली/लीटर) छिड़कें; पीले चिपचिपे ट्रैप (25/हेक्टेयर) लगाएं; ग्रसित पौधों को तुरंत उखाड़कर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Diafenthiuron 50% WP @ 1.2 g/L or Spiromesifen 22.9% SC @ 1 ml/L to control the vector whitefly.",
+        "hi": "सफेद मक्खी नियंत्रण हेतु डायफेंथियूरॉन 50% WP 1.2 ग्राम/लीटर या स्पाइरोमेसिफेन 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Grow resistant/tolerant cultivars like Kashi Kranti, Arka Anamika, or Parbhani Kranti; synchronize planting.",
+      "hi": "प्रतिरोधी किस्में जैसे काशी क्रांति, अर्का अनामिका या परभणी क्रांति लगाएं; समय पर बुवाई करें।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_OKR_05",
+    "crop": "okra",
+    "conditions": [
+      "okra_sooty_black_velvety_patches_leaf_underside",
+      "okra_upper_leaf_chlorotic_yellowing_rolling",
+      "okra_defoliation_exposed_stems"
+    ],
+    "conclusion": "okra_cercospora_leaf_spot",
+    "disease_name": {
+      "en": "Cercospora Leaf Spot & Blight",
+      "hi": "भिंडी का सर्कोस्पोरा पत्ती धब्बा"
+    },
+    "cf": 0.93,
+    "treatment": {
+      "organic": {
+        "en": "Foliar spray of Pseudomonas fluorescens (10 g/L) or copper hydroxide; strip and burn lower infected leaves.",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (10 ग्राम/लीटर) का छिड़काव करें; निचली रोगी पत्तियों को तोड़कर जला दें।"
+      },
+      "chemical": {
+        "en": "Spray Carbendazim 50% WP @ 1 g/L or Mancozeb 75% WP @ 2.5 g/L or Propiconazole 25% EC @ 1 ml/L.",
+        "hi": "कार्बेंडाजिम 1 ग्राम/लीटर या मैनकोज़ेब 2.5 ग्राम/लीटर या प्रोपिकोनाज़ोल 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Maintain wider spacing (60 x 30 cm) for canopy aeration; destroy infected crop residues after final picking.",
+      "hi": "हवा के संचार हेतु उचित दूरी (60 x 30 सेमी) रखें; फसल समाप्ति पर अवशेषों को नष्ट करें।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_OKR_06",
+    "crop": "okra",
+    "conditions": [
+      "okra_progressive_yellowing_lower_leaves_wilting",
+      "okra_vascular_cylinder_brown_streak_taproot",
+      "okra_plant_stunting_premature_death"
+    ],
+    "conclusion": "okra_fusarium_wilt",
+    "disease_name": {
+      "en": "Fusarium Wilt / Vascular Rot",
+      "hi": "भिंडी का उकठा (उखटा / संवहनी विगलन)"
+    },
+    "cf": 0.95,
+    "treatment": {
+      "organic": {
+        "en": "Soil application of Trichoderma viride (5 kg/ha) with well-cured FYM and neem cake; seed biopriming with Trichoderma (10 g/kg).",
+        "hi": "गोबर की खाद और नीम खली में ट्राइकोडर्मा विरिडी (5 किग्रा/हेक्टेयर) मिलाकर मिट्टी में डालें; बीजोपचार करें।"
+      },
+      "chemical": {
+        "en": "Seed treatment with Carbendazim @ 2 g/kg; drench root zone with Carbendazim 50% WP @ 1 g/L.",
+        "hi": "कार्बेंडाजिम 2 ग्राम/किग्रा से बीजोपचार करें; रोगी पौधों के पास कार्बेंडाजिम 1 ग्राम/लीटर से ड्रेंचिंग करें।"
+      }
+    },
+    "prevention": {
+      "en": "Crop rotation with non-hosts like maize or cereals; avoid soil compaction and water stagnation; solarize soil before planting.",
+      "hi": "मक्का या अनाज फसलों के साथ फसल चक्र अपनाएं; खेत में जलभराव न होने दें; गहरी जुताई करें।"
+    },
+    "reference": "ICAR-IIVR Varanasi"
+  },
+  {
+    "id": "RULE_BAN_04",
+    "crop": "banana",
+    "conditions": [
+      "banana_circular_sunken_black_spots_fruit_peel",
+      "banana_pink_gelatinous_spore_masses_lesions",
+      "banana_fruit_tip_pedicel_black_rot"
+    ],
+    "conclusion": "banana_anthracnose",
+    "disease_name": {
+      "en": "Anthracnose & Black End Rot",
+      "hi": "केले का एन्थ्रेक्नोज़ व फल सड़न"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Bagging of emerging bunches with ventilated polyethylene sleeves; spray Trichoderma viride (5 g/L).",
+        "hi": "घहर (बंच) निकलते ही छिद्रित पॉलीथिन की थैली से ढकें (बैगिंग); ट्राइकोडर्मा (5 ग्राम/लीटर) का छिड़काव करें।"
+      },
+      "chemical": {
+        "en": "Spray Carbendazim 50% WP @ 1 g/L or Mancozeb 75% WP @ 2.5 g/L or Azoxystrobin 23% SC @ 1 ml/L on young fruit bunches.",
+        "hi": "फलों पर कार्बेंडाजिम 1 ग्राम/लीटर या मैनकोज़ेब 2.5 ग्राम/लीटर या एज़ोक्सीस्ट्रोबिन 1 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Remove dried floral remnants from finger tips promptly; avoid peel bruising during harvest and transport; wash bunches in clean water.",
+      "hi": "फलों की नोक पर लगे सूखे फूल हटा दें; कटाई व ढुलाई के समय छिलके पर खरोंच न लगने दें; साफ पानी से धोएं।"
+    },
+    "reference": "ICAR-National Research Centre for Banana (NRCB) Tiruchirappalli"
+  },
+  {
+    "id": "RULE_BAN_05",
+    "crop": "banana",
+    "conditions": [
+      "banana_foul_smelling_soft_watery_rhizome_decay",
+      "banana_pseudostem_breaks_easily_at_ground",
+      "banana_central_heart_leaf_rot_wilting"
+    ],
+    "conclusion": "banana_bacterial_soft_rot",
+    "disease_name": {
+      "en": "Bacterial Soft Rot / Rhizome Rot",
+      "hi": "केले का प्रकंद विगलन (जीवाणु युक्त सड़न)"
+    },
+    "cf": 0.96,
+    "treatment": {
+      "organic": {
+        "en": "Drench collar region with Pseudomonas fluorescens (20 g/L); remove and bury rotten pseudostems in deep pits with quicklime.",
+        "hi": "स्यूडोमोनास फ्लोरेसेंस (20 ग्राम/लीटर) से जड़ क्षेत्र में ड्रेंचिंग करें; रोगी थान को चूना डालकर गहरे गड्ढे में गाड़ें।"
+      },
+      "chemical": {
+        "en": "Drench pseudostem collar and corm with Streptocycline (0.5 g/L) + Copper Oxychloride 50% WP (2.5 g/L).",
+        "hi": "तने के आधार पर स्ट्रेप्टोसाइक्लिन (0.5 ग्राम/लीटर) + कॉपर ऑक्सीक्लोराइड (2.5 ग्राम/लीटर) घोल डालकर तर करें।"
+      }
+    },
+    "prevention": {
+      "en": "Plant certified disease-free sword suckers or tissue culture plants; dip suckers in 0.1% Emisan + 0.02% Streptocycline for 30 minutes; ensure excellent plantation drainage.",
+      "hi": "प्रमाणित रोगमुक्त पुत्तियां (सकर्स) या टिशू कल्चर पौधे लगाएं; रोपाई से पूर्व बीजोपचार करें; जल निकासी की उत्तम व्यवस्था रखें।"
+    },
+    "reference": "ICAR-NRCB Tiruchirappalli"
+  },
+  {
+    "id": "RULE_BAN_06",
+    "crop": "banana",
+    "conditions": [
+      "banana_narrow_chlorotic_yellow_stripes_to_margin",
+      "banana_leaf_distortion_corrugation_brittle",
+      "banana_heart_leaf_rot_winter_stunting"
+    ],
+    "conclusion": "banana_mosaic_virus",
+    "disease_name": {
+      "en": "Banana Mosaic / Infectious Chlorosis (CMV)",
+      "hi": "केले का मोज़ेक विषाणु (संक्रामक क्लोरोसिस)"
+    },
+    "cf": 0.94,
+    "treatment": {
+      "organic": {
+        "en": "Spray Neem oil (5 ml/L) or 5% NSKE to control aphid vector; rogue and destroy infected banana plants and suckers.",
+        "hi": "वाहक एफिड कीट रोकने हेतु नीम तेल (5 मिली/लीटर) छिड़कें; विषाणु ग्रसित पौधों को सकर्स सहित उखाड़कर नष्ट करें।"
+      },
+      "chemical": {
+        "en": "Spray Dimethoate 30% EC @ 1.7 ml/L or Imidacloprid 17.8% SL @ 0.3 ml/L around pseudostem and leaf axils.",
+        "hi": "तने और पत्ती के जोड़ पर डाइमेथोएट 1.7 मिली/लीटर या इमिडाक्लोप्रिड 0.3 मिली/लीटर का छिड़काव करें।"
+      }
+    },
+    "prevention": {
+      "en": "Use certified virus-tested tissue-cultured plantlets; strictly avoid intercropping with cucurbits, tomato, or brinjal (CMV hosts); eradicate weeds.",
+      "hi": "प्रमाणित वायरस-मुक्त टिशू कल्चर पौधे लगाएं; कद्दूवर्गीय सब्जियों, टमाटर या बैंगन के साथ अंतःफसल कभी न लें।"
+    },
+    "reference": "ICAR-NRCB Tiruchirappalli"
+  }
+]

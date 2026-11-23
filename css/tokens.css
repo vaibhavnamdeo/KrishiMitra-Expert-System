@@ -1,0 +1,261 @@
+/* ==========================================================================
+   KrishiMitra Design Tokens (tokens.css)
+   Hand-crafted, premium agri-tech visual system.
+   Supports 3 Eye-Comfort Modes:
+   - Light (default): Flat warm paper tone (#F4F1E8), cards (#FFFDF8), text (#26332B)
+   - Comfort: Warmer, slightly darker paper tone (#EDE6D3, cards #F7F2E4, reduced glare)
+   - Dark: Deep green-charcoal (#14201A, cards #1B2A22, soft off-white text #E6EDE6)
+   Strictly zero neon, zero purple. High contrast WCAG AA compliant.
+   ========================================================================== */
+
+:root,
+html[data-theme="light"],
+[data-theme="light"] {
+  /* Surface & Canvas: Flat Soft Warm Paper Tone */
+  --bg-canvas: #F4F1E8;          /* Soft warm paper canvas (no pattern, no noise) */
+  --bg-canvas-subtle: #EBE5D8;   /* Secondary section background */
+  --bg-card: #FFFDF8;            /* Slightly lighter card surface */
+  --bg-card-subtle: #F8F3EA;     /* Inner card containers */
+
+  /* Primary Accent: Deep Forest Green */
+  --color-primary: #1F4D3A;
+  --color-primary-hover: #173B2C;
+  --color-primary-dark: #122F23;
+  --color-primary-light: #2A684F;
+  --color-primary-soft: #E8F2EC;
+  --color-primary-tint: rgba(31, 77, 58, 0.08);
+
+  /* Action CTA: Warm Turmeric / Saffron */
+  --color-accent: #E8A317;
+  --color-accent-hover: #CF8E0E;
+  --color-accent-dark: #A66E04;
+  --color-accent-soft: #FEF7EA;
+  --color-accent-tint: rgba(232, 163, 23, 0.12);
+
+  /* Text & Accents: Natural Deep Charcoal / Green (not pure black) */
+  --color-text-main: #26332B;
+  --color-text-subtle: #5B6B61;
+  --color-text-muted: #7D8D83;
+  --color-text-inverse: #FFFFFF;
+
+  /* Borders & Dividers */
+  --border-light: #E2DCD0;
+  --border-subtle: #D6CEBF;
+  --border-strong: #B8AD9B;
+
+  /* Status Colors */
+  --status-high-bg: #FDF1EE;
+  --status-high-text: #A6301A;
+  --status-high-border: #F5C6BC;
+
+  --status-med-bg: #FEF7EA;
+  --status-med-text: #966106;
+  --status-med-border: #F7DFB0;
+
+  --status-low-bg: #EDF5F0;
+  --status-low-text: #1F4D3A;
+  --status-low-border: #C8E2D4;
+
+  /* Subtle Agriculture Line Art Tokens */
+  --agri-line-art-color: #1F4D3A;
+  --agri-line-art-opacity: 0.06;
+
+  /* Typography */
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hindi: 'Noto Sans Devanagari', 'DM Sans', sans-serif;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Soft Ambient Shadows */
+  --shadow-sm: 0 1px 3px rgba(38, 51, 43, 0.04), 0 1px 2px rgba(38, 51, 43, 0.02);
+  --shadow-card: 0 2px 8px rgba(38, 51, 43, 0.05), 0 1px 2px rgba(38, 51, 43, 0.03);
+  --shadow-md: 0 4px 14px rgba(38, 51, 43, 0.06), 0 1px 3px rgba(38, 51, 43, 0.03);
+  --shadow-lg: 0 12px 32px -4px rgba(38, 51, 43, 0.08), 0 4px 12px -2px rgba(38, 51, 43, 0.03);
+  --shadow-hover: 0 12px 28px -4px rgba(31, 77, 58, 0.12), 0 4px 10px -2px rgba(38, 51, 43, 0.04);
+  --shadow-sticky: 0 -4px 20px rgba(38, 51, 43, 0.06);
+
+  /* Smooth 200ms Transitions */
+  --transition-theme: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout Standard Width */
+  --container-max-width: 1200px;
+}
+
+/* ==========================================================================
+   THEME 2: COMFORT MODE (Warmer, slightly darker paper tone, reduced glare)
+   ========================================================================== */
+html[data-theme="comfort"],
+[data-theme="comfort"] {
+  --bg-canvas: #EDE6D3;          /* Warm glare-free parchment tone */
+  --bg-canvas-subtle: #E2DAC2;   /* Secondary parchment tone */
+  --bg-card: #F7F2E4;            /* Soft warm card surface */
+  --bg-card-subtle: #ECE4D0;     /* Nested card surface */
+
+  --color-primary: #1D4735;
+  --color-primary-hover: #163628;
+  --color-primary-dark: #10261D;
+  --color-primary-light: #265B44;
+  --color-primary-soft: #E2EDE7;
+  --color-primary-tint: rgba(29, 71, 53, 0.09);
+
+  --color-accent: #D8940F;
+  --color-accent-hover: #BF810A;
+  --color-accent-dark: #986503;
+  --color-accent-soft: #F9EFDA;
+  --color-accent-tint: rgba(216, 148, 15, 0.14);
+
+  --color-text-main: #26332B;
+  --color-text-subtle: #54645A;
+  --color-text-muted: #78887E;
+  --color-text-inverse: #FFFFFF;
+
+  --border-light: #D8CEB8;
+  --border-subtle: #C9BEA6;
+  --border-strong: #ADA086;
+
+  --status-high-bg: #F7E5E2;
+  --status-high-text: #962814;
+  --status-high-border: #E8B6AD;
+
+  --status-med-bg: #F9EFDA;
+  --status-med-text: #875704;
+  --status-med-border: #ECCF9A;
+
+  --status-low-bg: #E2EDE7;
+  --status-low-text: #1D4735;
+  --status-low-border: #B7D6C5;
+
+  --agri-line-art-color: #1D4735;
+  --agri-line-art-opacity: 0.06;
+
+  --shadow-card: 0 2px 8px rgba(38, 51, 43, 0.07), 0 1px 2px rgba(38, 51, 43, 0.04);
+  --shadow-md: 0 4px 14px rgba(38, 51, 43, 0.08), 0 1px 3px rgba(38, 51, 43, 0.04);
+}
+
+/* ==========================================================================
+   THEME 3: DARK MODE (Deep green-charcoal #14201A, #1B2A22 cards, #E6EDE6 text)
+   ========================================================================== */
+html[data-theme="dark"],
+[data-theme="dark"] {
+  --bg-canvas: #14201A;          /* Deep green-charcoal background */
+  --bg-canvas-subtle: #192720;   /* Secondary section background */
+  --bg-card: #1B2A22;            /* Deep green-charcoal card surface */
+  --bg-card-subtle: #22352B;     /* Nested card surface */
+
+  --color-primary: #88C29D;      /* Lighter sage green for high contrast readability */
+  --color-primary-hover: #A2D4B5;
+  --color-primary-dark: #0E1C14;
+  --color-primary-light: #69A880;
+  --color-primary-soft: #1E3529;
+  --color-primary-tint: rgba(136, 194, 157, 0.14);
+
+  --color-accent: #F0B232;      /* Vivid warm turmeric */
+  --color-accent-hover: #F8C356;
+  --color-accent-dark: #C68F1C;
+  --color-accent-soft: #2B2414;
+  --color-accent-tint: rgba(240, 178, 50, 0.16);
+
+  --color-text-main: #E6EDE6;    /* Soft off-white text */
+  --color-text-subtle: #B3C2B6;  /* Calm muted green-grey */
+  --color-text-muted: #829486;
+  --color-text-inverse: #14201A;
+
+  --border-light: #283C30;
+  --border-subtle: #334C3D;
+  --border-strong: #456350;
+
+  --status-high-bg: #2E1917;
+  --status-high-text: #F88A7C;
+  --status-high-border: #522722;
+
+  --status-med-bg: #2B2414;
+  --status-med-text: #F0B232;
+  --status-med-border: #4E3E1C;
+
+  --status-low-bg: #1B2E24;
+  --status-low-text: #88C29D;
+  --status-low-border: #2D4C3B;
+
+  --agri-line-art-color: #88C29D;
+  --agri-line-art-opacity: 0.05;
+
+  --shadow-card: 0 2px 10px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+  --shadow-hover: 0 14px 32px rgba(0, 0, 0, 0.55);
+  --shadow-sticky: 0 -4px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* System Default Fallback for Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="comfort"]) {
+    --bg-canvas: #14201A;
+    --bg-canvas-subtle: #192720;
+    --bg-card: #1B2A22;
+    --bg-card-subtle: #22352B;
+    --color-primary: #88C29D;
+    --color-primary-hover: #A2D4B5;
+    --color-primary-dark: #0E1C14;
+    --color-primary-light: #69A880;
+    --color-primary-soft: #1E3529;
+    --color-primary-tint: rgba(136, 194, 157, 0.14);
+    --color-accent: #F0B232;
+    --color-accent-hover: #F8C356;
+    --color-accent-dark: #C68F1C;
+    --color-accent-soft: #2B2414;
+    --color-accent-tint: rgba(240, 178, 50, 0.16);
+    --color-text-main: #E6EDE6;
+    --color-text-subtle: #B3C2B6;
+    --color-text-muted: #829486;
+    --color-text-inverse: #14201A;
+    --border-light: #283C30;
+    --border-subtle: #334C3D;
+    --border-strong: #456350;
+    --status-high-bg: #2E1917;
+    --status-high-text: #F88A7C;
+    --status-high-border: #522722;
+    --status-med-bg: #2B2414;
+    --status-med-text: #F0B232;
+    --status-med-border: #4E3E1C;
+    --status-low-bg: #1B2E24;
+    --status-low-text: #88C29D;
+    --status-low-border: #2D4C3B;
+    --agri-line-art-color: #88C29D;
+    --agri-line-art-opacity: 0.05;
+    --shadow-card: 0 2px 10px rgba(0, 0, 0, 0.35);
+  }
+}
+
+/* ==========================================================================
+   LARGE-TEXT ACCESSIBILITY SCALING
+   ========================================================================== */
+body.large-text {
+  font-size: 112%;
+}
+
+body.large-text .hero-headline {
+  font-size: 2.5rem;
+}
+
+body.large-text .question-prompt-text {
+  font-size: 1.55rem;
+}
+
+body.large-text .diagnosis-name-heading {
+  font-size: 2.1rem;
+}
+
+body.large-text .opt-label {
+  font-size: 1.15rem;
+}

@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "title": "File:Golden Wheat Field.jpg",
+    "artist": "Sagarjitkar",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Wheat_Field.jpg"
+  },
+  "cotton": {
+    "title": "File:Cotton boll maturing on Bobby Byrd's cotton plant in Hale County near Plainview, Texas. (24490395753).jpg",
+    "artist": "USDA NRCS Texas",
+    "license": "Public domain",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cotton_boll_maturing_on_Bobby_Byrd%27s_cotton_plant_in_Hale_County_near_Plainview%2C_Texas._%2824490395753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "mustard": {
+    "title": "File:Mustard field scenery.jpg",
+    "artist": "Sadit Ihsan Dipro",
+    "license": "CC BY-SA 4.0",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/84/Mustard_field_scenery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "potato": {
+    "title": "File:Potato tubers in pail.jpg",
+    "artist": "Ruslan V. Albitsky aka pauk",
+    "license": "CC BY-SA 3.0",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Potato_tubers_in_pail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "maize": {
+    "title": "File:Corncobs.jpg",
+    "artist": "User:Asbestos",
+    "license": "CC BY-SA 2.0",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Corncobs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "sugarcane": {
+    "title": "File:Sugar cane field.jpg",
+    "artist": "Rasool Sarang",
+    "license": "CC BY-SA 3.0",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sugar_cane_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "groundnut": {
+    "title": "File:Groundnuts farm.jpg",
+    "artist": "Ibn Dagara",
+    "license": "CC BY-SA 4.0",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/46/Groundnuts_farm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "chickpea": {
+    "title": "File:Chickpea pods.jpg",
+    "artist": "Eitan Ferman",
+    "license": "Public domain",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/55/Chickpea_pods.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "pigeonpea": {
+    "title": "File:Pigeon pea pods in Raichur, Karnataka.jpg",
+    "artist": "Nanditha Gogate, WELL Labs",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pigeon_pea_pods_in_Raichur,_Karnataka.jpg"
+  },
+  "onion": {
+    "title": "File:Onions.jpg",
+    "artist": "Wikimedia Commons",
+    "license": "GFDL 1.2",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Onions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "brinjal": {
+    "title": "File:Solanum melongena 24 08 2012 (1).JPG",
+    "artist": "Joydeep",
+    "license": "CC BY-SA 3.0",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/7/76/Solanum_melongena_24_08_2012_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "okra": {
+    "title": "File:Okra pods on Abelmoschus esculentus plant in Margarita Island, Venezuela.jpg",
+    "artist": "Wilfredor",
+    "license": "CC0 (Public domain)",
+    "source": "https://commons.wikimedia.org/wiki/File:Okra_pods_on_Abelmoschus_esculentus_plant_in_Margarita_Island,_Venezuela.jpg"
+  },
+  "banana": {
+    "title": "File:Banana bunch on tree.jpg",
+    "artist": "Johnnybam",
+    "license": "CC0 (Public domain)",
+    "source": "https://commons.wikimedia.org/wiki/File:Banana_bunch_on_tree.jpg"
+  },
+  "wheat": {
+    "title": "File:Wheat field.jpg",
+    "artist": "Public domain / Unsplash",
+    "license": "Free to use",
+    "source": "images/crops/wheat.jpg"
+  },
+  "tomato": {
+    "title": "File:Tomatoes on vine.jpg",
+    "artist": "Public domain / Unsplash",
+    "license": "Free to use",
+    "source": "images/crops/tomato.jpg"
+  },
+  "rice": {
+    "title": "File:Paddy rice field.jpg",
+    "artist": "Public domain / Unsplash",
+    "license": "Free to use",
+    "source": "images/crops/rice.jpg"
+  },
+  "chilli": {
+    "title": "File:Red chillies harvest.jpg",
+    "artist": "Public domain / Unsplash",
+    "license": "Free to use",
+    "source": "images/crops/chilli.jpg"
+  },
+  "soybean": {
+    "title": "File:Gousses de soja à St-Pierre-d'Albigny en Savoie (septembre 2025).JPG",
+    "artist": "Florian Pépellin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gousses_de_soja_%C3%A0_St-Pierre-d%27Albigny_en_Savoie_(septembre_2025).JPG"
+  }
+}
