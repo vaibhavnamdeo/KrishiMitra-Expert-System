@@ -107,5 +107,20 @@ node tests/audit_comprehensive.js
 
 ---
 
+## ⚠️ MYCIN Evidence Independence Assumption & Limitations
+
+The Certainty Factor (CF) model implemented in KrishiMitra originates from the classic Shortliffe & Buchanan MYCIN medical expert system (1975). A key theoretical foundation of the MYCIN combination formula:
+$$CF_{\text{combined}}(CF_1, CF_2) = CF_1 + CF_2 \times (1 - CF_1)$$
+is the assumption of **conditional independence of evidence** given the hypothesis. In botanical pathology and agricultural diagnosis, this entails specific real-world considerations and limitations:
+
+1. **Shared Underlying Pathology**: Co-occurring disease symptoms (such as water-soaked lesions, leaf yellowing, and leaf drop) are frequently caused by the same pathogen progression or physiological stress rather than independent events. When multiple rules matching the same disease share identical or correlated premise symptoms, combining their derived CFs treats each rule's evidence as mutually independent, which can yield higher cumulative confidence than Bayesian joint probability would strictly warrant.
+2. **Mitigation in KrishiMitra**:
+   - **Strict Rule Firing Threshold**: Rules fire only when at least 2 conditions are confirmed, or when condition coverage reaches at least 50% ($coverage \ge 0.5$).
+   - **Linear Coverage Weighting**: Partial premise CF is computed as $CF_{\text{premise}} = \min(CF_{\text{condition}}) \times coverage$, preventing single ambiguous symptoms from over-inflating rule confidence.
+   - **Highest Derived CF Prescription Selection**: When displaying treatment and prevention advice, the system selects the rule with the highest derived Certainty Factor ($CF_{\text{derived}}$) rather than defaulting to the first rule evaluated.
+   - **Goal Full Confirmation**: Backward chaining resolves a goal hypothesis only when all its premise conditions are verified (`isFullyConfirmed`), avoiding premature termination on partial symptom matches.
+
+---
+
 ## 📜 License & Disclaimers
 This project is developed for educational, academic, and decision-support purposes. For epidemic crop failures or restricted agrochemical usage, always consult your local Agriculture Extension Officer or nearest Krishi Vigyan Kendra (KVK) scientist.

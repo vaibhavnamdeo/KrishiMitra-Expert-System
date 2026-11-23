@@ -297,7 +297,7 @@ function initApp() {
           <span class="stats-separator">·</span>
           <span>${rulesCount} नैदानिक नियम</span>
           <span class="stats-separator">·</span>
-          <span>${diseasesCount}+ पादप रोग</span>
+          <span>${diseasesCount} पादप रोग</span>
         `;
       } else {
         dom.uiHeroStatsLine.innerHTML = `
@@ -305,9 +305,18 @@ function initApp() {
           <span class="stats-separator">·</span>
           <span>${rulesCount} diagnostic rules</span>
           <span class="stats-separator">·</span>
-          <span>${diseasesCount}+ plant diseases</span>
+          <span>${diseasesCount} plant diseases</span>
         `;
       }
+    }
+
+    const howDiagramRules = document.getElementById('how-diagram-rules');
+    if (howDiagramRules) {
+      howDiagramRules.textContent = `${rulesCount} Rules · ${cropsCount} Crops`;
+    }
+    const howKbRulesCount = document.getElementById('how-kb-rules-count');
+    if (howKbRulesCount) {
+      howKbRulesCount.textContent = `${rulesCount}`;
     }
   }
 

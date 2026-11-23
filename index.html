@@ -97,9 +97,9 @@
         <div class="hero-stats-line" id="ui-heroStatsLine">
           <span>17 crops</span>
           <span class="stats-separator">·</span>
-          <span>82 diagnostic rules</span>
+          <span>124 diagnostic rules</span>
           <span class="stats-separator">·</span>
-          <span>50+ plant diseases</span>
+          <span>104 plant diseases</span>
         </div>
       </div>
       <!-- Subtle Agricultural Line-Art along Hero Edge -->
@@ -603,7 +603,7 @@
                       <circle class="gauge-circle-progress" id="gauge-progress-circle" cx="60" cy="60" r="50" style="stroke-dasharray: 314.16; stroke-dashoffset: 15;"></circle>
                     </svg>
                     <div class="gauge-inner-content">
-                      <span class="gauge-value" id="result-primary-cf">97%</span>
+                      <span class="gauge-value" id="result-primary-cf">0%</span>
                     </div>
                   </div>
                   <!-- Label placed below ring to eliminate overlap -->
@@ -612,7 +612,7 @@
 
                 <div class="sidebar-severity-block">
                   <span class="sidebar-metric-label">Severity Level:</span>
-                  <span class="severity-badge severity-high" id="sidebar-severity-tag">High Severity</span>
+                  <span class="severity-badge severity-low" id="sidebar-severity-tag">Inconclusive</span>
                 </div>
               </div>
 
@@ -681,7 +681,7 @@
             </h3>
             <p class="admin-subhead" id="ui-adminSubtitle">Add, modify, or remove IF-THEN rules directly without touching source code</p>
             <p class="admin-count-line">
-              <span id="ui-rulesCount">Total Rules in Knowledge Base:</span> <strong id="admin-rules-counter">82</strong>
+              <span id="ui-rulesCount">Total Rules in Knowledge Base:</span> <strong id="admin-rules-counter">124</strong>
             </p>
           </div>
 
@@ -807,7 +807,7 @@
             <!-- Component 1: Knowledge Base -->
             <rect x="25" y="30" width="160" height="70" rx="8" fill="#1F4D3A"/>
             <text x="105" y="60" fill="#FAF7F0" font-family="'Fraunces', serif" font-size="14" font-weight="bold" text-anchor="middle">Knowledge Base</text>
-            <text x="105" y="80" fill="#E8A317" font-family="'DM Sans', sans-serif" font-size="11" text-anchor="middle">82 Rules · 17 Crops</text>
+            <text x="105" y="80" fill="#E8A317" font-family="'DM Sans', sans-serif" font-size="11" text-anchor="middle" id="how-diagram-rules">124 Rules · 17 Crops</text>
 
             <!-- Component 2: Working Memory -->
             <rect x="25" y="150" width="160" height="70" rx="8" fill="#FFFFFF" stroke="#1F4D3A" stroke-width="2"/>
@@ -870,7 +870,7 @@
         <div class="how-section-block">
           <h4 class="how-section-title">3. Scientific Citations & Knowledge Base</h4>
           <p class="how-section-text">
-            All 82 rules are authored in consultation with standard package of practices published by the Indian Council of Agricultural Research (ICAR institutes including IIWBR Karnal, CPRI Shimla, SBI Coimbatore, IIHR Bengaluru, and IIPR Kanpur) and Krishi Vigyan Kendra (KVK) advisory guidelines.
+            All <span id="how-kb-rules-count">124</span> rules are authored in consultation with standard package of practices published by the Indian Council of Agricultural Research (ICAR institutes including IIWBR Karnal, CPRI Shimla, SBI Coimbatore, IIHR Bengaluru, and IIPR Kanpur) and Krishi Vigyan Kendra (KVK) advisory guidelines.
           </p>
         </div>
 

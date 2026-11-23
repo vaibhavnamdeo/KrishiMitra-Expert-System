@@ -95,17 +95,18 @@ class InferenceEngine {
     const total = conditions.length || 1;
     let premiseCF = 0.0;
     let isSatisfied = false;
+    const coverage = confirmedCount / total;
+    const isFullyConfirmed = !anyFalse && confirmedCount === total && confirmedCount > 0;
 
-    // Rule fires if at least 1 symptom is confirmed TRUE and ZERO symptoms are refuted (false)
-    if (!anyFalse && confirmedCount > 0) {
+    // Rule fires only when at least 2 symptoms are confirmed, or when coverage is at least 50%
+    const isFirable = !anyFalse && confirmedCount > 0 && (confirmedCount >= 2 || coverage >= 0.5);
+    if (isFirable) {
+      isSatisfied = true;
       if (confirmedCount === total) {
         premiseCF = minConditionCF;
-        isSatisfied = true;
       } else {
-        // Partial evidence: weight premise certainty by coverage of confirmed symptoms
-        const coverage = confirmedCount / total;
-        premiseCF = Number((minConditionCF * (0.5 + 0.5 * coverage)).toFixed(4));
-        isSatisfied = true;
+        // Partial evidence: premise CF = minConditionCF * coverage
+        premiseCF = Number((minConditionCF * coverage).toFixed(4));
       }
     }
 
@@ -121,6 +122,7 @@ class InferenceEngine {
       derivedCF,
       conditions: conditionStatus,
       isSatisfied,
+      isFullyConfirmed,
       isDisproven: anyFalse,
       isPending: anyUnknown && !anyFalse
     };
@@ -183,12 +185,24 @@ class InferenceEngine {
     const diagnoses = [];
     diseaseGroups.forEach((group, diseaseId) => {
       const combinedCF = this.combineMultipleCF(group.derivedCFs);
+
+      // Select rule with highest derived CF for treatment and prevention
+      let bestFiredRule = group.firedRules[0];
+      for (const fr of group.firedRules) {
+        if (fr.evalResult.derivedCF > bestFiredRule.evalResult.derivedCF) {
+          bestFiredRule = fr;
+        }
+      }
+
+      const treatment = (bestFiredRule && bestFiredRule.rule.treatment) || group.treatment;
+      const prevention = (bestFiredRule && bestFiredRule.rule.prevention) || group.prevention;
+
       diagnoses.push({
         diseaseId,
-        diseaseName: group.diseaseName,
+        diseaseName: (bestFiredRule && bestFiredRule.rule.disease_name) || group.diseaseName,
         crop: group.crop,
-        treatment: group.treatment,
-        prevention: group.prevention,
+        treatment,
+        prevention,
         combinedCF: Number(combinedCF.toFixed(4)),
         percentage: Math.round(combinedCF * 100),
         firedRules: group.firedRules,
@@ -240,7 +254,7 @@ class InferenceEngine {
       return null; // All relevant symptoms answered or skipped
     }
 
-    // Sort symptoms by frequency descending (highest information gain)
+    // Sort symptoms by frequency descending (ranks unasked symptoms by frequency across viable rules)
     let bestSymptomId = null;
     let maxFreq = -1;
     symptomFrequency.forEach((freq, symptomId) => {
@@ -346,8 +360,8 @@ class InferenceEngine {
 
     for (const rule of goalRules) {
       const evalResult = this.evaluateRuleConditions(rule);
-      if (evalResult.isSatisfied) {
-        return true; // Already proven!
+      if (evalResult.isFullyConfirmed) {
+        return true; // Goal fully proven!
       }
       if (!evalResult.isDisproven) {
         const hasUnaskedConditions = evalResult.conditions.some(c => !c.known && !(this.wm.isSkipped && this.wm.isSkipped(c.conditionId)));
